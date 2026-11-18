@@ -1,4 +1,4 @@
-# water-local
+# water-reminder-locales
 
 Translations for the [Water Reminder](https://github.com/jihadhasanjoy/WaterReminder) app. The app downloads them from this repo, caches them on the phone, and checks for updates every time it opens, so text can be fixed or improved without an app release.
 
