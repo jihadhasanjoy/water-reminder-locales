@@ -233,6 +233,7 @@
     "tones": {
       "default": "System default",
       "drop": "Water drop",
+      "drink": "Drinking water",
       "chime": "Chime",
       "bell": "Soft bell"
     },

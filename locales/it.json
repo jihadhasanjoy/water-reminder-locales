@@ -233,6 +233,7 @@
     "tones": {
       "default": "Predefinita di sistema",
       "drop": "Goccia d’acqua",
+      "drink": "Bere acqua",
       "chime": "Rintocco",
       "bell": "Campanella dolce"
     },

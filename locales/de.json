@@ -233,6 +233,7 @@
     "tones": {
       "default": "Systemstandard",
       "drop": "Wassertropfen",
+      "drink": "Wasser trinken",
       "chime": "Glockenspiel",
       "bell": "Sanfte Glocke"
     },
