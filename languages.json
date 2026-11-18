@@ -1,0 +1,44 @@
+[
+  {
+    "code": "en",
+    "englishName": "English",
+    "nativeName": "English",
+    "rtl": false,
+    "script": "latin"
+  },
+  {
+    "code": "bn",
+    "englishName": "Bangla",
+    "nativeName": "বাংলা",
+    "rtl": false,
+    "script": "indic"
+  },
+  {
+    "code": "hi",
+    "englishName": "Hindi",
+    "nativeName": "हिन्दी",
+    "rtl": false,
+    "script": "indic"
+  },
+  {
+    "code": "ur",
+    "englishName": "Urdu",
+    "nativeName": "اردو",
+    "rtl": true,
+    "script": "arabic"
+  },
+  {
+    "code": "de",
+    "englishName": "German",
+    "nativeName": "Deutsch",
+    "rtl": false,
+    "script": "latin"
+  },
+  {
+    "code": "it",
+    "englishName": "Italian",
+    "nativeName": "Italiano",
+    "rtl": false,
+    "script": "latin"
+  }
+]
