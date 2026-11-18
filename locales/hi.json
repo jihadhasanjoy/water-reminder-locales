@@ -164,7 +164,11 @@
     "secUnit": "सेकंड",
     "atTime": "{{time}} बजे",
     "nextDrink": "अगला पानी",
-    "inDuration": "{{hours}} घं {{minutes}} मि"
+    "inDuration": "{{hours}} घं {{minutes}} मि",
+    "drinkSheet": {
+      "title": "आज में जोड़ा गया",
+      "progress": "{{goal}} में से {{drunk}} · {{percent}}%"
+    }
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",

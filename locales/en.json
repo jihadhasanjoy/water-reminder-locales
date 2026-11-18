@@ -164,7 +164,11 @@
     "secUnit": "sec",
     "atTime": "at {{time}}",
     "nextDrink": "Next drink",
-    "inDuration": "{{hours}} h {{minutes}} min"
+    "inDuration": "{{hours}} h {{minutes}} min",
+    "drinkSheet": {
+      "title": "Added to today",
+      "progress": "{{drunk}} of {{goal}} · {{percent}}%"
+    }
   },
   "history": {
     "emptyTitle": "No history yet",

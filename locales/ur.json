@@ -164,7 +164,11 @@
     "secUnit": "سیکنڈ",
     "atTime": "{{time}} بجے",
     "nextDrink": "اگلا پانی",
-    "inDuration": "{{hours}} گھنٹے {{minutes}} منٹ"
+    "inDuration": "{{hours}} گھنٹے {{minutes}} منٹ",
+    "drinkSheet": {
+      "title": "آج میں شامل ہو گیا",
+      "progress": "{{goal}} میں سے {{drunk}} · {{percent}}%"
+    }
   },
   "history": {
     "emptyTitle": "ابھی کوئی تاریخچہ نہیں",

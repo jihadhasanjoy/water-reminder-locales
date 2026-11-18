@@ -164,7 +164,11 @@
     "secUnit": "সেকেন্ড",
     "atTime": "{{time}}-এ",
     "nextDrink": "পরের পান",
-    "inDuration": "{{hours}} ঘ {{minutes}} মি"
+    "inDuration": "{{hours}} ঘ {{minutes}} মি",
+    "drinkSheet": {
+      "title": "আজকের হিসাবে যোগ হয়েছে",
+      "progress": "{{goal}} এর মধ্যে {{drunk}} · {{percent}}%"
+    }
   },
   "history": {
     "emptyTitle": "এখনো কোনো ইতিহাস নেই",
