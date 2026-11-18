@@ -316,5 +316,16 @@
     "title": "Something went wrong",
     "body": "Your data is safe on this phone. Try again in a moment.",
     "crash": "The app hit a problem. Your drinks and settings are safe on this phone."
+  },
+  "languageSync": {
+    "updating": "Updating translations…",
+    "updated": "Translations updated",
+    "upToDate": "Translations are up to date",
+    "checking": "Checking for new translations…",
+    "failed": "Couldn’t check for new translations. Using the saved ones.",
+    "checked": "Last checked {{time}}",
+    "version": "Translations version {{version}}",
+    "builtIn": "Built-in translations",
+    "checkNow": "Check for updates"
   }
 }

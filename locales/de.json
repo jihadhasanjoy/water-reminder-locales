@@ -316,5 +316,16 @@
     "title": "Etwas ist schiefgelaufen",
     "body": "Deine Daten sind sicher auf diesem Handy. Versuche es gleich noch einmal.",
     "crash": "In der App ist ein Problem aufgetreten. Deine Getränke und Einstellungen sind sicher auf diesem Handy."
+  },
+  "languageSync": {
+    "updating": "Übersetzungen werden aktualisiert…",
+    "updated": "Übersetzungen aktualisiert",
+    "upToDate": "Übersetzungen sind aktuell",
+    "checking": "Suche nach neuen Übersetzungen…",
+    "failed": "Neue Übersetzungen konnten nicht geprüft werden. Die gespeicherten werden verwendet.",
+    "checked": "Zuletzt geprüft {{time}}",
+    "version": "Übersetzungen Version {{version}}",
+    "builtIn": "Mitgelieferte Übersetzungen",
+    "checkNow": "Nach Updates suchen"
   }
 }

@@ -316,5 +316,16 @@
     "title": "Qualcosa è andato storto",
     "body": "I tuoi dati sono al sicuro su questo telefono. Riprova tra un momento.",
     "crash": "L’app ha avuto un problema. Le tue bevute e impostazioni sono al sicuro su questo telefono."
+  },
+  "languageSync": {
+    "updating": "Aggiornamento delle traduzioni…",
+    "updated": "Traduzioni aggiornate",
+    "upToDate": "Le traduzioni sono aggiornate",
+    "checking": "Ricerca di nuove traduzioni…",
+    "failed": "Impossibile cercare nuove traduzioni. Uso quelle salvate.",
+    "checked": "Ultimo controllo {{time}}",
+    "version": "Traduzioni versione {{version}}",
+    "builtIn": "Traduzioni incluse nell’app",
+    "checkNow": "Cerca aggiornamenti"
   }
 }
