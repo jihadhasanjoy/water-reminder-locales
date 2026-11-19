@@ -113,7 +113,13 @@
     "between": "Promemoria tra le {{from}} e le {{to}}",
     "disclaimer": "Questa è una stima generale, non un consiglio medico. Se hai una condizione di salute, sei incinta o allatti, chiedi al tuo medico cosa è giusto per te. Puoi cambiare il tuo obiettivo in qualsiasi momento nelle Impostazioni.",
     "askNext": "Ora ti chiederemo il permesso di inviarti promemoria.",
-    "start": "Inizia a monitorare"
+    "start": "Inizia a monitorare",
+    "preparing": {
+      "title": "Stiamo preparando il tuo piano",
+      "profile": "Salvataggio del profilo…",
+      "reminders": "Pianificazione dei promemoria…",
+      "ready": "Prepariamo la tua giornata…"
+    }
   },
   "home": {
     "morning": "Buongiorno",
@@ -168,7 +174,8 @@
     "drinkSheet": {
       "title": "Aggiunto a oggi",
       "progress": "{{drunk}} di {{goal}} · {{percent}}%"
-    }
+    },
+    "showHint": "Mostra come modificare o eliminare una bevanda"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",
@@ -332,5 +339,32 @@
     "version": "Traduzioni versione {{version}}",
     "builtIn": "Traduzioni incluse nell’app",
     "checkNow": "Cerca aggiornamenti"
+  },
+  "ads": {
+    "hide": "Nascondere le pubblicità per oggi?",
+    "offerTitle": "Nascondere le pubblicità per oggi?",
+    "offerBody": "Guarda un breve video pubblicitario e nasconderemo le pubblicità fino a mezzanotte.",
+    "watch": "Guarda il video",
+    "hidden": "Niente pubblicità fino a domani. Grazie per aver guardato!",
+    "notFinished": "Guarda il video fino alla fine per nascondere le pubblicità.",
+    "unavailable": "Nessun video disponibile ora. Riprova più tardi."
+  },
+  "feedback": {
+    "section": "Feedback",
+    "title": "Invia feedback",
+    "intro": "Dimmi cosa funziona, cosa no o cosa vorresti. Leggo ogni messaggio.",
+    "message": "Il tuo feedback",
+    "placeholder": "Cosa vuoi dirmi?",
+    "name": "Nome",
+    "email": "Email (facoltativa)",
+    "emailHelper": "Solo se vuoi una risposta.",
+    "includeDevice": "Includi info sul dispositivo",
+    "send": "Invia",
+    "sent": "Grazie! Il tuo feedback è stato inviato.",
+    "queued": "Sei offline. Il feedback verrà inviato quando tornerai online.",
+    "failed": "Impossibile inviarlo da qui.",
+    "emailInstead": "Invia invece per email",
+    "required": "Scrivi prima un messaggio.",
+    "invalidEmail": "Questa email non sembra corretta."
   }
 }

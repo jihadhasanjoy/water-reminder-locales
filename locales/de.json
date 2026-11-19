@@ -113,7 +113,13 @@
     "between": "Erinnerungen zwischen {{from}} und {{to}}",
     "disclaimer": "Dies ist eine allgemeine Schätzung und kein medizinischer Rat. Wenn du eine Erkrankung hast, schwanger bist oder stillst, frag deine Ärztin oder deinen Arzt, was für dich richtig ist. Du kannst dein Ziel jederzeit in den Einstellungen ändern.",
     "askNext": "Als Nächstes fragen wir, ob wir dir Erinnerungen senden dürfen.",
-    "start": "Jetzt starten"
+    "start": "Jetzt starten",
+    "preparing": {
+      "title": "Dein Plan wird erstellt",
+      "profile": "Profil wird gespeichert…",
+      "reminders": "Erinnerungen werden geplant…",
+      "ready": "Dein Tag wird vorbereitet…"
+    }
   },
   "home": {
     "morning": "Guten Morgen",
@@ -168,7 +174,8 @@
     "drinkSheet": {
       "title": "Zu heute hinzugefügt",
       "progress": "{{drunk}} von {{goal}} · {{percent}} %"
-    }
+    },
+    "showHint": "Zeigen, wie man ein Getränk bearbeitet oder löscht"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
@@ -332,5 +339,32 @@
     "version": "Übersetzungen Version {{version}}",
     "builtIn": "Mitgelieferte Übersetzungen",
     "checkNow": "Nach Updates suchen"
+  },
+  "ads": {
+    "hide": "Werbung für heute ausblenden?",
+    "offerTitle": "Werbung für heute ausblenden?",
+    "offerBody": "Sieh dir ein kurzes Werbevideo an, dann blenden wir Werbung bis Mitternacht aus.",
+    "watch": "Video ansehen",
+    "hidden": "Keine Werbung bis morgen. Danke fürs Ansehen!",
+    "notFinished": "Sieh das Video bis zum Ende, um Werbung auszublenden.",
+    "unavailable": "Gerade ist kein Video verfügbar. Bitte versuch es später noch einmal."
+  },
+  "feedback": {
+    "section": "Feedback",
+    "title": "Feedback senden",
+    "intro": "Sag mir, was gut läuft, was nicht oder was du dir wünschst. Ich lese jede Nachricht.",
+    "message": "Dein Feedback",
+    "placeholder": "Was möchtest du sagen?",
+    "name": "Name",
+    "email": "E-Mail (optional)",
+    "emailHelper": "Nur wenn du eine Antwort möchtest.",
+    "includeDevice": "Geräteinfos mitsenden",
+    "send": "Senden",
+    "sent": "Danke! Dein Feedback wurde gesendet.",
+    "queued": "Du bist offline. Dein Feedback wird gesendet, sobald du wieder online bist.",
+    "failed": "Konnte von hier nicht gesendet werden.",
+    "emailInstead": "Stattdessen per E-Mail senden",
+    "required": "Bitte schreib zuerst eine Nachricht.",
+    "invalidEmail": "Diese E-Mail sieht nicht richtig aus."
   }
 }

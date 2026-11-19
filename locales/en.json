@@ -113,7 +113,13 @@
     "between": "Reminders between {{from}} and {{to}}",
     "disclaimer": "This is a general estimate, not medical advice. If you have a health condition, are pregnant or breastfeeding, ask your doctor what is right for you. You can change your goal any time in Settings.",
     "askNext": "Next, we'll ask to send you reminders.",
-    "start": "Start tracking"
+    "start": "Start tracking",
+    "preparing": {
+      "title": "Setting up your plan",
+      "profile": "Saving your profile…",
+      "reminders": "Planning your reminders…",
+      "ready": "Getting your day ready…"
+    }
   },
   "home": {
     "morning": "Good morning",
@@ -168,7 +174,8 @@
     "drinkSheet": {
       "title": "Added to today",
       "progress": "{{drunk}} of {{goal}} · {{percent}}%"
-    }
+    },
+    "showHint": "Show how to edit or delete a drink"
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -332,5 +339,32 @@
     "version": "Translations version {{version}}",
     "builtIn": "Built-in translations",
     "checkNow": "Check for updates"
+  },
+  "ads": {
+    "hide": "Hide ads for today?",
+    "offerTitle": "Hide ads for today?",
+    "offerBody": "Watch a short video ad and we'll hide ads until midnight.",
+    "watch": "Watch video",
+    "hidden": "No ads until tomorrow. Thanks for watching!",
+    "notFinished": "Watch the video to the end to hide ads.",
+    "unavailable": "No video right now. Please try again later."
+  },
+  "feedback": {
+    "section": "Feedback",
+    "title": "Send feedback",
+    "intro": "Tell me what works, what doesn't, or what you'd like next. I read every message.",
+    "message": "Your feedback",
+    "placeholder": "What's on your mind?",
+    "name": "Name",
+    "email": "Email (optional)",
+    "emailHelper": "Only if you'd like a reply.",
+    "includeDevice": "Include device info",
+    "send": "Send",
+    "sent": "Thanks! Your feedback was sent.",
+    "queued": "You're offline. Your feedback will send when you're back online.",
+    "failed": "Couldn't send it from here.",
+    "emailInstead": "Email it instead",
+    "required": "Please write a message first.",
+    "invalidEmail": "That email doesn't look right."
   }
 }
