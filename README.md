@@ -6,7 +6,7 @@ Translations for the [Water Reminder](https://github.com/jihadhasanjoy/WaterRemi
 
 | File | What it is |
 |---|---|
-| `languages.json` | The languages, with their own names, script and text direction |
+| `languages.json` | The languages, with their own names, script and text direction. The app reads it: a language listed here (with its locale file) shows up in the app |
 | `locales/<code>.json` | Every string for one language. `en.json` is the source: other languages use the same keys |
 | `manifest.json` | Generated. A version number and a hash per file; the app compares these to decide what to download |
 | `app-config.json` | Not translations: which app builds must or may update (see below) |
@@ -24,13 +24,27 @@ Phones pick it up the next time the app opens (GitHub's raw file cache can add u
 
 ## Adding a language
 
-A new language needs an app release too (date names, fonts and right-to-left layout are set up in the app). Add it to `languages.json` and `locales/`, then add its code to the app.
+No app release needed (from the app build that reads `languages.json`, commit `0cc4aeb` in WaterReminder; older builds show only their built-in languages and simply ignore new ones).
+
+1. Add `locales/<code>.json` with the same keys and `{{placeholders}}` as `en.json` (missing keys fall back to English).
+2. Add the language to `languages.json`:
+   ```json
+   { "code": "zh", "englishName": "Chinese (Simplified)", "nativeName": "简体中文", "rtl": false, "script": "cjk" }
+   ```
+   - `code`: lowercase language code, e.g. `zh`, `es`, or `pt-BR` style with a region.
+   - `nativeName`: how the language calls itself; that's what the language list shows.
+   - `rtl`: `true` for right-to-left languages (Arabic, Persian, Urdu…). The layout flips after the app restarts.
+   - `script`: `latin`, `indic` (Bangla, Hindi…), `arabic` or `cjk` (Chinese, Japanese, Korean). It picks the font and line height; anything else uses the phone's system font.
+3. Check it: `node scripts/validate.mjs`, then `node scripts/build-manifest.mjs`.
+4. Commit and push. Phones download it the next time the app opens, and it appears in Settings → Language once its whole file is saved on the phone.
+
+Date and month names come from the app. It has them for about 25 common languages (including Chinese, Japanese, Korean, Arabic, Spanish, French, Portuguese, Russian, Turkish, Indonesian, Thai and Vietnamese); a language without them shows English date names.
 
 ## How the app uses this
 
-- First launch: text comes from the copy built into the app, so it works offline.
-- Every launch: the app reads `manifest.json`, downloads only the locale files whose hash changed, checks them, saves them on the phone and switches the text over without a restart.
-- Offline or GitHub unreachable: the last downloaded copy is used.
+- First launch: text comes from the copy built into the app (English, Bangla, Hindi, Urdu, German, Italian), so it works offline.
+- Every launch: the app reads `manifest.json`; when it changed, also `languages.json`. It downloads only the locale files whose hash changed (built-in languages and those in `languages.json`), checks them, saves them on the phone and switches the text over without a restart.
+- Offline or GitHub unreachable: the last downloaded copy is used, including downloaded languages.
 
 ## Requiring an app update (`app-config.json`)
 
