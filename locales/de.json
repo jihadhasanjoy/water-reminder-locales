@@ -157,6 +157,8 @@
     "edit": "Bearbeiten",
     "editTitle": "Getränk bearbeiten",
     "amount": "Menge ({{unit}})",
+    "amountLess": "Weniger",
+    "amountMore": "Mehr",
     "amountRange": "Gib eine Menge von {{min}} bis {{max}} ein",
     "updated": "Auf {{amount}} geändert",
     "editLabel": "{{amount}} um {{time}} bearbeiten",

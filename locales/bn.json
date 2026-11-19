@@ -157,6 +157,8 @@
     "edit": "সম্পাদনা",
     "editTitle": "পানীয় সম্পাদনা",
     "amount": "পরিমাণ ({{unit}})",
+    "amountLess": "কম",
+    "amountMore": "বেশি",
     "amountRange": "{{min}} থেকে {{max}} এর মধ্যে লিখুন",
     "updated": "{{amount}} করা হয়েছে",
     "editLabel": "{{time}}-এর {{amount}} সম্পাদনা",

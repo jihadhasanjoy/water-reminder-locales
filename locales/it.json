@@ -157,6 +157,8 @@
     "edit": "Modifica",
     "editTitle": "Modifica bevanda",
     "amount": "Quantità ({{unit}})",
+    "amountLess": "Meno",
+    "amountMore": "Più",
     "amountRange": "Inserisci una quantità da {{min}} a {{max}}",
     "updated": "Cambiato in {{amount}}",
     "editLabel": "Modifica {{amount}} delle {{time}}",

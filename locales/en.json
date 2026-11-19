@@ -157,6 +157,8 @@
     "edit": "Edit",
     "editTitle": "Edit drink",
     "amount": "Amount ({{unit}})",
+    "amountLess": "Less",
+    "amountMore": "More",
     "amountRange": "Enter an amount from {{min}} to {{max}}",
     "updated": "Changed to {{amount}}",
     "editLabel": "Edit {{amount}} at {{time}}",

@@ -157,6 +157,8 @@
     "edit": "बदलें",
     "editTitle": "ड्रिंक बदलें",
     "amount": "मात्रा ({{unit}})",
+    "amountLess": "कम",
+    "amountMore": "ज़्यादा",
     "amountRange": "{{min}} से {{max}} के बीच मात्रा लिखें",
     "updated": "{{amount}} में बदला गया",
     "editLabel": "{{time}} पर {{amount}} बदलें",

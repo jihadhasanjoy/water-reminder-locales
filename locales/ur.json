@@ -157,6 +157,8 @@
     "edit": "ترمیم",
     "editTitle": "مشروب میں ترمیم",
     "amount": "مقدار ({{unit}})",
+    "amountLess": "کم",
+    "amountMore": "زیادہ",
     "amountRange": "{{min}} سے {{max}} کے درمیان مقدار لکھیں",
     "updated": "{{amount}} میں بدل دیا گیا",
     "editLabel": "{{time}} پر {{amount}} میں ترمیم",
