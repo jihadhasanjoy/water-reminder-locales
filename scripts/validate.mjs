@@ -22,8 +22,8 @@ for (const l of languages) {
   if (typeof l.rtl !== 'boolean') {
     errors.push(`languages.json: "${l.code}" rtl must be true or false`);
   }
-  if (!['latin', 'indic', 'arabic'].includes(l.script)) {
-    errors.push(`languages.json: "${l.code}" script must be latin, indic or arabic`);
+  if (!['latin', 'indic', 'arabic', 'cjk'].includes(l.script)) {
+    errors.push(`languages.json: "${l.code}" script must be latin, indic, arabic or cjk`);
   }
   if (!existsSync(join(ROOT, `locales/${l.code}.json`))) {
     errors.push(`locales/${l.code}.json is missing`);

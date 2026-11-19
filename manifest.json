@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "version": 19,
-  "updatedAt": "2026-11-19T16:34:17.585Z",
+  "version": 20,
+  "updatedAt": "2026-11-19T16:50:46.231Z",
   "languages": "languages.json",
-  "languagesSha256": "82edf76ab8a9aff265287bb83a6afce3c90d4c2a48c2b1483ea9f1740ccfc6b2",
+  "languagesSha256": "246fd0d9d0475306a85f080547335b34cc815bd19a07f4dce3c66aa1a68de4f2",
   "locales": {
     "en": {
       "file": "locales/en.json",
@@ -33,6 +33,11 @@
     "it": {
       "file": "locales/it.json",
       "sha256": "6773afb7ec5f925def586099b206c22da8d767edfbac3bd2ad3cca234da8a8d1",
+      "keys": 397
+    },
+    "zh": {
+      "file": "locales/zh.json",
+      "sha256": "7dc083d5fabf2878878cce96efc7810e8c6dc28775185f8120e302a50b651226",
       "keys": 397
     }
   }

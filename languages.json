@@ -40,5 +40,12 @@
     "nativeName": "Italiano",
     "rtl": false,
     "script": "latin"
+  },
+  {
+    "code": "zh",
+    "englishName": "Chinese (Simplified)",
+    "nativeName": "简体中文",
+    "rtl": false,
+    "script": "cjk"
   }
 ]
