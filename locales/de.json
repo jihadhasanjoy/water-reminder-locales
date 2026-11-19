@@ -325,7 +325,33 @@
     "snooze": "{{count}} Min. schlummern",
     "testBody": "Test-Erinnerung",
     "channel": "Erinnerungen",
-    "reportChannel": "Tageszusammenfassungen"
+    "reportChannel": "Tageszusammenfassungen",
+    "mood": {
+      "done": {
+        "title": "Ziel erreicht 🎉",
+        "body": "Du hast heute {{drank}} getrunken. Jeder Schluck mehr ist ein Bonus."
+      },
+      "great": {
+        "title": "Läuft super! 🌟",
+        "body": "Bisher {{drank}}, vor dem Plan. Etwa {{amount}} hält dich vorne."
+      },
+      "onTrack": {
+        "title": "Zeit für Wasser 💧",
+        "body": "Du liegst im Plan 👍 Etwa {{amount}}, damit es so bleibt."
+      },
+      "littleBehind": {
+        "title": "Zeit für Wasser 💧",
+        "body": "Etwas hinterher: etwa {{amount}} holt das auf."
+      },
+      "behind": {
+        "title": "Lass uns aufholen 💪",
+        "body": "Du liegst {{behind}} hinter dem Plan. Nimm ein größeres Glas: etwa {{amount}}."
+      },
+      "missed": {
+        "title": "Erinnerung verpasst ⏰",
+        "body": "Kein Problem, hol es jetzt mit etwa {{amount}} nach."
+      }
+    }
   },
   "error": {
     "title": "Etwas ist schiefgelaufen",

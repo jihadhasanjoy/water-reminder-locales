@@ -325,7 +325,33 @@
     "snooze": "Snooze {{count}} min",
     "testBody": "Test reminder",
     "channel": "Reminders",
-    "reportChannel": "Daily summaries"
+    "reportChannel": "Daily summaries",
+    "mood": {
+      "done": {
+        "title": "Goal reached 🎉",
+        "body": "You've had {{drank}} today. Extra sips are a bonus."
+      },
+      "great": {
+        "title": "Doing great! 🌟",
+        "body": "{{drank}} so far, ahead of plan. About {{amount}} keeps it going."
+      },
+      "onTrack": {
+        "title": "Time for some water 💧",
+        "body": "You're on track 👍 About {{amount}} keeps it that way."
+      },
+      "littleBehind": {
+        "title": "Time for some water 💧",
+        "body": "A little behind: about {{amount}} catches you up."
+      },
+      "behind": {
+        "title": "Let's catch up 💪",
+        "body": "You're {{behind}} behind plan. Try a bigger glass: about {{amount}}."
+      },
+      "missed": {
+        "title": "You missed a reminder ⏰",
+        "body": "No worries, catch up with about {{amount}} now."
+      }
+    }
   },
   "error": {
     "title": "Something went wrong",

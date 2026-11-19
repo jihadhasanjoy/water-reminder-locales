@@ -325,7 +325,33 @@
     "snooze": "Posticipa di {{count}} min",
     "testBody": "Promemoria di prova",
     "channel": "Promemoria",
-    "reportChannel": "Riepiloghi giornalieri"
+    "reportChannel": "Riepiloghi giornalieri",
+    "mood": {
+      "done": {
+        "title": "Obiettivo raggiunto 🎉",
+        "body": "Oggi hai bevuto {{drank}}. Ogni sorso in più è un bonus."
+      },
+      "great": {
+        "title": "Stai andando alla grande! 🌟",
+        "body": "Finora {{drank}}, in anticipo sul piano. Circa {{amount}} per restare avanti."
+      },
+      "onTrack": {
+        "title": "È ora di bere un po' d'acqua 💧",
+        "body": "Sei in linea 👍 Circa {{amount}} per restarci."
+      },
+      "littleBehind": {
+        "title": "È ora di bere un po' d'acqua 💧",
+        "body": "Un po' indietro: circa {{amount}} ti rimette in pari."
+      },
+      "behind": {
+        "title": "Recuperiamo 💪",
+        "body": "Sei indietro di {{behind}} sul piano. Prova un bicchiere più grande: circa {{amount}}."
+      },
+      "missed": {
+        "title": "Hai saltato un promemoria ⏰",
+        "body": "Nessun problema, recupera ora con circa {{amount}}."
+      }
+    }
   },
   "error": {
     "title": "Qualcosa è andato storto",
