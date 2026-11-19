@@ -474,6 +474,7 @@
     "now": "Aggiorna ora",
     "later": "Più tardi",
     "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store.",
-    "availableTitleVersion": "È arrivata la versione {{version}}"
+    "availableTitleVersion": "È arrivata la versione {{version}}",
+    "notReady": "L'aggiornamento non è ancora pronto da scaricare. Riprova più tardi."
   }
 }

@@ -474,6 +474,7 @@
     "now": "Jetzt aktualisieren",
     "later": "Später",
     "failed": "Das Update konnte nicht geöffnet werden. Versuche es erneut oder aktualisiere im Store.",
-    "availableTitleVersion": "Version {{version}} ist da"
+    "availableTitleVersion": "Version {{version}} ist da",
+    "notReady": "Das Update ist noch nicht zum Herunterladen bereit. Bitte versuche es später noch einmal."
   }
 }

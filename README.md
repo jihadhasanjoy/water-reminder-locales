@@ -41,11 +41,13 @@ The app also reads `app-config.json` each time it opens (and on coming back to i
   "schemaVersion": 1,
   "android": {
     "minVersion": "1.0.0-7",
-    "latestVersion": "1.1.0-12"
+    "latestVersion": "1.1.0-9",
+    "storeUrl": ""
   },
   "ios": {
-    "minVersion": "1.0.0",
-    "latestVersion": "1.1.0"
+    "minVersion": "1.0.0-7",
+    "latestVersion": "1.1.0-9",
+    "storeUrl": ""
   }
 }
 ```
@@ -56,7 +58,7 @@ A platform with no rules (or no `ios`/`android` entry at all) isn't checked.
 |---|---|
 | `minVersion` | Older than this: a full-screen **Update required** page; the app can't be used until it's updated |
 | `latestVersion` | Older than this: a **New version available** sheet each time the app opens (Later closes it until the next open), and Settings → About shows **Update available**. Its version is the name shown: "Version 1.1.0 is here" |
-| `storeUrl` | Optional: where **Update now** sends people. Without it, Android opens the app's Play listing and iOS looks up its App Store page from the bundle id (Apple's public lookup), so neither needs a link once the app is published. Before that, **Update now** says it couldn't open the update |
+| `storeUrl` | Where **Update now** sends people: the Play Store / App Store page. Leave it `""` until the app is in the store; meanwhile **Update now** downloads nothing and just says the update isn't ready yet. On Android, with a link, Google Play downloads and installs the update inside the app when it can |
 
 Each rule is a **version, optionally with the build**: `"1.2.0"` or `"1.2.0-7"`. Leave a rule out to turn it off.
 
@@ -72,8 +74,6 @@ Each rule is a **version, optionally with the build**: `"1.2.0"` or `"1.2.0-7"`.
 Settings → About shows the installed version and build, e.g. `1.0.0 (8)`; debug builds also show the config's minimum and latest under Settings → Developer.
 
 **Every release needs a new version name** (the `versionName` input of the GitHub Actions release, e.g. 1.1.0), or all builds look like the same version and only the build can tell them apart.
-
-On Android, **Update now** uses Google Play's in-app update: Play downloads and installs the new version inside the app. That only works for installs from Play; other installs, and iOS, open the store page instead.
 
 To change it: edit the file, check it with `node scripts/validate-config.mjs`, commit and push. Phones pick it up the next time the app opens (GitHub's cache can add up to about 5 minutes). Offline phones keep the last copy they downloaded, and a broken file is ignored, so a mistake can't lock anyone out; CI also rejects it.
 

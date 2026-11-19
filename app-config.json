@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "android": {
     "minVersion": "1.0.0-7",
-    "latestVersion": "1.1.0-9"
+    "latestVersion": "1.1.0-9",
+    "storeUrl": ""
   },
   "ios": {
-    "minVersion": "1.0.0",
-    "latestVersion": "1.1.0"
+    "minVersion": "1.0.0-7",
+    "latestVersion": "1.1.0-9",
+    "storeUrl": ""
   }
 }

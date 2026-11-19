@@ -67,11 +67,13 @@ for (const platform of ['android', 'ios']) {
   if (min && latest && compareRules(latest, min) < 0) {
     errors.push(`${platform}.latestVersion can't be below minVersion`);
   }
+  // Empty until the app is in the store.
   if (
     rules.storeUrl !== undefined &&
+    rules.storeUrl !== '' &&
     !(typeof rules.storeUrl === 'string' && rules.storeUrl.startsWith('https://'))
   ) {
-    errors.push(`${platform}.storeUrl must start with https://`);
+    errors.push(`${platform}.storeUrl must be empty or start with https://`);
   }
 }
 
