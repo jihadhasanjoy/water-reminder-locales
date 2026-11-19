@@ -453,5 +453,13 @@
     "best_one": "بہترین: {{count}} دن",
     "best_other": "بہترین: {{count}} دن",
     "lastWeek": "پچھلے 7 دن"
+  },
+  "picker": {
+    "day": "دن",
+    "month": "مہینہ",
+    "year": "سال",
+    "hour": "گھنٹہ",
+    "minute": "منٹ",
+    "period": "AM/PM"
   }
 }

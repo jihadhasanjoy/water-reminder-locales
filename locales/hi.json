@@ -453,5 +453,13 @@
     "best_one": "सबसे अच्छा: {{count}} दिन",
     "best_other": "सबसे अच्छा: {{count}} दिन",
     "lastWeek": "पिछले 7 दिन"
+  },
+  "picker": {
+    "day": "दिन",
+    "month": "महीना",
+    "year": "साल",
+    "hour": "घंटा",
+    "minute": "मिनट",
+    "period": "AM/PM"
   }
 }

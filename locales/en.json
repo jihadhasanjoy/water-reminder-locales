@@ -453,5 +453,13 @@
     "best_one": "Best: {{count}} day",
     "best_other": "Best: {{count}} days",
     "lastWeek": "Last 7 days"
+  },
+  "picker": {
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "hour": "Hour",
+    "minute": "Minute",
+    "period": "AM/PM"
   }
 }

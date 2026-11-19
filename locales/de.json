@@ -453,5 +453,13 @@
     "best_one": "Rekord: {{count}} Tag",
     "best_other": "Rekord: {{count}} Tage",
     "lastWeek": "Letzte 7 Tage"
+  },
+  "picker": {
+    "day": "Tag",
+    "month": "Monat",
+    "year": "Jahr",
+    "hour": "Stunde",
+    "minute": "Minute",
+    "period": "AM/PM"
   }
 }

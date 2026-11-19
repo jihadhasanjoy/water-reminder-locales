@@ -453,5 +453,13 @@
     "best_one": "সেরা: {{count}} দিন",
     "best_other": "সেরা: {{count}} দিন",
     "lastWeek": "গত ৭ দিন"
+  },
+  "picker": {
+    "day": "দিন",
+    "month": "মাস",
+    "year": "বছর",
+    "hour": "ঘণ্টা",
+    "minute": "মিনিট",
+    "period": "AM/PM"
   }
 }
