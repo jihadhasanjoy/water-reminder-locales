@@ -265,7 +265,9 @@
     "biometricOn": "{{method}} নিশ্চিতকরণ চালু হয়েছে",
     "biometricOff": "{{method}} নিশ্চিতকরণ বন্ধ হয়েছে",
     "dailyReports": "দৈনিক সারাংশ",
-    "dailyReportsHint": "সকালে গতকালের ফলসহ শুভেচ্ছা, আর ঘুমানোর আগে দিনের রিপোর্ট"
+    "dailyReportsHint": "সকালে গতকালের ফলসহ শুভেচ্ছা, আর ঘুমানোর আগে দিনের রিপোর্ট",
+    "doneToday": "আজ সম্পন্ন",
+    "nextChip": "পরের রিমাইন্ডার"
   },
   "permissions": {
     "blockedTitle": "রিমাইন্ডার বন্ধ আছে",

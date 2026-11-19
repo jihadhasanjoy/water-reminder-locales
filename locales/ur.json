@@ -265,7 +265,9 @@
     "biometricOn": "{{method}} تصدیق آن ہے",
     "biometricOff": "{{method}} تصدیق آف ہے",
     "dailyReports": "روزانہ خلاصے",
-    "dailyReportsHint": "صبح کل کے نتیجے کے ساتھ سلام، اور سونے سے پہلے دن کی رپورٹ"
+    "dailyReportsHint": "صبح کل کے نتیجے کے ساتھ سلام، اور سونے سے پہلے دن کی رپورٹ",
+    "doneToday": "آج مکمل",
+    "nextChip": "اگلی یاد دہانی"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",

@@ -265,7 +265,9 @@
     "biometricOn": "{{method}} पुष्टि चालू है",
     "biometricOff": "{{method}} पुष्टि बंद है",
     "dailyReports": "दैनिक सारांश",
-    "dailyReportsHint": "सुबह कल के नतीजे के साथ शुभकामना, और सोने से पहले दिन की रिपोर्ट"
+    "dailyReportsHint": "सुबह कल के नतीजे के साथ शुभकामना, और सोने से पहले दिन की रिपोर्ट",
+    "doneToday": "आज पूरा हुआ",
+    "nextChip": "अगला रिमाइंडर"
   },
   "permissions": {
     "blockedTitle": "रिमाइंडर बंद हैं",

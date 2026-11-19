@@ -265,7 +265,9 @@
     "biometricOn": "{{method}}-Bestätigung ist an",
     "biometricOff": "{{method}}-Bestätigung ist aus",
     "dailyReports": "Tageszusammenfassungen",
-    "dailyReportsHint": "Ein Guten-Morgen-Gruß mit dem Ergebnis von gestern und ein Bericht vor dem Schlafen"
+    "dailyReportsHint": "Ein Guten-Morgen-Gruß mit dem Ergebnis von gestern und ein Bericht vor dem Schlafen",
+    "doneToday": "Heute erledigt",
+    "nextChip": "Nächste Erinnerung"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",
