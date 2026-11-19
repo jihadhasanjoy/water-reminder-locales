@@ -261,7 +261,9 @@
     "biometricPromptOn": "{{method}}-Bestätigung einschalten",
     "biometricPromptOff": "{{method}}-Bestätigung ausschalten",
     "biometricOn": "{{method}}-Bestätigung ist an",
-    "biometricOff": "{{method}}-Bestätigung ist aus"
+    "biometricOff": "{{method}}-Bestätigung ist aus",
+    "dailyReports": "Tageszusammenfassungen",
+    "dailyReportsHint": "Ein Guten-Morgen-Gruß mit dem Ergebnis von gestern und ein Bericht vor dem Schlafen"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",
@@ -322,7 +324,8 @@
     "drank": "Getrunken",
     "snooze": "{{count}} Min. schlummern",
     "testBody": "Test-Erinnerung",
-    "channel": "Erinnerungen"
+    "channel": "Erinnerungen",
+    "reportChannel": "Tageszusammenfassungen"
   },
   "error": {
     "title": "Etwas ist schiefgelaufen",
@@ -366,5 +369,58 @@
     "emailInstead": "Stattdessen per E-Mail senden",
     "required": "Bitte schreib zuerst eine Nachricht.",
     "invalidEmail": "Diese E-Mail sieht nicht richtig aus."
+  },
+  "report": {
+    "title": "Tagesbericht",
+    "morningTitle": "Guten Morgen, {{name}}! ☀️",
+    "morning": {
+      "great": "Gestern hast du dein Ziel erreicht ({{amount}}) 🎉",
+      "good": "Gestern: {{amount}} von {{goal}}, gut gemacht.",
+      "low": "Gestern: {{amount}} von {{goal}}. Heute ist ein neuer Anfang."
+    },
+    "streak_one": "🔥 {{count}} Tag in Folge!",
+    "streak_other": "🔥 {{count}} Tage in Folge!",
+    "todayGoal_one": "Heutiges Ziel: {{goal}}, etwa {{count}} Glas.",
+    "todayGoal_other": "Heutiges Ziel: {{goal}}, etwa {{count}} Gläser.",
+    "eveningTitle": {
+      "great": "Ziel heute erreicht! 🎉",
+      "good": "Heute fast geschafft 💧",
+      "low": "Nicht dein bester Tag"
+    },
+    "evening": {
+      "great": "Du hast {{amount}} von {{goal}} getrunken ({{percent}} %). Super, bis morgen!",
+      "good": "Du hast {{amount}} von {{goal}} getrunken ({{percent}} %). Noch {{left}}: ein Glas vor dem Schlafen?",
+      "low": "Du hast {{amount}} von {{goal}} getrunken ({{percent}} %). Versuch es morgen noch mal, du schaffst das 💪"
+    },
+    "eveningCheckTitle": "Wie war dein Tag? 🌙",
+    "eveningCheckBody": "Tippe für den heutigen Bericht.",
+    "verdict": {
+      "great": "Super gemacht!",
+      "good": "Gut gemacht",
+      "low": "Heute nicht so gut"
+    },
+    "message": {
+      "great": "Du hast dein Ziel erreicht. Weiter so!",
+      "good": "Nah am Ziel. Nächstes Mal ein bisschen mehr.",
+      "low": "Versuch es morgen noch mal. Kleine Schlucke zählen."
+    },
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "taskHeading": "Heutige Aufgabe",
+    "taskGoal_one": "{{goal}} trinken, etwa {{count}} Glas",
+    "taskGoal_other": "{{goal}} trinken, etwa {{count}} Gläser",
+    "taskDone": "Heutiges Ziel erreicht 🎉",
+    "taskProgress": "Bisher {{amount}} · noch {{left}}",
+    "tomorrowTip": {
+      "great": "Schaff es heute wieder!",
+      "good": "Nimm dir heute etwas mehr vor.",
+      "low": "Heute ist eine neue Chance: fang jetzt mit einem Glas an."
+    },
+    "streakDays_one": "{{count}} Tag in Folge",
+    "streakDays_other": "{{count}} Tage in Folge",
+    "noStreak": "Erreiche dein Ziel, um eine Serie zu starten",
+    "best_one": "Rekord: {{count}} Tag",
+    "best_other": "Rekord: {{count}} Tage",
+    "lastWeek": "Letzte 7 Tage"
   }
 }

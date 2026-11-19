@@ -261,7 +261,9 @@
     "biometricPromptOn": "{{method}} تصدیق آن کریں",
     "biometricPromptOff": "{{method}} تصدیق آف کریں",
     "biometricOn": "{{method}} تصدیق آن ہے",
-    "biometricOff": "{{method}} تصدیق آف ہے"
+    "biometricOff": "{{method}} تصدیق آف ہے",
+    "dailyReports": "روزانہ خلاصے",
+    "dailyReportsHint": "صبح کل کے نتیجے کے ساتھ سلام، اور سونے سے پہلے دن کی رپورٹ"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",
@@ -322,7 +324,8 @@
     "drank": "پی لیا",
     "snooze": "{{count}} منٹ بعد",
     "testBody": "آزمائشی یاد دہانی",
-    "channel": "یاد دہانیاں"
+    "channel": "یاد دہانیاں",
+    "reportChannel": "روزانہ خلاصے"
   },
   "error": {
     "title": "کچھ غلط ہو گیا",
@@ -366,5 +369,58 @@
     "emailInstead": "اس کے بجائے ای میل کریں",
     "required": "براہ کرم پہلے پیغام لکھیں۔",
     "invalidEmail": "یہ ای میل درست نہیں لگتا۔"
+  },
+  "report": {
+    "title": "روزانہ رپورٹ",
+    "morningTitle": "صبح بخیر، {{name}}! ☀️",
+    "morning": {
+      "great": "کل آپ نے اپنا ہدف پورا کیا ({{amount}}) 🎉",
+      "good": "کل: {{goal}} میں سے {{amount}}، اچھی کوشش۔",
+      "low": "کل: {{goal}} میں سے {{amount}}۔ آج نئی شروعات ہے۔"
+    },
+    "streak_one": "🔥 لگاتار {{count}} دن!",
+    "streak_other": "🔥 لگاتار {{count}} دن!",
+    "todayGoal_one": "آج کا ہدف: {{goal}}، تقریباً {{count}} گلاس۔",
+    "todayGoal_other": "آج کا ہدف: {{goal}}، تقریباً {{count}} گلاس۔",
+    "eveningTitle": {
+      "great": "آج ہدف پورا ہو گیا! 🎉",
+      "good": "آج تقریباً پہنچ گئے 💧",
+      "low": "آج کا دن اچھا نہیں رہا"
+    },
+    "evening": {
+      "great": "آپ نے {{goal}} میں سے {{amount}} پیا ({{percent}}%)۔ بہت خوب، کل ملتے ہیں!",
+      "good": "آپ نے {{goal}} میں سے {{amount}} پیا ({{percent}}%)۔ {{left}} باقی: سونے سے پہلے ایک گلاس؟",
+      "low": "آپ نے {{goal}} میں سے {{amount}} پیا ({{percent}}%)۔ کل پھر کوشش کریں، آپ کر سکتے ہیں 💪"
+    },
+    "eveningCheckTitle": "آج کا دن کیسا رہا؟ 🌙",
+    "eveningCheckBody": "آج کی رپورٹ دیکھنے کے لیے ٹیپ کریں۔",
+    "verdict": {
+      "great": "بہت خوب!",
+      "good": "اچھی کوشش",
+      "low": "آج اچھا نہیں رہا"
+    },
+    "message": {
+      "great": "آپ نے اپنا ہدف پورا کیا۔ ایسے ہی جاری رکھیں!",
+      "good": "ہدف کے قریب۔ اگلی بار تھوڑا اور۔",
+      "low": "کل پھر کوشش کریں۔ چھوٹے گھونٹ بھی گنتے ہیں۔"
+    },
+    "today": "آج",
+    "yesterday": "کل",
+    "taskHeading": "آج کا کام",
+    "taskGoal_one": "{{goal}} پئیں، تقریباً {{count}} گلاس",
+    "taskGoal_other": "{{goal}} پئیں، تقریباً {{count}} گلاس",
+    "taskDone": "آج کا ہدف پورا ہو گیا 🎉",
+    "taskProgress": "اب تک {{amount}} · {{left}} باقی",
+    "tomorrowTip": {
+      "great": "آج بھی ایسا ہی کریں!",
+      "good": "آج تھوڑا زیادہ کا ہدف رکھیں۔",
+      "low": "آج نیا موقع ہے: ابھی ایک گلاس سے شروع کریں۔"
+    },
+    "streakDays_one": "لگاتار {{count}} دن",
+    "streakDays_other": "لگاتار {{count}} دن",
+    "noStreak": "سلسلہ شروع کرنے کے لیے ہدف پورا کریں",
+    "best_one": "بہترین: {{count}} دن",
+    "best_other": "بہترین: {{count}} دن",
+    "lastWeek": "پچھلے 7 دن"
   }
 }

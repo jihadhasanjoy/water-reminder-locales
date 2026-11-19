@@ -261,7 +261,9 @@
     "biometricPromptOn": "{{method}} নিশ্চিতকরণ চালু করুন",
     "biometricPromptOff": "{{method}} নিশ্চিতকরণ বন্ধ করুন",
     "biometricOn": "{{method}} নিশ্চিতকরণ চালু হয়েছে",
-    "biometricOff": "{{method}} নিশ্চিতকরণ বন্ধ হয়েছে"
+    "biometricOff": "{{method}} নিশ্চিতকরণ বন্ধ হয়েছে",
+    "dailyReports": "দৈনিক সারাংশ",
+    "dailyReportsHint": "সকালে গতকালের ফলসহ শুভেচ্ছা, আর ঘুমানোর আগে দিনের রিপোর্ট"
   },
   "permissions": {
     "blockedTitle": "রিমাইন্ডার বন্ধ আছে",
@@ -322,7 +324,8 @@
     "drank": "পান করেছি",
     "snooze": "{{count}} মিনিট পরে",
     "testBody": "পরীক্ষামূলক রিমাইন্ডার",
-    "channel": "রিমাইন্ডার"
+    "channel": "রিমাইন্ডার",
+    "reportChannel": "দৈনিক সারাংশ"
   },
   "error": {
     "title": "কিছু একটা ভুল হয়েছে",
@@ -366,5 +369,58 @@
     "emailInstead": "এর বদলে ইমেইলে পাঠান",
     "required": "আগে একটি বার্তা লিখুন।",
     "invalidEmail": "ইমেইলটি সঠিক মনে হচ্ছে না।"
+  },
+  "report": {
+    "title": "দৈনিক রিপোর্ট",
+    "morningTitle": "শুভ সকাল, {{name}}! ☀️",
+    "morning": {
+      "great": "গতকাল আপনি লক্ষ্য পূরণ করেছেন ({{amount}}) 🎉",
+      "good": "গতকাল: {{goal}}-এর মধ্যে {{amount}}, ভালো চেষ্টা।",
+      "low": "গতকাল: {{goal}}-এর মধ্যে {{amount}}। আজ নতুন শুরু।"
+    },
+    "streak_one": "🔥 টানা {{count}} দিন!",
+    "streak_other": "🔥 টানা {{count}} দিন!",
+    "todayGoal_one": "আজকের লক্ষ্য: {{goal}}, প্রায় {{count}} গ্লাস।",
+    "todayGoal_other": "আজকের লক্ষ্য: {{goal}}, প্রায় {{count}} গ্লাস।",
+    "eveningTitle": {
+      "great": "আজ লক্ষ্য পূরণ হয়েছে! 🎉",
+      "good": "আজ প্রায় পৌঁছে গেছেন 💧",
+      "low": "আজ দিনটা ভালো যায়নি"
+    },
+    "evening": {
+      "great": "আপনি {{goal}}-এর মধ্যে {{amount}} পান করেছেন ({{percent}}%)। দারুণ, কাল দেখা হবে!",
+      "good": "আপনি {{goal}}-এর মধ্যে {{amount}} পান করেছেন ({{percent}}%)। আর {{left}} বাকি: ঘুমানোর আগে এক গ্লাস?",
+      "low": "আপনি {{goal}}-এর মধ্যে {{amount}} পান করেছেন ({{percent}}%)। কাল আবার চেষ্টা করুন, আপনি পারবেন 💪"
+    },
+    "eveningCheckTitle": "আজকের দিন কেমন গেল? 🌙",
+    "eveningCheckBody": "আজকের রিপোর্ট দেখতে ট্যাপ করুন।",
+    "verdict": {
+      "great": "দারুণ!",
+      "good": "ভালো চেষ্টা",
+      "low": "আজ ভালো হয়নি"
+    },
+    "message": {
+      "great": "আপনি লক্ষ্য পূরণ করেছেন। এভাবেই চালিয়ে যান!",
+      "good": "লক্ষ্যের কাছাকাছি। পরেরবার আরেকটু বেশি।",
+      "low": "কাল আবার চেষ্টা করুন। অল্প অল্প চুমুকেই হয়।"
+    },
+    "today": "আজ",
+    "yesterday": "গতকাল",
+    "taskHeading": "আজকের কাজ",
+    "taskGoal_one": "{{goal}} পান করুন, প্রায় {{count}} গ্লাস",
+    "taskGoal_other": "{{goal}} পান করুন, প্রায় {{count}} গ্লাস",
+    "taskDone": "আজকের লক্ষ্য পূরণ হয়েছে 🎉",
+    "taskProgress": "এখন পর্যন্ত {{amount}} · আর {{left}} বাকি",
+    "tomorrowTip": {
+      "great": "আজও আবার করুন!",
+      "good": "আজ আরেকটু বেশি লক্ষ্য রাখুন।",
+      "low": "আজ নতুন সুযোগ: এখনই এক গ্লাস দিয়ে শুরু করুন।"
+    },
+    "streakDays_one": "টানা {{count}} দিন",
+    "streakDays_other": "টানা {{count}} দিন",
+    "noStreak": "টানা দিন শুরু করতে লক্ষ্য পূরণ করুন",
+    "best_one": "সেরা: {{count}} দিন",
+    "best_other": "সেরা: {{count}} দিন",
+    "lastWeek": "গত ৭ দিন"
   }
 }
