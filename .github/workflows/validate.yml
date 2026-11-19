@@ -1,7 +1,8 @@
 name: Validate
 
 # Every change must keep the locales consistent with English and come with
-# an updated manifest.json, or the app won't pick it up.
+# an updated manifest.json, or the app won't pick it up. app-config.json
+# must be valid too: a mistake there could lock people out of the app.
 on:
   push:
   pull_request:
@@ -18,3 +19,5 @@ jobs:
         run: node scripts/validate.mjs
       - name: Manifest is up to date
         run: node scripts/build-manifest.mjs --check
+      - name: App config is valid
+        run: node scripts/validate-config.mjs
