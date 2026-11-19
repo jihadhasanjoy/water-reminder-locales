@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} h {{minutes}} min",
     "drinkSheet": {
       "title": "Added to today",
-      "progress": "{{drunk}} of {{goal}} · {{percent}}%"
+      "progress": "{{drunk}} of {{goal}} · {{percent}}%",
+      "next": "⏰ Next reminder at {{time}} · in {{gap}}",
+      "nextNone": "No more reminders today"
     },
     "showHint": "Show how to edit or delete a drink"
   },

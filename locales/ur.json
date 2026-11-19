@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} گھنٹے {{minutes}} منٹ",
     "drinkSheet": {
       "title": "آج میں شامل ہو گیا",
-      "progress": "{{goal}} میں سے {{drunk}} · {{percent}}%"
+      "progress": "{{goal}} میں سے {{drunk}} · {{percent}}%",
+      "next": "⏰ اگلی یاد دہانی {{time}} پر · {{gap}} میں",
+      "nextNone": "آج مزید کوئی یاد دہانی نہیں"
     },
     "showHint": "مشروب میں ترمیم یا حذف کرنے کا طریقہ دکھائیں"
   },

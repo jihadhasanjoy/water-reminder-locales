@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} h {{minutes}} min",
     "drinkSheet": {
       "title": "Aggiunto a oggi",
-      "progress": "{{drunk}} di {{goal}} · {{percent}}%"
+      "progress": "{{drunk}} di {{goal}} · {{percent}}%",
+      "next": "⏰ Prossimo promemoria alle {{time}} · tra {{gap}}",
+      "nextNone": "Nessun altro promemoria oggi"
     },
     "showHint": "Mostra come modificare o eliminare una bevanda"
   },

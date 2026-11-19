@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} Std. {{minutes}} Min.",
     "drinkSheet": {
       "title": "Zu heute hinzugefügt",
-      "progress": "{{drunk}} von {{goal}} · {{percent}} %"
+      "progress": "{{drunk}} von {{goal}} · {{percent}} %",
+      "next": "⏰ Nächste Erinnerung um {{time}} · in {{gap}}",
+      "nextNone": "Heute keine Erinnerungen mehr"
     },
     "showHint": "Zeigen, wie man ein Getränk bearbeitet oder löscht"
   },

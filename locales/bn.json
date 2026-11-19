@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} ঘ {{minutes}} মি",
     "drinkSheet": {
       "title": "আজকের হিসাবে যোগ হয়েছে",
-      "progress": "{{goal}} এর মধ্যে {{drunk}} · {{percent}}%"
+      "progress": "{{goal}} এর মধ্যে {{drunk}} · {{percent}}%",
+      "next": "⏰ পরের রিমাইন্ডার {{time}}-এ · {{gap}} পরে",
+      "nextNone": "আজ আর কোনো রিমাইন্ডার নেই"
     },
     "showHint": "পানীয় কীভাবে বদলাবেন বা মুছবেন দেখান"
   },

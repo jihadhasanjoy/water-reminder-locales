@@ -173,7 +173,9 @@
     "inDuration": "{{hours}} घं {{minutes}} मि",
     "drinkSheet": {
       "title": "आज में जोड़ा गया",
-      "progress": "{{goal}} में से {{drunk}} · {{percent}}%"
+      "progress": "{{goal}} में से {{drunk}} · {{percent}}%",
+      "next": "⏰ अगला रिमाइंडर {{time}} पर · {{gap}} में",
+      "nextNone": "आज और कोई रिमाइंडर नहीं"
     },
     "showHint": "ड्रिंक बदलने या हटाने का तरीका दिखाएँ"
   },
