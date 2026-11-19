@@ -1,4 +1,4 @@
-// Checks app-config.json, which tells the app which builds must or may
+// Checks app-config.json, which tells the app which versions must or may
 // update. A mistake here could lock people out of the app, so anything
 // unexpected fails. Exits non-zero on any problem.
 //   node scripts/validate-config.mjs
@@ -6,8 +6,6 @@ import { readJSON } from './lib.mjs';
 
 const FILE = 'app-config.json';
 const errors = [];
-const warnings = [];
-const codes = readJSON('languages.json').map(l => l.code);
 
 let config;
 try {
@@ -17,21 +15,27 @@ try {
   process.exit(1);
 }
 
-const isBuild = value => Number.isInteger(value) && value >= 0;
-// "1", "1.2", "1.2.0" or "1.2.0.3", like the app accepts.
-const isVersion = value =>
-  typeof value === 'string' && /^\d+(\.\d+){0,3}$/.test(value);
-// -1, 0 or 1, part by part, as the app compares them.
-function compareVersions(a, b) {
-  const left = a.split('.').map(Number);
-  const right = b.split('.').map(Number);
+// "1.2.0" or "1.2.0-7" (a version, optionally with the build of it), as the
+// app reads it.
+const RULE = /^(\d+(?:\.\d+){0,3})(?:-(\d+))?$/;
+const parseRule = rule => {
+  const match = typeof rule === 'string' ? RULE.exec(rule) : null;
+  return match
+    ? { version: match[1], build: match[2] !== undefined ? Number(match[2]) : undefined }
+    : undefined;
+};
+
+// -1, 0 or 1, as the app compares: version part by part, then the build.
+function compareRules(a, b) {
+  const left = a.version.split('.').map(Number);
+  const right = b.version.split('.').map(Number);
   for (let i = 0; i < Math.max(left.length, right.length); i++) {
     const difference = (left[i] ?? 0) - (right[i] ?? 0);
     if (difference !== 0) {
       return Math.sign(difference);
     }
   }
-  return 0;
+  return Math.sign((a.build ?? 0) - (b.build ?? 0));
 }
 
 for (const key of Object.keys(config)) {
@@ -48,67 +52,20 @@ for (const platform of ['android', 'ios']) {
     continue;
   }
   for (const key of Object.keys(rules)) {
-    if (
-      ![
-        'minVersion',
-        'latestVersion',
-        'minBuild',
-        'latestBuild',
-        'storeUrl',
-        'whatsNew',
-      ].includes(key)
-    ) {
+    if (!['minVersion', 'latestVersion', 'storeUrl'].includes(key)) {
       errors.push(`${platform}: unknown field "${key}"`);
     }
   }
-  for (const key of ['minBuild', 'latestBuild']) {
-    if (rules[key] !== undefined && !isBuild(rules[key])) {
-      errors.push(`${platform}.${key} must be a whole number, 0 or more`);
-    }
-  }
   for (const key of ['minVersion', 'latestVersion']) {
-    if (rules[key] !== undefined && !isVersion(rules[key])) {
-      errors.push(`${platform}.${key} must look like 1.2.0`);
+    if (rules[key] !== undefined && !parseRule(rules[key])) {
+      errors.push(`${platform}.${key} must look like 1.2.0 or 1.2.0-7 (version-build)`);
     }
   }
   // The newest version can't be older than the oldest one still allowed.
-  if (isVersion(rules.minVersion) && isVersion(rules.latestVersion)) {
-    const order = compareVersions(rules.latestVersion, rules.minVersion);
-    if (order < 0) {
-      errors.push(`${platform}.latestVersion can't be below minVersion`);
-    } else if (
-      order === 0 &&
-      isBuild(rules.minBuild) &&
-      isBuild(rules.latestBuild) &&
-      rules.latestBuild < rules.minBuild
-    ) {
-      errors.push(`${platform}.latestBuild can't be below minBuild`);
-    }
-  } else if (
-    rules.minVersion === undefined &&
-    rules.latestVersion === undefined &&
-    isBuild(rules.minBuild) &&
-    isBuild(rules.latestBuild) &&
-    rules.latestBuild < rules.minBuild
-  ) {
-    errors.push(`${platform}.latestBuild can't be below minBuild`);
-  }
-  if (rules.whatsNew !== undefined) {
-    if (!rules.whatsNew || typeof rules.whatsNew !== 'object' || Array.isArray(rules.whatsNew)) {
-      errors.push(`${platform}.whatsNew must be { "<language code>": "text" }`);
-    } else {
-      for (const [code, text] of Object.entries(rules.whatsNew)) {
-        if (!codes.includes(code)) {
-          errors.push(`${platform}.whatsNew: "${code}" isn't a language in languages.json`);
-        }
-        if (typeof text !== 'string' || text.length > 600) {
-          errors.push(`${platform}.whatsNew.${code} must be text, at most 600 characters`);
-        }
-      }
-      if (!('en' in rules.whatsNew)) {
-        warnings.push(`${platform}.whatsNew has no "en": other languages will show no notes`);
-      }
-    }
+  const min = parseRule(rules.minVersion);
+  const latest = parseRule(rules.latestVersion);
+  if (min && latest && compareRules(latest, min) < 0) {
+    errors.push(`${platform}.latestVersion can't be below minVersion`);
   }
   if (
     rules.storeUrl !== undefined &&
@@ -118,7 +75,6 @@ for (const platform of ['android', 'ios']) {
   }
 }
 
-warnings.forEach(w => console.warn(`warning: ${FILE}: ${w}`));
 if (errors.length) {
   errors.forEach(e => console.error(`error: ${FILE}: ${e}`));
   console.error(`\n${errors.length} problem(s).`);
@@ -126,13 +82,6 @@ if (errors.length) {
 }
 const summary = ['android', 'ios']
   .filter(p => config[p])
-  .map(p => {
-    const r = config[p];
-    const rule = (version, build) =>
-      [version, build !== undefined ? `build ${build}` : undefined]
-        .filter(Boolean)
-        .join(' ') || 'off';
-    return `${p} min ${rule(r.minVersion, r.minBuild)}, latest ${rule(r.latestVersion, r.latestBuild)}`;
-  })
+  .map(p => `${p} min ${config[p].minVersion ?? 'off'}, latest ${config[p].latestVersion ?? 'off'}`)
   .join('; ');
 console.log(`OK: ${FILE} (${summary}).`);

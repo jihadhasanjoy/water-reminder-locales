@@ -474,7 +474,6 @@
     "now": "अभी अपडेट करें",
     "later": "बाद में",
     "failed": "अपडेट नहीं खुल सका। फिर से कोशिश करें, या स्टोर से अपडेट करें।",
-    "availableTitleVersion": "संस्करण {{version}} आ गया है",
-    "whatsNew": "नया क्या है"
+    "availableTitleVersion": "संस्करण {{version}} आ गया है"
   }
 }

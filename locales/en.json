@@ -474,7 +474,6 @@
     "now": "Update now",
     "later": "Later",
     "failed": "Couldn't open the update. Try again, or update from the store.",
-    "availableTitleVersion": "Version {{version}} is here",
-    "whatsNew": "What's new"
+    "availableTitleVersion": "Version {{version}} is here"
   }
 }

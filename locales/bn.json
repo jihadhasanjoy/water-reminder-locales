@@ -474,7 +474,6 @@
     "now": "এখনই আপডেট করুন",
     "later": "পরে",
     "failed": "আপডেট খোলা গেল না। আবার চেষ্টা করুন, অথবা স্টোর থেকে আপডেট করুন।",
-    "availableTitleVersion": "সংস্করণ {{version}} এসেছে",
-    "whatsNew": "নতুন কী আছে"
+    "availableTitleVersion": "সংস্করণ {{version}} এসেছে"
   }
 }
