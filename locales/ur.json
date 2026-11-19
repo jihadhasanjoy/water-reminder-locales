@@ -268,7 +268,8 @@
     "dailyReportsHint": "صبح کل کے نتیجے کے ساتھ سلام، اور سونے سے پہلے دن کی رپورٹ",
     "doneToday": "آج مکمل",
     "nextChip": "اگلی یاد دہانی",
-    "missedToday": "آج رہ گیا"
+    "missedToday": "آج رہ گیا",
+    "timePassed": "یہ وقت آج گزر چکا ہے۔ کوئی بعد کا وقت چنیں۔"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",

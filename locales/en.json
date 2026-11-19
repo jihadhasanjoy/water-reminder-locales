@@ -268,7 +268,8 @@
     "dailyReportsHint": "A good-morning note with yesterday's result, and a report before bed",
     "doneToday": "Done today",
     "nextChip": "Next reminder",
-    "missedToday": "Missed today"
+    "missedToday": "Missed today",
+    "timePassed": "That time has already passed today. Pick a later one."
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",

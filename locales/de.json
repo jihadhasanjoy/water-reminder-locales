@@ -268,7 +268,8 @@
     "dailyReportsHint": "Ein Guten-Morgen-Gruß mit dem Ergebnis von gestern und ein Bericht vor dem Schlafen",
     "doneToday": "Heute erledigt",
     "nextChip": "Nächste Erinnerung",
-    "missedToday": "Heute verpasst"
+    "missedToday": "Heute verpasst",
+    "timePassed": "Diese Uhrzeit ist heute schon vorbei. Wähle eine spätere."
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",

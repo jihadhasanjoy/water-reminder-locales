@@ -268,7 +268,8 @@
     "dailyReportsHint": "सुबह कल के नतीजे के साथ शुभकामना, और सोने से पहले दिन की रिपोर्ट",
     "doneToday": "आज पूरा हुआ",
     "nextChip": "अगला रिमाइंडर",
-    "missedToday": "आज छूट गया"
+    "missedToday": "आज छूट गया",
+    "timePassed": "यह समय आज बीत चुका है। कोई बाद का समय चुनें।"
   },
   "permissions": {
     "blockedTitle": "रिमाइंडर बंद हैं",
