@@ -2,8 +2,10 @@
   "schemaVersion": 1,
   "android": {
     "minVersion": "1.0.0-7",
-    "latestVersion": "1.1.0-9",
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.dropwise.waterreminder"
+    "latestVersion": "1.1.0-9"
   },
-  "ios": {}
+  "ios": {
+    "minVersion": "1.0.0",
+    "latestVersion": "1.1.0"
+  }
 }

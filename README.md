@@ -43,15 +43,20 @@ The app also reads `app-config.json` each time it opens (and on coming back to i
     "minVersion": "1.0.0-7",
     "latestVersion": "1.1.0-12"
   },
-  "ios": {}
+  "ios": {
+    "minVersion": "1.0.0",
+    "latestVersion": "1.1.0"
+  }
 }
 ```
+
+A platform with no rules (or no `ios`/`android` entry at all) isn't checked.
 
 | Field | Meaning |
 |---|---|
 | `minVersion` | Older than this: a full-screen **Update required** page; the app can't be used until it's updated |
 | `latestVersion` | Older than this: a **New version available** sheet each time the app opens (Later closes it until the next open), and Settings → About shows **Update available**. Its version is the name shown: "Version 1.1.0 is here" |
-| `storeUrl` | Where **Update now** sends people. Optional on Android (defaults to the Play listing). On iOS nothing is required or offered until this is set |
+| `storeUrl` | Optional: where **Update now** sends people. Without it, Android opens the app's Play listing and iOS looks up its App Store page from the bundle id (Apple's public lookup), so neither needs a link once the app is published. Before that, **Update now** says it couldn't open the update |
 
 Each rule is a **version, optionally with the build**: `"1.2.0"` or `"1.2.0-7"`. Leave a rule out to turn it off.
 
