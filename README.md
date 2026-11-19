@@ -40,33 +40,40 @@ The app also reads `app-config.json` each time it opens (and on coming back to i
 {
   "schemaVersion": 1,
   "android": {
-    "minBuild": 42,
-    "latestBuild": 45,
-    "latestVersion": "1.2.0",
+    "minVersion": "1.2.0",
+    "latestVersion": "1.3.0",
     "whatsNew": {
       "en": "• Wheel pickers for dates and times\n• Past times can't be added to the schedule",
       "bn": "• তারিখ আর সময়ের জন্য চাকার মতো পিকার\n• অতীতের সময় আর যোগ করা যায় না"
-    },
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.dropwise.waterreminder"
+    }
   },
-  "ios": { "minBuild": 0, "latestBuild": 0 }
+  "ios": {}
 }
 ```
 
 | Field | Meaning |
 |---|---|
-| `minBuild` | Builds below this see a full-screen **Update required** page and can't use the app until they update |
-| `latestBuild` | Builds below this get a **New version available** sheet once, which they can dismiss |
-| `latestVersion` | Optional. The new version's name, shown as "Version 1.2.0 is here" and in Settings → About |
+| `minVersion` | Versions below this see a full-screen **Update required** page and can't use the app until they update |
+| `latestVersion` | Versions below this get a **New version available** sheet once (dismissable), and Settings → About shows **Update available**. Also the name shown: "Version 1.3.0 is here" |
+| `minBuild`, `latestBuild` | Optional. Build numbers that only count between builds of the **same** version, e.g. to block one bad build of 1.2.0. On their own (no version) they compare build numbers only |
 | `whatsNew` | Optional. What changed, per language code (`\n` starts a new line). The app shows its own language, else `en`, on the update sheet and the required page |
 | `storeUrl` | Where **Update now** sends people. Optional on Android (defaults to the Play listing). On iOS nothing is required or offered until this is set |
 
-Settings → About always shows the installed version and build, e.g. `1.0.0 (42)`, plus an **Update available** row while a newer build is out.
+**How versions are compared:** part by part, as numbers, left to right: `1.10.0` is newer than `1.9.0`, and `1.2` equals `1.2.0`. The version decides first; the build number only matters when the versions are the same. That keeps iOS right, where build numbers may start again at 1 for each new version (1.1.0 build 1 is newer than 1.0.0 build 7). A rule left out is off.
 
-Build numbers are the store build numbers: `versionCode` on Android (the GitHub Actions run number for release builds), `CFBundleVersion` on iOS. Use `0` to turn a rule off.
+| Installed | `minVersion` | `latestVersion` | Result |
+|---|---|---|---|
+| 1.1.9 | 1.2.0 | 1.3.0 | Update required |
+| 1.2.0 | 1.2.0 | 1.3.0 | New version available |
+| 1.3.0 | 1.2.0 | 1.3.0 | Nothing |
+| 1.10.0 | 1.2.0 | 1.9.0 | Nothing (1.10 is newer than 1.9) |
+
+**Every release needs a new version name** (the `versionName` input of the GitHub Actions release, e.g. 1.1.0, 1.2.0), or all builds look the same to this check. Settings → About shows the installed version and build, e.g. `1.2.0 (42)`.
 
 On Android, **Update now** uses Google Play's in-app update: Play downloads and installs the new version inside the app. That only works for installs from Play; other installs, and iOS, open the store page instead.
 
 To change it: edit the file, check it with `node scripts/validate-config.mjs`, commit and push. Phones pick it up the next time the app opens (GitHub's cache can add up to about 5 minutes). Offline phones keep the last copy they downloaded, and a broken file is ignored, so a mistake can't lock anyone out; CI also rejects it.
 
-Before raising `minBuild`, make sure that build is live in the store, or people will be sent to an update they can't get yet.
+Before raising `minVersion`, make sure that version is live in the store, or people will be sent to an update they can't get yet.
+
+Debug builds can try all of this without touching the file: Settings → Developer → **Test: update required** / **Test: new version available**.

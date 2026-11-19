@@ -18,6 +18,21 @@ try {
 }
 
 const isBuild = value => Number.isInteger(value) && value >= 0;
+// "1", "1.2", "1.2.0" or "1.2.0.3", like the app accepts.
+const isVersion = value =>
+  typeof value === 'string' && /^\d+(\.\d+){0,3}$/.test(value);
+// -1, 0 or 1, part by part, as the app compares them.
+function compareVersions(a, b) {
+  const left = a.split('.').map(Number);
+  const right = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(left.length, right.length); i++) {
+    const difference = (left[i] ?? 0) - (right[i] ?? 0);
+    if (difference !== 0) {
+      return Math.sign(difference);
+    }
+  }
+  return 0;
+}
 
 for (const key of Object.keys(config)) {
   if (!['schemaVersion', 'android', 'ios'].includes(key)) {
@@ -34,24 +49,49 @@ for (const platform of ['android', 'ios']) {
   }
   for (const key of Object.keys(rules)) {
     if (
-      !['minBuild', 'latestBuild', 'storeUrl', 'latestVersion', 'whatsNew'].includes(key)
+      ![
+        'minVersion',
+        'latestVersion',
+        'minBuild',
+        'latestBuild',
+        'storeUrl',
+        'whatsNew',
+      ].includes(key)
     ) {
       errors.push(`${platform}: unknown field "${key}"`);
     }
   }
   for (const key of ['minBuild', 'latestBuild']) {
-    if (!isBuild(rules[key])) {
+    if (rules[key] !== undefined && !isBuild(rules[key])) {
       errors.push(`${platform}.${key} must be a whole number, 0 or more`);
     }
   }
-  if (isBuild(rules.minBuild) && rules.latestBuild < rules.minBuild) {
-    errors.push(`${platform}.latestBuild can't be below minBuild`);
+  for (const key of ['minVersion', 'latestVersion']) {
+    if (rules[key] !== undefined && !isVersion(rules[key])) {
+      errors.push(`${platform}.${key} must look like 1.2.0`);
+    }
   }
-  if (
-    rules.latestVersion !== undefined &&
-    !(typeof rules.latestVersion === 'string' && rules.latestVersion.length >= 1 && rules.latestVersion.length <= 20)
+  // The newest version can't be older than the oldest one still allowed.
+  if (isVersion(rules.minVersion) && isVersion(rules.latestVersion)) {
+    const order = compareVersions(rules.latestVersion, rules.minVersion);
+    if (order < 0) {
+      errors.push(`${platform}.latestVersion can't be below minVersion`);
+    } else if (
+      order === 0 &&
+      isBuild(rules.minBuild) &&
+      isBuild(rules.latestBuild) &&
+      rules.latestBuild < rules.minBuild
+    ) {
+      errors.push(`${platform}.latestBuild can't be below minBuild`);
+    }
+  } else if (
+    rules.minVersion === undefined &&
+    rules.latestVersion === undefined &&
+    isBuild(rules.minBuild) &&
+    isBuild(rules.latestBuild) &&
+    rules.latestBuild < rules.minBuild
   ) {
-    errors.push(`${platform}.latestVersion must be text of 1 to 20 characters`);
+    errors.push(`${platform}.latestBuild can't be below minBuild`);
   }
   if (rules.whatsNew !== undefined) {
     if (!rules.whatsNew || typeof rules.whatsNew !== 'object' || Array.isArray(rules.whatsNew)) {
@@ -86,6 +126,13 @@ if (errors.length) {
 }
 const summary = ['android', 'ios']
   .filter(p => config[p])
-  .map(p => `${p} min ${config[p].minBuild}, latest ${config[p].latestBuild}`)
+  .map(p => {
+    const r = config[p];
+    const rule = (version, build) =>
+      [version, build !== undefined ? `build ${build}` : undefined]
+        .filter(Boolean)
+        .join(' ') || 'off';
+    return `${p} min ${rule(r.minVersion, r.minBuild)}, latest ${rule(r.latestVersion, r.latestBuild)}`;
+  })
   .join('; ');
 console.log(`OK: ${FILE} (${summary}).`);
