@@ -150,6 +150,7 @@
     "notScheduled": "Reminders not scheduled yet",
     "loadError": "Couldn't load today",
     "seeAll": "See all ({{count}})",
+    "showLess": "Show less",
     "allTitle": "Today’s drinks",
     "added": "Added {{amount}}",
     "removed": "Removed {{amount}}",

@@ -150,6 +150,7 @@
     "notScheduled": "یاد دہانیاں ابھی طے نہیں ہوئیں",
     "loadError": "آج کا ڈیٹا لوڈ نہیں ہو سکا",
     "seeAll": "سب دیکھیں ({{count}})",
+    "showLess": "کم دکھائیں",
     "allTitle": "آج کیا پیا",
     "added": "{{amount}} شامل کیا گیا",
     "removed": "{{amount}} ہٹا دیا گیا",

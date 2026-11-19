@@ -150,6 +150,7 @@
     "notScheduled": "रिमाइंडर अभी तय नहीं हुए",
     "loadError": "आज का डेटा लोड नहीं हो सका",
     "seeAll": "सभी देखें ({{count}})",
+    "showLess": "कम दिखाएँ",
     "allTitle": "आज क्या पिया",
     "added": "{{amount}} जोड़ा गया",
     "removed": "{{amount}} हटाया गया",

@@ -150,6 +150,7 @@
     "notScheduled": "Noch keine Erinnerungen geplant",
     "loadError": "Der heutige Tag konnte nicht geladen werden",
     "seeAll": "Alle anzeigen ({{count}})",
+    "showLess": "Weniger anzeigen",
     "allTitle": "Heute getrunken",
     "added": "{{amount}} hinzugefügt",
     "removed": "{{amount}} entfernt",

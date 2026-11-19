@@ -150,6 +150,7 @@
     "notScheduled": "Promemoria non ancora programmati",
     "loadError": "Impossibile caricare la giornata",
     "seeAll": "Mostra tutti ({{count}})",
+    "showLess": "Mostra meno",
     "allTitle": "Bevuto oggi",
     "added": "{{amount}} aggiunti",
     "removed": "{{amount}} rimossi",
