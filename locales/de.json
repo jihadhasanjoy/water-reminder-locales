@@ -226,7 +226,10 @@
     "restartTitle": "Zum Abschluss neu starten",
     "restartBody": "Schließe die App und öffne sie erneut, damit sich die Leserichtung für diese Sprache ändern kann.",
     "ok": "OK",
-    "goalCaption": "Tagesziel {{amount}}"
+    "goalCaption": "Tagesziel {{amount}}",
+    "about": "Über die App",
+    "version": "Version",
+    "updateAvailable": "Update verfügbar"
   },
   "reminders": {
     "title": "Erinnerungen",
@@ -470,6 +473,8 @@
     "availableBody": "Aktualisiere Water Reminder für die neuesten Verbesserungen und Fehlerbehebungen.",
     "now": "Jetzt aktualisieren",
     "later": "Später",
-    "failed": "Das Update konnte nicht geöffnet werden. Versuche es erneut oder aktualisiere im Store."
+    "failed": "Das Update konnte nicht geöffnet werden. Versuche es erneut oder aktualisiere im Store.",
+    "availableTitleVersion": "Version {{version}} ist da",
+    "whatsNew": "Neu in dieser Version"
   }
 }

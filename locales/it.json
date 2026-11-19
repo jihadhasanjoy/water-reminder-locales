@@ -226,7 +226,10 @@
     "restartTitle": "Riavvia per completare",
     "restartBody": "Chiudi e riapri l’app per cambiare la direzione del testo per questa lingua.",
     "ok": "OK",
-    "goalCaption": "Obiettivo giornaliero {{amount}}"
+    "goalCaption": "Obiettivo giornaliero {{amount}}",
+    "about": "Informazioni",
+    "version": "Versione",
+    "updateAvailable": "Aggiornamento disponibile"
   },
   "reminders": {
     "title": "Promemoria",
@@ -470,6 +473,8 @@
     "availableBody": "Aggiorna Water Reminder per avere gli ultimi miglioramenti e correzioni.",
     "now": "Aggiorna ora",
     "later": "Più tardi",
-    "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store."
+    "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store.",
+    "availableTitleVersion": "È arrivata la versione {{version}}",
+    "whatsNew": "Novità"
   }
 }

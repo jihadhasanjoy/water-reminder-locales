@@ -39,7 +39,16 @@ The app also reads `app-config.json` each time it opens (and on coming back to i
 ```json
 {
   "schemaVersion": 1,
-  "android": { "minBuild": 42, "latestBuild": 45, "storeUrl": "https://play.google.com/store/apps/details?id=com.dropwise.waterreminder" },
+  "android": {
+    "minBuild": 42,
+    "latestBuild": 45,
+    "latestVersion": "1.2.0",
+    "whatsNew": {
+      "en": "• Wheel pickers for dates and times\n• Past times can't be added to the schedule",
+      "bn": "• তারিখ আর সময়ের জন্য চাকার মতো পিকার\n• অতীতের সময় আর যোগ করা যায় না"
+    },
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.dropwise.waterreminder"
+  },
   "ios": { "minBuild": 0, "latestBuild": 0 }
 }
 ```
@@ -48,7 +57,11 @@ The app also reads `app-config.json` each time it opens (and on coming back to i
 |---|---|
 | `minBuild` | Builds below this see a full-screen **Update required** page and can't use the app until they update |
 | `latestBuild` | Builds below this get a **New version available** sheet once, which they can dismiss |
+| `latestVersion` | Optional. The new version's name, shown as "Version 1.2.0 is here" and in Settings → About |
+| `whatsNew` | Optional. What changed, per language code (`\n` starts a new line). The app shows its own language, else `en`, on the update sheet and the required page |
 | `storeUrl` | Where **Update now** sends people. Optional on Android (defaults to the Play listing). On iOS nothing is required or offered until this is set |
+
+Settings → About always shows the installed version and build, e.g. `1.0.0 (42)`, plus an **Update available** row while a newer build is out.
 
 Build numbers are the store build numbers: `versionCode` on Android (the GitHub Actions run number for release builds), `CFBundleVersion` on iOS. Use `0` to turn a rule off.
 

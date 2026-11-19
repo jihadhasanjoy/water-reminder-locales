@@ -226,7 +226,10 @@
     "restartTitle": "Restart to finish",
     "restartBody": "Close and reopen the app so the layout can switch direction for this language.",
     "ok": "OK",
-    "goalCaption": "Daily goal {{amount}}"
+    "goalCaption": "Daily goal {{amount}}",
+    "about": "About",
+    "version": "Version",
+    "updateAvailable": "Update available"
   },
   "reminders": {
     "title": "Reminders",
@@ -470,6 +473,8 @@
     "availableBody": "Update Water Reminder to get the latest improvements and fixes.",
     "now": "Update now",
     "later": "Later",
-    "failed": "Couldn't open the update. Try again, or update from the store."
+    "failed": "Couldn't open the update. Try again, or update from the store.",
+    "availableTitleVersion": "Version {{version}} is here",
+    "whatsNew": "What's new"
   }
 }

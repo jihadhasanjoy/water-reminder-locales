@@ -6,6 +6,8 @@ import { readJSON } from './lib.mjs';
 
 const FILE = 'app-config.json';
 const errors = [];
+const warnings = [];
+const codes = readJSON('languages.json').map(l => l.code);
 
 let config;
 try {
@@ -31,7 +33,9 @@ for (const platform of ['android', 'ios']) {
     continue;
   }
   for (const key of Object.keys(rules)) {
-    if (!['minBuild', 'latestBuild', 'storeUrl'].includes(key)) {
+    if (
+      !['minBuild', 'latestBuild', 'storeUrl', 'latestVersion', 'whatsNew'].includes(key)
+    ) {
       errors.push(`${platform}: unknown field "${key}"`);
     }
   }
@@ -44,6 +48,29 @@ for (const platform of ['android', 'ios']) {
     errors.push(`${platform}.latestBuild can't be below minBuild`);
   }
   if (
+    rules.latestVersion !== undefined &&
+    !(typeof rules.latestVersion === 'string' && rules.latestVersion.length >= 1 && rules.latestVersion.length <= 20)
+  ) {
+    errors.push(`${platform}.latestVersion must be text of 1 to 20 characters`);
+  }
+  if (rules.whatsNew !== undefined) {
+    if (!rules.whatsNew || typeof rules.whatsNew !== 'object' || Array.isArray(rules.whatsNew)) {
+      errors.push(`${platform}.whatsNew must be { "<language code>": "text" }`);
+    } else {
+      for (const [code, text] of Object.entries(rules.whatsNew)) {
+        if (!codes.includes(code)) {
+          errors.push(`${platform}.whatsNew: "${code}" isn't a language in languages.json`);
+        }
+        if (typeof text !== 'string' || text.length > 600) {
+          errors.push(`${platform}.whatsNew.${code} must be text, at most 600 characters`);
+        }
+      }
+      if (!('en' in rules.whatsNew)) {
+        warnings.push(`${platform}.whatsNew has no "en": other languages will show no notes`);
+      }
+    }
+  }
+  if (
     rules.storeUrl !== undefined &&
     !(typeof rules.storeUrl === 'string' && rules.storeUrl.startsWith('https://'))
   ) {
@@ -51,6 +78,7 @@ for (const platform of ['android', 'ios']) {
   }
 }
 
+warnings.forEach(w => console.warn(`warning: ${FILE}: ${w}`));
 if (errors.length) {
   errors.forEach(e => console.error(`error: ${FILE}: ${e}`));
   console.error(`\n${errors.length} problem(s).`);
