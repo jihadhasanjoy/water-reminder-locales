@@ -462,5 +462,14 @@
     "hour": "Stunde",
     "minute": "Minute",
     "period": "AM/PM"
+  },
+  "update": {
+    "requiredTitle": "Zeit für ein Update",
+    "requiredBody": "Diese Version von Water Reminder wird nicht mehr unterstützt. Aktualisiere, um dein Trinken weiter zu verfolgen und Erinnerungen zu bekommen.",
+    "availableTitle": "Eine neue Version ist da",
+    "availableBody": "Aktualisiere Water Reminder für die neuesten Verbesserungen und Fehlerbehebungen.",
+    "now": "Jetzt aktualisieren",
+    "later": "Später",
+    "failed": "Das Update konnte nicht geöffnet werden. Versuche es erneut oder aktualisiere im Store."
   }
 }

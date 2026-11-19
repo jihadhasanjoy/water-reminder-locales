@@ -462,5 +462,14 @@
     "hour": "Hour",
     "minute": "Minute",
     "period": "AM/PM"
+  },
+  "update": {
+    "requiredTitle": "Time to update",
+    "requiredBody": "This version of Water Reminder is no longer supported. Update to keep tracking your water and getting reminders.",
+    "availableTitle": "A new version is here",
+    "availableBody": "Update Water Reminder to get the latest improvements and fixes.",
+    "now": "Update now",
+    "later": "Later",
+    "failed": "Couldn't open the update. Try again, or update from the store."
   }
 }

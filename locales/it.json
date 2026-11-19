@@ -462,5 +462,14 @@
     "hour": "Ora",
     "minute": "Minuto",
     "period": "AM/PM"
+  },
+  "update": {
+    "requiredTitle": "È ora di aggiornare",
+    "requiredBody": "Questa versione di Water Reminder non è più supportata. Aggiorna per continuare a tenere traccia dell'acqua e ricevere promemoria.",
+    "availableTitle": "È arrivata una nuova versione",
+    "availableBody": "Aggiorna Water Reminder per avere gli ultimi miglioramenti e correzioni.",
+    "now": "Aggiorna ora",
+    "later": "Più tardi",
+    "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store."
   }
 }
