@@ -3,6 +3,11 @@
   "android": {
     "minVersion": "1.0.0",
     "minBuild": 7,
+    "latestVersion": "1.1.0",
+    "whatsNew": {
+      "en": "• Wheel pickers for dates and times\n• Past times can't be added to the schedule\n• App version in Settings",
+      "bn": "• তারিখ আর সময়ের জন্য চাকার মতো পিকার\n• অতীতের সময় আর সময়সূচিতে যোগ করা যায় না\n• সেটিংসে অ্যাপের সংস্করণ"
+    },
     "storeUrl": "https://play.google.com/store/apps/details?id=com.dropwise.waterreminder"
   },
   "ios": {
