@@ -267,7 +267,8 @@
     "dailyReports": "Riepiloghi giornalieri",
     "dailyReportsHint": "Un buongiorno con il risultato di ieri e un resoconto prima di dormire",
     "doneToday": "Fatto oggi",
-    "nextChip": "Prossimo promemoria"
+    "nextChip": "Prossimo promemoria",
+    "missedToday": "Saltato oggi"
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",

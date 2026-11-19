@@ -267,7 +267,8 @@
     "dailyReports": "روزانہ خلاصے",
     "dailyReportsHint": "صبح کل کے نتیجے کے ساتھ سلام، اور سونے سے پہلے دن کی رپورٹ",
     "doneToday": "آج مکمل",
-    "nextChip": "اگلی یاد دہانی"
+    "nextChip": "اگلی یاد دہانی",
+    "missedToday": "آج رہ گیا"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",

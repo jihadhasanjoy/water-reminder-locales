@@ -267,7 +267,8 @@
     "dailyReports": "Tageszusammenfassungen",
     "dailyReportsHint": "Ein Guten-Morgen-Gruß mit dem Ergebnis von gestern und ein Bericht vor dem Schlafen",
     "doneToday": "Heute erledigt",
-    "nextChip": "Nächste Erinnerung"
+    "nextChip": "Nächste Erinnerung",
+    "missedToday": "Heute verpasst"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",

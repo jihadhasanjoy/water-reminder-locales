@@ -267,7 +267,8 @@
     "dailyReports": "দৈনিক সারাংশ",
     "dailyReportsHint": "সকালে গতকালের ফলসহ শুভেচ্ছা, আর ঘুমানোর আগে দিনের রিপোর্ট",
     "doneToday": "আজ সম্পন্ন",
-    "nextChip": "পরের রিমাইন্ডার"
+    "nextChip": "পরের রিমাইন্ডার",
+    "missedToday": "আজ মিস হয়েছে"
   },
   "permissions": {
     "blockedTitle": "রিমাইন্ডার বন্ধ আছে",

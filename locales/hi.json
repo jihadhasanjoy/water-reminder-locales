@@ -267,7 +267,8 @@
     "dailyReports": "दैनिक सारांश",
     "dailyReportsHint": "सुबह कल के नतीजे के साथ शुभकामना, और सोने से पहले दिन की रिपोर्ट",
     "doneToday": "आज पूरा हुआ",
-    "nextChip": "अगला रिमाइंडर"
+    "nextChip": "अगला रिमाइंडर",
+    "missedToday": "आज छूट गया"
   },
   "permissions": {
     "blockedTitle": "रिमाइंडर बंद हैं",
