@@ -496,5 +496,10 @@
     "source": "Source: {{label}}",
     "disclaimer": "General wellness information, not medical advice.",
     "notFound": "This story is no longer available."
+  },
+  "offline": {
+    "title": "You're offline",
+    "body": "Everything still works. Your drinks are saved on this phone.",
+    "back": "Back online"
   }
 }

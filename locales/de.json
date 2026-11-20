@@ -496,5 +496,10 @@
     "source": "Quelle: {{label}}",
     "disclaimer": "Allgemeine Gesundheitsinformationen, keine ärztliche Beratung.",
     "notFound": "Diese Geschichte ist nicht mehr verfügbar."
+  },
+  "offline": {
+    "title": "Du bist offline",
+    "body": "Alles funktioniert weiter. Deine Getränke werden auf diesem Handy gespeichert.",
+    "back": "Wieder online"
   }
 }

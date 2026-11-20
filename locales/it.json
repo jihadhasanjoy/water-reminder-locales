@@ -496,5 +496,10 @@
     "source": "Fonte: {{label}}",
     "disclaimer": "Informazioni generali sul benessere, non consigli medici.",
     "notFound": "Questa storia non è più disponibile."
+  },
+  "offline": {
+    "title": "Sei offline",
+    "body": "Tutto continua a funzionare. Le tue bevute sono salvate su questo telefono.",
+    "back": "Di nuovo online"
   }
 }
