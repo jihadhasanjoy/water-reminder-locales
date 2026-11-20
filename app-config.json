@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
+  "adFreeTrialDays": 2,
+  "rewardedAdFreeHours": 12,
   "android": {
     "minVersion": "1.0.0-10",
     "latestVersion": "1.0.0-13",

@@ -1,5 +1,5 @@
 // Checks app-config.json, which tells the app which versions must or may
-// update. A mistake here could lock people out of the app, so anything
+// update, and how long new users and rewarded videos go without ads. A mistake here could lock people out of the app, so anything
 // unexpected fails. Exits non-zero on any problem.
 //   node scripts/validate-config.mjs
 import { readJSON } from './lib.mjs';
@@ -39,12 +39,22 @@ function compareRules(a, b) {
 }
 
 for (const key of Object.keys(config)) {
-  if (!['schemaVersion', 'android', 'ios'].includes(key)) {
+  if (!['schemaVersion', 'adFreeTrialDays', 'rewardedAdFreeHours', 'android', 'ios'].includes(key)) {
     errors.push(`unknown field "${key}"`);
   }
 }
 if (config.schemaVersion !== 1) {
   errors.push('schemaVersion must be 1');
+}
+// Whole numbers, in the ranges the app accepts (outside them the app
+// ignores the whole file and keeps its last good copy).
+const wholeIn = (value, min, max) =>
+  Number.isInteger(value) && value >= min && value <= max;
+if (config.adFreeTrialDays !== undefined && !wholeIn(config.adFreeTrialDays, 0, 30)) {
+  errors.push('adFreeTrialDays must be a whole number from 0 to 30');
+}
+if (config.rewardedAdFreeHours !== undefined && !wholeIn(config.rewardedAdFreeHours, 1, 72)) {
+  errors.push('rewardedAdFreeHours must be a whole number from 1 to 72');
 }
 for (const platform of ['android', 'ios']) {
   const rules = config[platform];
@@ -86,4 +96,5 @@ const summary = ['android', 'ios']
   .filter(p => config[p])
   .map(p => `${p} min ${config[p].minVersion ?? 'off'}, latest ${config[p].latestVersion ?? 'off'}`)
   .join('; ');
-console.log(`OK: ${FILE} (${summary}).`);
+const ads = `ad-free welcome ${config.adFreeTrialDays ?? 1} day(s), video +${config.rewardedAdFreeHours ?? 12} h`;
+console.log(`OK: ${FILE} (${summary}; ${ads}).`);

@@ -394,14 +394,16 @@
     "checkNow": "Nach Updates suchen"
   },
   "ads": {
-    "hide": "Werbung für heute ausblenden?",
-    "offerTitle": "Werbung für heute ausblenden?",
-    "offerBody": "Sieh dir ein kurzes Werbevideo an, dann blenden wir Werbung bis Mitternacht aus.",
+    "hide": "Werbung für {{hours}} Stunden ausblenden?",
+    "offerTitle": "Werbung für {{hours}} Stunden ausblenden?",
+    "offerBody": "Sieh dir ein kurzes Video an und erhalte {{hours}} weitere Stunden ohne Werbung. Jedes Video fügt {{hours}} Stunden hinzu.",
     "watch": "Video ansehen",
-    "hidden": "Keine Werbung bis morgen. Danke fürs Ansehen!",
     "notFinished": "Sieh das Video bis zum Ende, um Werbung auszublenden.",
     "unavailable": "Gerade ist kein Video verfügbar. Bitte versuch es später noch einmal.",
-    "label": "Anzeige"
+    "label": "Anzeige",
+    "extendTitle": "{{hours}} weitere Stunden?",
+    "extendBody": "Sieh dir ein kurzes Video an und deine werbefreie Zeit verlängert sich um {{hours}} Stunden. Videos addieren sich: so viele du willst.",
+    "extended": "+{{hours}} Stunden dazu! Keine Werbung bis {{until}}."
   },
   "feedback": {
     "section": "Feedback",
@@ -491,7 +493,9 @@
     "later": "Später",
     "failed": "Das Update konnte nicht geöffnet werden. Versuche es erneut oder aktualisiere im Store.",
     "availableTitleVersion": "Version {{version}} ist da",
-    "notReady": "Das Update ist noch nicht zum Herunterladen bereit. Bitte versuche es später noch einmal."
+    "notReady": "Das Update ist noch nicht zum Herunterladen bereit. Bitte versuche es später noch einmal.",
+    "language": "Sprache",
+    "theme": "Design"
   },
   "insights": {
     "title": "Wasser-Geschichten",
@@ -508,5 +512,13 @@
     "title": "Du bist offline",
     "body": "Alles funktioniert weiter. Deine Getränke werden auf diesem Handy gespeichert.",
     "back": "Wieder online"
+  },
+  "adFree": {
+    "title_one": "{{count}} Tag werbefrei",
+    "title_other": "{{count}} Tage werbefrei",
+    "body": "Nutze Water Reminder bis {{date}} ohne Werbung. Schön, dass du dabei bist!",
+    "video": "Keine Sorge, danach bekommst du mit einem kurzen Video jederzeit {{hours}} weitere Stunden ohne Werbung.",
+    "start": "Los geht’s",
+    "until": "Werbefrei bis"
   }
 }

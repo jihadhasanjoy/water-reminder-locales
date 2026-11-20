@@ -394,14 +394,16 @@
     "checkNow": "Check for updates"
   },
   "ads": {
-    "hide": "Hide ads for today?",
-    "offerTitle": "Hide ads for today?",
-    "offerBody": "Watch a short video ad and we'll hide ads until midnight.",
+    "hide": "Hide ads for {{hours}} hours?",
+    "offerTitle": "Hide ads for {{hours}} hours?",
+    "offerBody": "Watch a short video and get {{hours}} more hours without ads. It adds up: every video adds {{hours}} hours.",
     "watch": "Watch video",
-    "hidden": "No ads until tomorrow. Thanks for watching!",
     "notFinished": "Watch the video to the end to hide ads.",
     "unavailable": "No video right now. Please try again later.",
-    "label": "Advertisement"
+    "label": "Advertisement",
+    "extendTitle": "Add {{hours}} more hours?",
+    "extendBody": "Watch a short video and {{hours}} hours are added to your ad-free time. Videos add up: watch as many as you like.",
+    "extended": "+{{hours}} hours added! No ads until {{until}}."
   },
   "feedback": {
     "section": "Feedback",
@@ -491,7 +493,9 @@
     "later": "Later",
     "failed": "Couldn't open the update. Try again, or update from the store.",
     "availableTitleVersion": "Version {{version}} is here",
-    "notReady": "The update isn't ready to download yet. Please try again later."
+    "notReady": "The update isn't ready to download yet. Please try again later.",
+    "language": "Language",
+    "theme": "Theme"
   },
   "insights": {
     "title": "Water stories",
@@ -508,5 +512,13 @@
     "title": "You're offline",
     "body": "Everything still works. Your drinks are saved on this phone.",
     "back": "Back online"
+  },
+  "adFree": {
+    "title_one": "Ad-free for {{count}} day",
+    "title_other": "Ad-free for {{count}} days",
+    "body": "Enjoy Water Reminder without ads until {{date}}. Thanks for joining!",
+    "video": "No worries after that: watch a short video any time for {{hours}} more hours without ads.",
+    "start": "Start",
+    "until": "Ad-free until"
   }
 }

@@ -394,14 +394,16 @@
     "checkNow": "Cerca aggiornamenti"
   },
   "ads": {
-    "hide": "Nascondere le pubblicità per oggi?",
-    "offerTitle": "Nascondere le pubblicità per oggi?",
-    "offerBody": "Guarda un breve video pubblicitario e nasconderemo le pubblicità fino a mezzanotte.",
+    "hide": "Nascondere la pubblicità per {{hours}} ore?",
+    "offerTitle": "Nascondere la pubblicità per {{hours}} ore?",
+    "offerBody": "Guarda un breve video e ottieni altre {{hours}} ore senza pubblicità. Ogni video aggiunge {{hours}} ore.",
     "watch": "Guarda il video",
-    "hidden": "Niente pubblicità fino a domani. Grazie per aver guardato!",
     "notFinished": "Guarda il video fino alla fine per nascondere le pubblicità.",
     "unavailable": "Nessun video disponibile ora. Riprova più tardi.",
-    "label": "Pubblicità"
+    "label": "Pubblicità",
+    "extendTitle": "Aggiungere altre {{hours}} ore?",
+    "extendBody": "Guarda un breve video e al tuo tempo senza pubblicità si aggiungono {{hours}} ore. I video si sommano: guardane quanti vuoi.",
+    "extended": "+{{hours}} ore aggiunte! Niente pubblicità fino a {{until}}."
   },
   "feedback": {
     "section": "Feedback",
@@ -491,7 +493,9 @@
     "later": "Più tardi",
     "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store.",
     "availableTitleVersion": "È arrivata la versione {{version}}",
-    "notReady": "L'aggiornamento non è ancora pronto da scaricare. Riprova più tardi."
+    "notReady": "L'aggiornamento non è ancora pronto da scaricare. Riprova più tardi.",
+    "language": "Lingua",
+    "theme": "Tema"
   },
   "insights": {
     "title": "Storie sull'acqua",
@@ -508,5 +512,13 @@
     "title": "Sei offline",
     "body": "Tutto continua a funzionare. Le tue bevute sono salvate su questo telefono.",
     "back": "Di nuovo online"
+  },
+  "adFree": {
+    "title_one": "{{count}} giorno senza pubblicità",
+    "title_other": "{{count}} giorni senza pubblicità",
+    "body": "Usa Water Reminder senza pubblicità fino a {{date}}. Grazie per esserti unito!",
+    "video": "Nessun problema dopo: guarda un breve video quando vuoi per altre {{hours}} ore senza pubblicità.",
+    "start": "Inizia",
+    "until": "Senza pubblicità fino a"
   }
 }
