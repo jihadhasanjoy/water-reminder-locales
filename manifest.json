@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 24,
-  "updatedAt": "2026-11-20T05:31:10.157Z",
+  "version": 25,
+  "updatedAt": "2026-11-20T05:44:10.447Z",
   "languages": "languages.json",
   "languagesSha256": "246fd0d9d0475306a85f080547335b34cc815bd19a07f4dce3c66aa1a68de4f2",
   "locales": {
@@ -44,31 +44,31 @@
   "stories": {
     "bn": {
       "file": "stories/bn.json",
-      "sha256": "8bd66d0c3b0de5f7358afbb8e12543267a96aeb7db4f0eb15c9825f56bbcde63"
+      "sha256": "e5a071058bd49c9f1c1f3d3e27f2d2a42ef6f3b1129565a0399cd787fefbddb2"
     },
     "de": {
       "file": "stories/de.json",
-      "sha256": "25e6e80111be7679ee43b2d377435802cdae25a3a07bedc8a547332d0e14884a"
+      "sha256": "573e805350beaa5f3050b1dea82035e49b88b104f4b356d3c109ff361e72c5fd"
     },
     "en": {
       "file": "stories/en.json",
-      "sha256": "deb5b08e5355baa3a2525e6f7eec87be12f5615e8b3c259e5f78194d6b3d4abe"
+      "sha256": "797a1ae0447de7db0874fa10c579c65049d7409df37a45aead3bd5c89bf838d9"
     },
     "hi": {
       "file": "stories/hi.json",
-      "sha256": "e9f67044bd2cb5142d637147253357af5c18536449f4391c0981d2bdb6cdc46c"
+      "sha256": "19d4b640f10664127eff44d01b6d4a3d37be00b36f1df699cec96a3cdf822595"
     },
     "it": {
       "file": "stories/it.json",
-      "sha256": "b85849796a0044c32f5c2652ccbe0628ae19f5c969c6962afa249403d41c6ba7"
+      "sha256": "463658bd900d27e61bfcddb225764b5e6bd74e3ae063417ffd517a89d487633a"
     },
     "ur": {
       "file": "stories/ur.json",
-      "sha256": "d23804f5fb4f88148a19a460567f3efb57abdcf5bda9f09474d5643053a726da"
+      "sha256": "2fd9579a20eb1f1c93a5e8caaea90d8e3331c45d30697f5391c7a654a97d2017"
     },
     "zh": {
       "file": "stories/zh.json",
-      "sha256": "34620609cca291054d14c7369162f597c953eb54b19a74c249c67e64f0d33d53"
+      "sha256": "e4b08bb3c779f1b88798823aaa6b68f0406daf84f08f97427a05f461b436f48c"
     }
   },
   "animations": {
@@ -77,6 +77,18 @@
     },
     "stories/animations/evening.json": {
       "sha256": "ffbfc598f9dd41f2b873946f0e6535d7d03d51fbea6ef6e612771c89d484e582"
+    },
+    "stories/animations/exercise.json": {
+      "sha256": "cb607d9dda8ddce683de044607e2f45c1b4a3c6c1c0929954109b25b8e3aa045"
+    },
+    "stories/animations/headache.json": {
+      "sha256": "49ee2c7356c11189e8b192a0f2dd1f4def1e9b357b39adc3d198d372a00a7023"
+    },
+    "stories/animations/hot-weather.json": {
+      "sha256": "7c35e2927a30640051b1778b92a8794928bf9f1602bab873c5e8e58add252bff"
+    },
+    "stories/animations/how-much.json": {
+      "sha256": "f07a21ee5469e2d96190c3c7ed6b4c2e6035117ccb5bba674d3becc234965cb1"
     },
     "stories/animations/kidneys.json": {
       "sha256": "fd64de615351e3b4ff0bf883c7c52cdca5a81fac182d58648dfe27a8c9fdbeb6"
@@ -87,8 +99,14 @@
     "stories/animations/morning-glass.json": {
       "sha256": "85c1febd3bcef5c494e937117be0e1e313ba0258a4ceb4bb72703d306739d960"
     },
+    "stories/animations/other-drinks.json": {
+      "sha256": "afa7454a3db92420292c701d0957e6feefa2babe022da37ee540598a69ce2dd7"
+    },
     "stories/animations/signs.json": {
       "sha256": "d6482f574cd01abc2306ff3f3b7f93a4ff7655189dc78fbc96feacecd182c984"
+    },
+    "stories/animations/water-foods.json": {
+      "sha256": "69b61965286a80da2efea1a4716d54fb35faa338cc87d194f719af678a74a553"
     },
     "stories/animations/why-water.json": {
       "sha256": "c5b7eaa2451a01d3a8dea5ba3ccf37fbf7c3b99dbac703cf268870aaec8e12cc"

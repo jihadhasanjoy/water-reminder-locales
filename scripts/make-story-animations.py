@@ -39,6 +39,16 @@ RED = rgb('#F28B82')
 GREEN = rgb('#81C995')
 KIDNEY = rgb('#E57373')
 WARN = rgb('#E09B1A')
+ORANGE = rgb('#FFA726')
+ORANGE_LIGHT = rgb('#FFE0B2')
+MELON = rgb('#EF5350')
+RIND = rgb('#66BB6A')
+RIND_LIGHT = rgb('#C8E6C9')
+SEED = rgb('#3E2723')
+TEA = rgb('#A1887F')
+METAL = rgb('#78909C')
+METAL_DARK = rgb('#546E7A')
+JUICE = rgb('#FFB74D')
 
 EASES = {
     'linear': (0.33, 0.33, 0.67, 0.67),
@@ -177,7 +187,7 @@ def drop(cx, top, width, height, color=WATER, shine=True):
     return items
 
 
-def glass(cx, bottom, w, h, levels):
+def glass(cx, bottom, w, h, levels, color=WATER):
     """A straight glass whose water rises and falls through `levels`
     ([(frame, percent full)], looping)."""
     top = bottom - h
@@ -186,7 +196,7 @@ def glass(cx, bottom, w, h, levels):
         group([path([(cx - w / 2 + 14, top + 16), (cx - w / 2 + 14, bottom - 18)], closed=False),
                stroke(WHITE, 8, 70)], name='Glint'),
         group([rect(cx, top + h / 2, w, h, 14), stroke(WHITE, 7)], name='Rim'),
-        group([rect(cx, bottom - (h - 10) / 2 - 5, w - 14, h - 10, 10), fill(WATER)],
+        group([rect(cx, bottom - (h - 10) / 2 - 5, w - 14, h - 10, 10), fill(color)],
               tr(p=(cx, bottom - 5), a=(cx, bottom - 5), s=level), 'Water'),
         group([rect(cx, top + h / 2, w, h, 14), fill(WHITE, 55)], name='Body'),
     ], name='Glass')
@@ -319,6 +329,13 @@ save('breakfast', [
     *waves(), background(rgb('#FFF8E8')),
 ])
 
+def heat_waves(x0):
+    return [group([path([(x0 + i * 40, 160), (x0 + i * 40, 76)], closed=False,
+                        tangents=[((0, 0), (12, -14)), ((-12, 14), (0, 0))]),
+                   stroke(SUN_DEEP, 7, 55)],
+                  tr(p=loop((0, [0, 0]), (60, [0, -12])), a=(0, 0)), 'Heat') for i in range(3)]
+
+
 # Lunch: the clock goes round, the bowl waits and the glass is topped up.
 save('lunch', [
     group([
@@ -383,4 +400,153 @@ save('signs', [
     group([ellipse(160, 120, 112, 112), fill(SUN, 90)],
           tr(p=(160, 120), s=loop((0, [100, 100]), (60, [110, 110]))), 'Sun'),
     *waves(), background(WARM),
+])
+
+
+# How much: eight small glasses fill one after another, a day's worth.
+def mini_glasses():
+    out = []
+    for i in range(8):
+        col, row = i % 4, i // 4
+        start = 8 + i * 10
+        out.append(glass(440 + col * 78, 250 + row * 135, 56, 100,
+                         [(0, 0), (start, 0), (start + 10, 100), (104, 100), (118, 0), (120, 0)]))
+    return out
+
+
+save('how-much', [
+    sparkle(130, 100, 12, 0), sparkle(720, 70, 10, 60),
+    *mini_glasses(),
+    group(drop(0, -210, 150, 200), tr(p=loop((0, [230, 380]), (60, [230, 360])), a=(0, 0)), 'Drop'),
+    *waves(), background(PALE),
+])
+
+
+# Other drinks: tea steams in a mug next to a glass of water and a small
+# glass of juice.
+def mug(cx, bottom):
+    return group([
+        group([ellipse(cx, bottom - 106, 92, 18), fill(rgb('#8D6E63'))], name='Tea'),
+        group([rect(cx, bottom - 60, 110, 120, 22), fill(WHITE), stroke(TEA, 6)], name='Mug'),
+        group([ellipse(cx + 64, bottom - 62, 50, 58), stroke(TEA, 12)], name='Handle'),
+    ], name='Mug')
+
+
+save('other-drinks', [
+    steam(210, 0), steam(250, 40),
+    mug(230, 400),
+    glass(420, 400, 120, 210, [(0, 40), (60, 80), (120, 40)]),
+    glass(580, 400, 90, 140, [(0, 70), (60, 60), (120, 70)], JUICE),
+    group([ellipse(610, 250, 40, 40), fill(SUN), stroke(ORANGE, 5)],
+          tr(p=(610, 250), r=anim([(0, 0), (OP, 90)], 'linear')), 'Lemon'),
+    *waves(), background(rgb('#FFF8E8')),
+])
+
+
+# Water-rich foods: a melon slice, an orange and cucumber bob like
+# they're floating, with drops around them.
+def half_disc(cx, cy, r, color):
+    k = r * 0.5523
+    return group([path([(cx - r, cy), (cx, cy + r), (cx + r, cy)],
+                       tangents=[((0, 0), (0, k)), ((-k, 0), (k, 0)), ((0, k), (0, 0))]),
+                  fill(color)], name='Half')
+
+
+def floating(items, delay, name):
+    bob = anim([(0, [0, 0]), (delay, [0, 0]), (delay + 30, [0, -16]), (delay + 60, [0, 0]),
+                (OP, [0, 0])])
+    return group(items, tr(p=bob, a=(0, 0)), name)
+
+
+seeds = [group([ellipse(200 + dx, 268 + dy, 8, 13), fill(SEED)], name='Seed')
+         for dx, dy in [(-40, 10), (-15, 25), (15, 25), (40, 10), (0, 50)]]
+save('water-foods', [
+    sparkle(400, 90, 14, 20), sparkle(680, 110, 10, 70),
+    falling_drop(320, 80, 200, 30, 10), falling_drop(520, 70, 190, 26, 70),
+    floating([*seeds, half_disc(200, 250, 96, MELON), half_disc(200, 250, 112, RIND_LIGHT),
+              half_disc(200, 250, 122, RIND)], 0, 'Melon'),
+    floating([
+        *[group([rect(420, 300, 6, 100, 3), fill(ORANGE_LIGHT)],
+                tr(p=(420, 300), r=a), 'Segment') for a in (0, 60, 120)],
+        group([ellipse(420, 300, 112, 112), fill(ORANGE)], name='Inside'),
+        group([ellipse(420, 300, 130, 130), fill(ORANGE_LIGHT)], name='Pith'),
+        group([ellipse(420, 300, 144, 144), fill(rgb('#FB8C00'))], name='Peel'),
+    ], 20, 'Orange'),
+    floating([
+        group([ellipse(610, 300, 70, 70), fill(RIND_LIGHT)], name='Inside'),
+        group([ellipse(610, 300, 96, 96), fill(RIND)], name='Skin'),
+        group([ellipse(660, 230, 50, 50), fill(RIND_LIGHT)], name='Inside'),
+        group([ellipse(660, 230, 70, 70), fill(RIND)], name='Skin'),
+    ], 40, 'Cucumber'),
+    *waves(), background(rgb('#F1FAF2')),
+])
+
+
+# Exercise: a dumbbell goes up and down, sweat drops fall, a bottle waits.
+def bottle(cx, bottom, levels):
+    h, w = 220, 96
+    level = anim([(t, [100, v]) for t, v in levels])
+    return group([
+        group([rect(cx, bottom - h - 14, 44, 26, 8), fill(DEEP)], name='Cap'),
+        group([rect(cx, bottom - h * 0.45, w, 36, 0), fill(WHITE, 70)], name='Label'),
+        group([rect(cx, bottom - (h - 12) / 2 - 6, w - 14, h - 12, 18), fill(WATER)],
+              tr(p=(cx, bottom - 6), a=(cx, bottom - 6), s=level), 'Water'),
+        group([rect(cx, bottom - h / 2, w, h, 26), fill(WHITE, 60), stroke(WHITE, 6)], name='Bottle'),
+    ], name='Bottle')
+
+
+lift = loop((0, [0, 0]), (30, [0, -70]), (60, [0, 0]), (90, [0, -70]))
+save('exercise', [
+    falling_drop(250, 180, 330, 26, 20, 40), falling_drop(330, 170, 330, 22, 75, 40),
+    group([
+        group([rect(170, 260, 30, 110, 10), fill(METAL_DARK)], name='Plate'),
+        group([rect(410, 260, 30, 110, 10), fill(METAL_DARK)], name='Plate'),
+        group([rect(140, 260, 26, 80, 8), fill(METAL)], name='Plate'),
+        group([rect(440, 260, 26, 80, 8), fill(METAL)], name='Plate'),
+        group([rect(290, 260, 300, 18, 9), fill(METAL)], name='Bar'),
+    ], tr(p=lift, a=(0, 0)), 'Dumbbell'),
+    bottle(600, 400, [(0, 85), (60, 55), (120, 85)]),
+    *waves(), background(rgb('#EAF4FF')),
+])
+
+
+# Hot weather: the sun blazes, the thermometer rises, keep a bottle near.
+sun_rays = [group([rect(200, 40, 12, 40, 6), fill(SUN_DEEP, 70)],
+                  tr(p=(200, 150), a=(200, 150), r=a), 'Ray') for a in range(0, 360, 30)]
+save('hot-weather', [
+    group([
+        group([ellipse(200, 150, 150, 150), fill(SUN)], name='Sun'),
+        group([ellipse(200, 150, 210, 210), fill(SUN, 30)], name='Glow'),
+        *sun_rays,
+    ], tr(p=(200, 150), s=loop((0, [100, 100]), (60, [108, 108])),
+          r=anim([(0, 0), (OP, 30)], 'linear')), 'Sun'),
+    *heat_waves(330),
+    group([
+        group([ellipse(420, 380, 64, 64), fill(MELON)], name='Bulb'),
+        group([rect(420, 300, 22, 150, 11), fill(MELON)],
+              tr(p=(420, 375), a=(420, 375), s=loop((0, [100, 40]), (60, [100, 100]))), 'Mercury'),
+        group([rect(420, 290, 40, 190, 20), fill(WHITE), stroke(METAL, 4)], name='Tube'),
+    ], name='Thermometer'),
+    bottle(600, 410, [(0, 80), (60, 60), (120, 80)]),
+    *waves(), background(WARM),
+])
+
+
+# Headache: a drop falls into a dim bulb, and it lights up again.
+glow = anim([(0, 25), (40, 25), (55, 100), (100, 100), (OP, 25)], 'inout')
+save('headache', [
+    falling_drop(400, 30, 150, 44, 10, 35),
+    group([
+        group([ellipse(400, 205, 230, 230), fill(SUN, 35)], name='Halo'),
+    ], tr(p=(400, 205), o=glow), 'Glow'),
+    group([path([(372, 230), (390, 196), (410, 230), (428, 196)], closed=False),
+           stroke(SUN_DEEP, 6)], name='Filament'),
+    group([ellipse(400, 205, 150, 150), fill(SUN)], tr(p=(400, 205), o=glow), 'Lit'),
+    group([ellipse(400, 205, 150, 150), fill(WHITE), stroke(METAL, 5)], name='Bulb'),
+    group([rect(400, 300, 70, 14, 7), fill(METAL)], name='Ring'),
+    group([rect(400, 320, 62, 14, 7), fill(METAL_DARK)], name='Ring'),
+    group([rect(400, 338, 40, 16, 8), fill(METAL)], name='Tip'),
+    sparkle(250, 130, 12, 55), sparkle(560, 140, 12, 62), sparkle(520, 300, 9, 70),
+    glass(640, 400, 110, 170, [(0, 70), (60, 40), (120, 70)]),
+    *waves(), background(PALE),
 ])

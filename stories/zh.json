@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "stories": [
     {
+      "id": "why-water",
+      "category": "基础知识",
+      "title": "为什么喝水很重要",
+      "summary": "水在你身体里默默做了很多工作。快速了解一下，为什么这个习惯值得坚持。",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "水占你身体的一半以上。它把营养输送到细胞，帮助调节体温，缓冲关节，还让肾脏能够清除废物。"
+        },
+        { "type": "heading", "text": "规律喝水有哪些帮助" },
+        {
+          "type": "list",
+          "items": [
+            "思路更清晰，下午少犯困",
+            "减少因喝水不足引起的头痛",
+            "肾脏健康，消化规律",
+            "天热和运动时保持凉爽"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "一天中少量多次地喝，比一次喝很多效果更好。这正是提醒的用处。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里会陆续更新更多文章，带来关于三餐、睡眠和坚持目标的小建议。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与你的健康",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
       "id": "kidneys",
       "category": "健康",
       "title": "规律喝水，肾脏更轻松",
@@ -45,41 +84,46 @@
       }
     },
     {
-      "id": "why-water",
+      "id": "how-much",
       "category": "基础知识",
-      "title": "为什么喝水很重要",
-      "summary": "水在你身体里默默做了很多工作。快速了解一下，为什么这个习惯值得坚持。",
-      "image": "stories/images/why-water.webp",
-      "animation": "stories/animations/why-water.json",
-      "readMinutes": 2,
+      "title": "一天需要喝多少水？",
+      "summary": "6 到 8 杯是个不错的起点。来看看什么情况下需要多喝，以及怎样判断自己喝得够不够。",
+      "image": "stories/images/how-much.webp",
+      "animation": "stories/animations/how-much.json",
+      "readMinutes": 3,
       "featured": false,
       "body": [
         {
           "type": "paragraph",
-          "text": "水占你身体的一半以上。它把营养输送到细胞，帮助调节体温，缓冲关节，还让肾脏能够清除废物。"
+          "text": "对成年人来说，常见的建议是每天喝 6 到 8 杯水或其他饮品，约 1.5 到 2 升。这只是一个起点，不是硬性规定：有些日子你会需要更多。"
         },
-        { "type": "heading", "text": "规律喝水有哪些帮助" },
+        { "type": "heading", "text": "什么情况下需要多喝" },
         {
           "type": "list",
           "items": [
-            "思路更清晰，下午少犯困",
-            "减少因喝水不足引起的头痛",
-            "肾脏健康，消化规律",
-            "天热和运动时保持凉爽"
+            "天气炎热或潮湿",
+            "运动或从事体力劳动",
+            "生病时，尤其是发烧、呕吐或腹泻",
+            "怀孕和哺乳期间"
           ]
         },
         { "type": "ad" },
         {
-          "type": "tip",
-          "text": "一天中少量多次地喝，比一次喝很多效果更好。这正是提醒的用处。"
+          "type": "paragraph",
+          "text": "食物也算在内。水果、蔬菜、汤和酸奶，都能为你的一天补充一些水分。"
         },
+        { "type": "heading", "text": "怎样判断喝得够不够" },
         {
           "type": "paragraph",
-          "text": "这里会陆续更新更多文章，带来关于三餐、睡眠和坚持目标的小建议。"
+          "text": "尿液呈淡黄色是个好迹象。尿液深黄、排尿次数变少或经常口渴，通常说明你需要多喝一些。"
+        },
+        {
+          "type": "tip",
+          "text": "不用一次喝完。每餐一杯，餐间再喝一两杯，就差不多了，计数的事交给提醒就好。"
         }
       ],
       "source": {
-        "label": "NHS：水、饮品与你的健康",
+        "label": "NHS：水、饮品与补水",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
       }
     },
@@ -214,6 +258,200 @@
       "source": {
         "label": "NHS：水、饮品与你的健康",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "other-drinks",
+      "category": "习惯",
+      "title": "茶、咖啡和牛奶算不算？",
+      "summary": "水最好，但不是唯一算数的饮品。来看看哪些算，哪些要少喝。",
+      "image": "stories/images/other-drinks.webp",
+      "animation": "stories/animations/other-drinks.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "水是日常最好的饮品，但不是唯一的选择。低脂牛奶和低糖饮品，包括茶和咖啡，都可以算进每天的饮水量。"
+        },
+        { "type": "heading", "text": "茶和咖啡" },
+        {
+          "type": "paragraph",
+          "text": "它们也算，但咖啡因要适量。有些人对咖啡因比别人更敏感，所以留意一下它对你的睡眠和身体感受有什么影响。"
+        },
+        { "type": "ad" },
+        { "type": "heading", "text": "要少喝的饮品" },
+        {
+          "type": "list",
+          "items": [
+            "果汁和奶昔：每天一小杯（150 ml），随餐喝，因为它们含糖量高。",
+            "汽水和含糖饮料：换成水或无糖饮品。",
+            "浓缩果汁饮料：要充分兑水稀释。"
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "让白开水更有吸引力：加一片柠檬或黄瓜，或者几片薄荷叶。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与补水",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "water-foods",
+      "category": "三餐",
+      "title": "帮你补充水分的食物",
+      "summary": "你摄入的水分，有一部分来自餐盘。这些食物含水量很高。",
+      "image": "stories/images/water-foods.webp",
+      "animation": "stories/animations/water-foods.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "你的水分并不都来自饮品。很多水果和蔬菜大部分都是水，还能提供维生素、矿物质和膳食纤维。"
+        },
+        { "type": "heading", "text": "含水量高的选择" },
+        {
+          "type": "list",
+          "items": [
+            "黄瓜、生菜和番茄",
+            "西瓜和其他瓜类",
+            "橙子和草莓",
+            "汤、炖菜和酸奶"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "每餐加一种含水量高的水果或蔬菜。它也能算进每天 5 份果蔬里。"
+        },
+        {
+          "type": "paragraph",
+          "text": "食物有帮助，但不能代替喝水。一天里也要继续小口喝水。"
+        }
+      ],
+      "source": {
+        "label": "NHS：为什么每天要吃 5 份果蔬？",
+        "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/why-5-a-day/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "exercise",
+      "category": "运动",
+      "title": "运动时怎么喝水",
+      "summary": "汗液的主要成分是水。运动前、中、后稍作安排，让你保持状态。",
+      "image": "stories/images/exercise.webp",
+      "animation": "stories/animations/exercise.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "一活动就会出汗，而汗液主要是水。流失太多，运动会感觉更吃力，之后你可能会觉得疲倦或头晕眼花。"
+        },
+        { "type": "heading", "text": "运动前、运动中和运动后" },
+        {
+          "type": "list",
+          "items": [
+            "运动前：开始前的一两个小时内喝点水。",
+            "运动中：小口喝，尤其是长时间或天热时的运动。",
+            "运动后：之后一段时间继续少量多次地喝，补回流失的水分。"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "去健身房、散步或跑步时带上一瓶水，不用等到回家再喝。"
+        },
+        {
+          "type": "paragraph",
+          "text": "日常运动的话，大多数人喝白开水就够了。"
+        }
+      ],
+      "source": {
+        "label": "NHS：脱水",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "hot-weather",
+      "category": "健康",
+      "title": "天热时保持水分充足",
+      "summary": "天热时，你流失的水分比想象的多。几个简单方法，帮你及时补水、保持凉爽。",
+      "image": "stories/images/hot-weather.webp",
+      "animation": "stories/animations/hot-weather.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "天气炎热时出汗更多，所以身体需要比平时更多的水分，即使在你活动不多的日子也是如此。"
+        },
+        { "type": "heading", "text": "保持凉爽的简单方法" },
+        {
+          "type": "list",
+          "items": [
+            "多喝水，不要等到口渴再喝。",
+            "选择冷饮和凉一些的食物；少喝酒，少摄入咖啡因，少喝热饮。",
+            "出门时随身带水。",
+            "一天中最热的时候避开阳光。"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "热浪期间，多关心家里的老人、婴儿和年幼的孩子：他们的风险更高。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果在高温下感到头晕、意识混乱或非常虚弱，请到凉爽的地方喝点水；如果仍未缓解，请寻求医疗帮助。"
+        }
+      ],
+      "source": {
+        "label": "NHS：热浪：如何应对炎热天气",
+        "url": "https://www.nhs.uk/live-well/seasonal-health/heatwave-how-to-cope-in-hot-weather/"
+      }
+    },
+    {
+      "id": "headache",
+      "category": "健康",
+      "title": "疲倦或头痛？先试试喝水",
+      "summary": "喝水不够是头痛和疲倦的常见原因之一，也是最容易解决的原因之一。",
+      "image": "stories/images/headache.webp",
+      "animation": "stories/animations/headache.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "喝水不足是头痛的常见原因之一。体内缺水还可能让你感到疲倦、头昏或头晕。"
+        },
+        { "type": "heading", "text": "什么时候可能是缺水" },
+        {
+          "type": "list",
+          "items": [
+            "忙碌的一天里慢慢出现的头痛",
+            "下午感到疲倦或没精神",
+            "口干、尿液深黄"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "在桌上放一杯水或一瓶水。看到它，就是提醒你喝一口的最简单方式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "头痛的原因有很多。如果头痛很严重、反复出现或没有好转，请咨询医生或药剂师。"
+        }
+      ],
+      "source": {
+        "label": "NHS：头痛",
+        "url": "https://www.nhs.uk/conditions/headaches/"
       }
     },
     {

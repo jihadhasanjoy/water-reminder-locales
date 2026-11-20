@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "stories": [
     {
+      "id": "why-water",
+      "category": "Le basi",
+      "title": "Perché bere acqua è importante",
+      "summary": "L'acqua fa tanto lavoro silenzioso nel tuo corpo. Uno sguardo veloce sul perché vale la pena prendere l'abitudine.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "L'acqua costituisce più della metà del tuo corpo. Porta i nutrienti alle cellule, aiuta a regolare la temperatura, protegge le articolazioni e permette ai reni di eliminare le scorie."
+        },
+        { "type": "heading", "text": "In cosa aiuta bere con regolarità" },
+        {
+          "type": "list",
+          "items": [
+            "Mente più lucida e meno cali nel pomeriggio",
+            "Meno mal di testa dovuti al bere troppo poco",
+            "Reni sani e digestione regolare",
+            "Restare freschi quando fa caldo e durante l'attività fisica"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Piccoli sorsi regolari durante il giorno funzionano meglio di tanta acqua in una volta. A questo servono i tuoi promemoria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Col tempo qui arriveranno altre storie, con consigli su pasti, sonno e su come restare in linea."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e salute",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
       "id": "kidneys",
       "category": "Salute",
       "title": "Acqua costante, reni felici",
@@ -48,41 +87,46 @@
       }
     },
     {
-      "id": "why-water",
+      "id": "how-much",
       "category": "Le basi",
-      "title": "Perché bere acqua è importante",
-      "summary": "L'acqua fa tanto lavoro silenzioso nel tuo corpo. Uno sguardo veloce sul perché vale la pena prendere l'abitudine.",
-      "image": "stories/images/why-water.webp",
-      "animation": "stories/animations/why-water.json",
-      "readMinutes": 2,
+      "title": "Quanta acqua ti serve al giorno?",
+      "summary": "Da 6 a 8 bicchieri sono un buon inizio. Ecco cosa ti fa aver bisogno di più acqua e come capire se ne bevi abbastanza.",
+      "image": "stories/images/how-much.webp",
+      "animation": "stories/animations/how-much.json",
+      "readMinutes": 3,
       "featured": false,
       "body": [
         {
           "type": "paragraph",
-          "text": "L'acqua costituisce più della metà del tuo corpo. Porta i nutrienti alle cellule, aiuta a regolare la temperatura, protegge le articolazioni e permette ai reni di eliminare le scorie."
+          "text": "Un'indicazione comune per gli adulti è bere da 6 a 8 bicchieri di liquidi al giorno, circa da 1,5 a 2 litri. È un punto di partenza, non una regola rigida: alcuni giorni te ne servirà di più."
         },
-        { "type": "heading", "text": "In cosa aiuta bere con regolarità" },
+        { "type": "heading", "text": "Quando ti serve di più" },
         {
           "type": "list",
           "items": [
-            "Mente più lucida e meno cali nel pomeriggio",
-            "Meno mal di testa dovuti al bere troppo poco",
-            "Reni sani e digestione regolare",
-            "Restare freschi quando fa caldo e durante l'attività fisica"
+            "Clima caldo o umido",
+            "Attività fisica o un lavoro fisico",
+            "Quando stai male, soprattutto con febbre, vomito o diarrea",
+            "Gravidanza e allattamento"
           ]
         },
         { "type": "ad" },
         {
-          "type": "tip",
-          "text": "Piccoli sorsi regolari durante il giorno funzionano meglio di tanta acqua in una volta. A questo servono i tuoi promemoria."
+          "type": "paragraph",
+          "text": "Conta anche il cibo. Frutta, verdura, zuppe e yogurt aggiungono tutti un po' d'acqua alla tua giornata."
         },
+        { "type": "heading", "text": "Come capire se bevi abbastanza" },
         {
           "type": "paragraph",
-          "text": "Col tempo qui arriveranno altre storie, con consigli su pasti, sonno e su come restare in linea."
+          "text": "Una pipì giallo chiaro è un buon segno. Pipì giallo scuro, farla meno spesso o avere spesso sete di solito significa che devi bere di più."
+        },
+        {
+          "type": "tip",
+          "text": "Non cercare di bere tutto in una volta. Un bicchiere a ogni pasto e uno o due nel mezzo ti portano quasi alla meta, e il conto possono tenerlo i tuoi promemoria."
         }
       ],
       "source": {
-        "label": "NHS: Acqua, bevande e salute",
+        "label": "NHS: Acqua, bevande e idratazione",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
       }
     },
@@ -217,6 +261,200 @@
       "source": {
         "label": "NHS: Acqua, bevande e salute",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "other-drinks",
+      "category": "Abitudini",
+      "title": "Tè, caffè e latte contano?",
+      "summary": "L'acqua è la scelta migliore, ma non è l'unica bevanda che conta. Ecco cosa conta e cosa limitare.",
+      "image": "stories/images/other-drinks.webp",
+      "animation": "stories/animations/other-drinks.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "L'acqua è la bevanda migliore di tutti i giorni, ma non l'unica. Latte meno grasso e bevande con meno zucchero, compresi tè e caffè, contano tutti per i liquidi della tua giornata."
+        },
+        { "type": "heading", "text": "Tè e caffè" },
+        {
+          "type": "paragraph",
+          "text": "Contano, ma con la caffeina vai con moderazione. Alcune persone sono più sensibili di altre, quindi fai caso a come influisce sul tuo sonno e su come ti senti."
+        },
+        { "type": "ad" },
+        { "type": "heading", "text": "Bevande da limitare" },
+        {
+          "type": "list",
+          "items": [
+            "Succhi di frutta e frullati: un bicchiere piccolo (150 ml) al giorno, durante un pasto, perché contengono molto zucchero.",
+            "Bibite gassate e zuccherate: sostituiscile con acqua o versioni senza zucchero.",
+            "Sciroppi e bevande concentrate: diluiscili bene."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Rendi l'acqua semplice più invitante: aggiungi una fetta di limone o di cetriolo, oppure qualche foglia di menta."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e idratazione",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "water-foods",
+      "category": "Pasti",
+      "title": "Cibi che ti aiutano a idratarti",
+      "summary": "Una parte della tua acqua arriva dal piatto. Questi cibi ne sono pieni.",
+      "image": "stories/images/water-foods.webp",
+      "animation": "stories/animations/water-foods.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Non tutta la tua acqua arriva dalle bevande. Molti tipi di frutta e verdura sono fatti soprattutto d'acqua, e in più portano vitamine, minerali e fibre."
+        },
+        { "type": "heading", "text": "Scelte ricche d'acqua" },
+        {
+          "type": "list",
+          "items": [
+            "Cetriolo, lattuga e pomodori",
+            "Anguria e altri meloni",
+            "Arance e fragole",
+            "Zuppe, stufati e yogurt"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Aggiungi un frutto o una verdura ricchi d'acqua a ogni pasto. Conta anche per le tue 5 porzioni di frutta e verdura al giorno."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il cibo aiuta, ma non sostituisce il bere. Continua anche a bere a piccoli sorsi durante la giornata."
+        }
+      ],
+      "source": {
+        "label": "NHS: Perché 5 porzioni di frutta e verdura al giorno?",
+        "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/why-5-a-day/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "exercise",
+      "category": "Movimento",
+      "title": "Bere acqua quando fai attività fisica",
+      "summary": "Il sudore è fatto soprattutto d'acqua. Un po' di organizzazione prima, durante e dopo ti aiuta ad andare avanti.",
+      "image": "stories/images/exercise.webp",
+      "animation": "stories/animations/exercise.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Quando ti muovi sudi, e il sudore è fatto soprattutto d'acqua. Se ne perdi troppa l'attività fisica sembra più faticosa, e dopo potresti sentirti stanco o con la testa leggera."
+        },
+        { "type": "heading", "text": "Prima, durante e dopo" },
+        {
+          "type": "list",
+          "items": [
+            "Prima: bevi qualcosa nell'ora o nelle due ore prima di iniziare.",
+            "Durante: bevi a piccoli sorsi, soprattutto negli allenamenti lunghi o con il caldo.",
+            "Dopo: continua per un po' a bere poco e spesso per recuperare quello che hai perso."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Porta con te una bottiglia in palestra, a passeggio o quando vai a correre, così non devi aspettare di tornare a casa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Per l'attività fisica di tutti i giorni, alla maggior parte delle persone basta l'acqua semplice."
+        }
+      ],
+      "source": {
+        "label": "NHS: Disidratazione",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "hot-weather",
+      "category": "Salute",
+      "title": "Bere abbastanza quando fa caldo",
+      "summary": "Con il caldo perdi più acqua di quanto pensi. Modi semplici per stare al passo e restare al fresco.",
+      "image": "stories/images/hot-weather.webp",
+      "animation": "stories/animations/hot-weather.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Quando fa caldo sudi di più, quindi il tuo corpo ha bisogno di più liquidi del solito, anche nei giorni in cui non sei molto attivo."
+        },
+        { "type": "heading", "text": "Modi semplici per restare al fresco" },
+        {
+          "type": "list",
+          "items": [
+            "Bevi più liquidi e non aspettare di avere sete.",
+            "Scegli bevande fredde e cibi freschi; limita alcol, caffeina e bevande calde.",
+            "Porta con te dell'acqua quando esci.",
+            "Evita il sole nelle ore più calde della giornata."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Durante un'ondata di calore controlla come stanno i parenti anziani, i neonati e i bambini piccoli: sono più a rischio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se con il caldo hai le vertigini, ti senti confuso o molto debole, spostati in un posto fresco, bevi acqua e chiedi aiuto medico se non passa."
+        }
+      ],
+      "source": {
+        "label": "NHS: Ondata di calore: come affrontare il caldo",
+        "url": "https://www.nhs.uk/live-well/seasonal-health/heatwave-how-to-cope-in-hot-weather/"
+      }
+    },
+    {
+      "id": "headache",
+      "category": "Salute",
+      "title": "Stanco o con il mal di testa? Prova prima con l'acqua",
+      "summary": "Bere troppo poco è una causa comune di mal di testa e stanchezza, e una delle più facili da risolvere.",
+      "image": "stories/images/headache.webp",
+      "animation": "stories/animations/headache.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Non bere abbastanza liquidi è una delle cause comuni del mal di testa. Avere poca acqua in corpo può anche farti sentire stanco, con la testa leggera o con le vertigini."
+        },
+        { "type": "heading", "text": "Quando potrebbe dipendere dall'acqua" },
+        {
+          "type": "list",
+          "items": [
+            "Un mal di testa che arriva piano piano durante una giornata piena",
+            "Sentirsi stanchi o fiacchi nel pomeriggio",
+            "Bocca secca e pipì giallo scuro"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Tieni un bicchiere o una bottiglia sulla scrivania. Vederli è il promemoria più semplice per bere un sorso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il mal di testa ha molte cause. Se è molto forte, continua a tornare o non migliora, parlane con un medico o un farmacista."
+        }
+      ],
+      "source": {
+        "label": "NHS: Mal di testa",
+        "url": "https://www.nhs.uk/conditions/headaches/"
       }
     },
     {

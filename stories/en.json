@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "stories": [
     {
+      "id": "why-water",
+      "category": "Basics",
+      "title": "Why drinking water matters",
+      "summary": "Water does a lot of quiet work in your body. A quick look at why it's worth the habit.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Water makes up more than half of your body. It carries nutrients to your cells, helps control your temperature, cushions your joints and lets your kidneys clear waste."
+        },
+        { "type": "heading", "text": "What steady drinking helps with" },
+        {
+          "type": "list",
+          "items": [
+            "Clearer thinking and fewer afternoon slumps",
+            "Fewer headaches caused by not drinking enough",
+            "Healthy kidneys and regular digestion",
+            "Staying cool in hot weather and during exercise"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Small, regular drinks through the day work better than a lot at once. That's what your reminders are for."
+        },
+        {
+          "type": "paragraph",
+          "text": "More stories arrive here over time, with tips for meals, sleep and staying on track."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and your health",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
       "id": "kidneys",
       "category": "Health",
       "title": "Steady water, happy kidneys",
@@ -45,41 +84,46 @@
       }
     },
     {
-      "id": "why-water",
+      "id": "how-much",
       "category": "Basics",
-      "title": "Why drinking water matters",
-      "summary": "Water does a lot of quiet work in your body. A quick look at why it's worth the habit.",
-      "image": "stories/images/why-water.webp",
-      "animation": "stories/animations/why-water.json",
-      "readMinutes": 2,
+      "title": "How much water do you need a day?",
+      "summary": "6 to 8 glasses is a good start. Here's what makes you need more, and how to tell you're getting enough.",
+      "image": "stories/images/how-much.webp",
+      "animation": "stories/animations/how-much.json",
+      "readMinutes": 3,
       "featured": false,
       "body": [
         {
           "type": "paragraph",
-          "text": "Water makes up more than half of your body. It carries nutrients to your cells, helps control your temperature, cushions your joints and lets your kidneys clear waste."
+          "text": "A common guide for adults is 6 to 8 glasses of fluid a day, about 1.5 to 2 litres. It's a starting point, not a strict rule: some days you'll need more."
         },
-        { "type": "heading", "text": "What steady drinking helps with" },
+        { "type": "heading", "text": "What makes you need more" },
         {
           "type": "list",
           "items": [
-            "Clearer thinking and fewer afternoon slumps",
-            "Fewer headaches caused by not drinking enough",
-            "Healthy kidneys and regular digestion",
-            "Staying cool in hot weather and during exercise"
+            "Hot or humid weather",
+            "Exercise or a physical job",
+            "Being ill, especially with a fever, sickness or diarrhoea",
+            "Pregnancy and breastfeeding"
           ]
         },
         { "type": "ad" },
         {
-          "type": "tip",
-          "text": "Small, regular drinks through the day work better than a lot at once. That's what your reminders are for."
+          "type": "paragraph",
+          "text": "Food counts too. Fruit, vegetables, soups and yoghurt all add some water to your day."
         },
+        { "type": "heading", "text": "How to tell you're getting enough" },
         {
           "type": "paragraph",
-          "text": "More stories arrive here over time, with tips for meals, sleep and staying on track."
+          "text": "Pale yellow pee is a good sign. Dark yellow pee, peeing less often or feeling thirsty a lot usually means you need to drink more."
+        },
+        {
+          "type": "tip",
+          "text": "Don't try to drink it all at once. A glass with each meal and one or two in between gets you most of the way, and your reminders can do the counting."
         }
       ],
       "source": {
-        "label": "NHS: Water, drinks and your health",
+        "label": "NHS: Water, drinks and hydration",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
       }
     },
@@ -214,6 +258,200 @@
       "source": {
         "label": "NHS: Water, drinks and your health",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "other-drinks",
+      "category": "Habits",
+      "title": "Do tea, coffee and milk count?",
+      "summary": "Water is best, but it isn't the only drink that counts. Here's what does, and what to keep small.",
+      "image": "stories/images/other-drinks.webp",
+      "animation": "stories/animations/other-drinks.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Water is the best everyday drink, but it isn't the only one. Lower-fat milk and lower-sugar drinks, including tea and coffee, all count towards your daily fluid."
+        },
+        { "type": "heading", "text": "Tea and coffee" },
+        {
+          "type": "paragraph",
+          "text": "They count, but keep caffeine moderate. Some people are more sensitive to it than others, so notice how it affects your sleep and how you feel."
+        },
+        { "type": "ad" },
+        { "type": "heading", "text": "Drinks to keep small" },
+        {
+          "type": "list",
+          "items": [
+            "Fruit juice and smoothies: one small glass (150 ml) a day, with a meal, because they're high in sugar.",
+            "Fizzy and sugary drinks: swap them for water or sugar-free versions.",
+            "Squash and cordials: dilute them well."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Make plain water more tempting: add a slice of lemon or cucumber, or a few mint leaves."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and hydration",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "water-foods",
+      "category": "Meals",
+      "title": "Foods that help you stay hydrated",
+      "summary": "Some of your water comes from your plate. These foods are full of it.",
+      "image": "stories/images/water-foods.webp",
+      "animation": "stories/animations/water-foods.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Not all of your water comes from drinks. Many fruits and vegetables are mostly water, and they bring vitamins, minerals and fibre too."
+        },
+        { "type": "heading", "text": "Water-rich choices" },
+        {
+          "type": "list",
+          "items": [
+            "Cucumber, lettuce and tomatoes",
+            "Watermelon and other melons",
+            "Oranges and strawberries",
+            "Soups, stews and yoghurt"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Add one water-rich fruit or vegetable to each meal. It counts towards your 5 a day as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "Food helps, but it doesn't replace drinking. Keep sipping through the day too."
+        }
+      ],
+      "source": {
+        "label": "NHS: Why 5 a day?",
+        "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/why-5-a-day/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "exercise",
+      "category": "Activity",
+      "title": "Drinking water when you exercise",
+      "summary": "Sweat is mostly water. A little planning before, during and after keeps you going.",
+      "image": "stories/images/exercise.webp",
+      "animation": "stories/animations/exercise.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "When you move, you sweat, and sweat is mostly water. Lose too much and exercise feels harder, and you may feel tired or light-headed afterwards."
+        },
+        { "type": "heading", "text": "Before, during and after" },
+        {
+          "type": "list",
+          "items": [
+            "Before: have a drink in the hour or two before you start.",
+            "During: take small sips, especially in long or hot sessions.",
+            "After: keep drinking little and often for a while to replace what you lost."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Take a bottle with you to the gym, on a walk or on a run, so you don't have to wait until you're home."
+        },
+        {
+          "type": "paragraph",
+          "text": "For everyday exercise, plain water is all most people need."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydration",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "hot-weather",
+      "category": "Health",
+      "title": "Staying hydrated in hot weather",
+      "summary": "In the heat you lose more water than you think. Simple ways to keep up and stay cool.",
+      "image": "stories/images/hot-weather.webp",
+      "animation": "stories/animations/hot-weather.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "In hot weather you sweat more, so your body needs more fluid than usual, even on days when you're not very active."
+        },
+        { "type": "heading", "text": "Simple ways to keep cool" },
+        {
+          "type": "list",
+          "items": [
+            "Drink extra fluids, and don't wait until you're thirsty.",
+            "Have cold drinks and cool food; go easy on alcohol, caffeine and hot drinks.",
+            "Carry water when you go out.",
+            "Stay out of the sun at the hottest time of the day."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Check on older relatives, babies and young children in a heatwave: they're more at risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you feel dizzy, confused or very weak in the heat, move somewhere cool, drink water and get medical help if it doesn't pass."
+        }
+      ],
+      "source": {
+        "label": "NHS: Heatwave: how to cope in hot weather",
+        "url": "https://www.nhs.uk/live-well/seasonal-health/heatwave-how-to-cope-in-hot-weather/"
+      }
+    },
+    {
+      "id": "headache",
+      "category": "Health",
+      "title": "Tired or headachy? Try water first",
+      "summary": "Not drinking enough is a common cause of headaches and tiredness, and one of the easiest to fix.",
+      "image": "stories/images/headache.webp",
+      "animation": "stories/animations/headache.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Not drinking enough fluid is one of the common causes of headaches. Being low on water can also leave you feeling tired, light-headed or dizzy."
+        },
+        { "type": "heading", "text": "When it might be water" },
+        {
+          "type": "list",
+          "items": [
+            "A headache that creeps in during a busy day",
+            "Feeling tired or sluggish in the afternoon",
+            "A dry mouth and dark yellow pee"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Keep a glass or bottle on your desk. Seeing it is the easiest reminder to sip."
+        },
+        {
+          "type": "paragraph",
+          "text": "Headaches have many causes. If one is very bad, keeps coming back or doesn't get better, talk to a doctor or pharmacist."
+        }
+      ],
+      "source": {
+        "label": "NHS: Headaches",
+        "url": "https://www.nhs.uk/conditions/headaches/"
       }
     },
     {

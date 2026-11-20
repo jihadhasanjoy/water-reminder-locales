@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "stories": [
     {
+      "id": "why-water",
+      "category": "Grundlagen",
+      "title": "Warum Wasser trinken wichtig ist",
+      "summary": "Wasser leistet in deinem Körper viel stille Arbeit. Ein kurzer Blick darauf, warum sich die Gewohnheit lohnt.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Wasser macht mehr als die Hälfte deines Körpers aus. Es bringt Nährstoffe zu deinen Zellen, hilft, deine Temperatur zu regeln, polstert deine Gelenke und hilft deinen Nieren, Abfallstoffe auszuscheiden."
+        },
+        { "type": "heading", "text": "Wobei regelmäßiges Trinken hilft" },
+        {
+          "type": "list",
+          "items": [
+            "Klareres Denken und weniger Tiefs am Nachmittag",
+            "Weniger Kopfschmerzen, die von zu wenig Trinken kommen",
+            "Gesunde Nieren und eine regelmäßige Verdauung",
+            "Kühl bleiben bei Hitze und beim Sport"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Kleine Mengen regelmäßig über den Tag verteilt sind besser als viel auf einmal. Genau dafür sind deine Erinnerungen da."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mit der Zeit kommen hier weitere Geschichten dazu, mit Tipps zu Mahlzeiten, Schlaf und wie du auf Kurs bleibst."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
       "id": "kidneys",
       "category": "Gesundheit",
       "title": "Regelmäßig Wasser, glückliche Nieren",
@@ -48,41 +87,46 @@
       }
     },
     {
-      "id": "why-water",
+      "id": "how-much",
       "category": "Grundlagen",
-      "title": "Warum Wasser trinken wichtig ist",
-      "summary": "Wasser leistet in deinem Körper viel stille Arbeit. Ein kurzer Blick darauf, warum sich die Gewohnheit lohnt.",
-      "image": "stories/images/why-water.webp",
-      "animation": "stories/animations/why-water.json",
-      "readMinutes": 2,
+      "title": "Wie viel Wasser brauchst du am Tag?",
+      "summary": "6 bis 8 Gläser sind ein guter Anfang. Hier erfährst du, wann du mehr brauchst und woran du merkst, dass du genug trinkst.",
+      "image": "stories/images/how-much.webp",
+      "animation": "stories/animations/how-much.json",
+      "readMinutes": 3,
       "featured": false,
       "body": [
         {
           "type": "paragraph",
-          "text": "Wasser macht mehr als die Hälfte deines Körpers aus. Es bringt Nährstoffe zu deinen Zellen, hilft, deine Temperatur zu regeln, polstert deine Gelenke und hilft deinen Nieren, Abfallstoffe auszuscheiden."
+          "text": "Eine gängige Empfehlung für Erwachsene sind 6 bis 8 Gläser Flüssigkeit am Tag, etwa 1,5 bis 2 Liter. Das ist ein Ausgangspunkt, keine feste Regel: An manchen Tagen brauchst du mehr."
         },
-        { "type": "heading", "text": "Wobei regelmäßiges Trinken hilft" },
+        { "type": "heading", "text": "Wann du mehr brauchst" },
         {
           "type": "list",
           "items": [
-            "Klareres Denken und weniger Tiefs am Nachmittag",
-            "Weniger Kopfschmerzen, die von zu wenig Trinken kommen",
-            "Gesunde Nieren und eine regelmäßige Verdauung",
-            "Kühl bleiben bei Hitze und beim Sport"
+            "Heißes oder schwüles Wetter",
+            "Sport oder körperliche Arbeit",
+            "Krankheit, besonders mit Fieber, Erbrechen oder Durchfall",
+            "Schwangerschaft und Stillzeit"
           ]
         },
         { "type": "ad" },
         {
-          "type": "tip",
-          "text": "Kleine Mengen regelmäßig über den Tag verteilt sind besser als viel auf einmal. Genau dafür sind deine Erinnerungen da."
+          "type": "paragraph",
+          "text": "Auch Essen zählt. Obst, Gemüse, Suppen und Joghurt liefern dir alle etwas Wasser über den Tag."
         },
+        { "type": "heading", "text": "Woran du merkst, dass du genug trinkst" },
         {
           "type": "paragraph",
-          "text": "Mit der Zeit kommen hier weitere Geschichten dazu, mit Tipps zu Mahlzeiten, Schlaf und wie du auf Kurs bleibst."
+          "text": "Hellgelber Urin ist ein gutes Zeichen. Dunkelgelber Urin, seltener Wasserlassen oder häufiger Durst bedeuten meist, dass du mehr trinken solltest."
+        },
+        {
+          "type": "tip",
+          "text": "Versuch nicht, alles auf einmal zu trinken. Ein Glas zu jeder Mahlzeit und ein, zwei dazwischen bringen dich schon weit, und das Mitzählen können deine Erinnerungen übernehmen."
         }
       ],
       "source": {
-        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "label": "NHS: Wasser, Getränke und Flüssigkeitshaushalt",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
       }
     },
@@ -217,6 +261,203 @@
       "source": {
         "label": "NHS: Wasser, Getränke und deine Gesundheit",
         "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "other-drinks",
+      "category": "Gewohnheiten",
+      "title": "Zählen Tee, Kaffee und Milch?",
+      "summary": "Wasser ist am besten, aber nicht das einzige Getränk, das zählt. Hier erfährst du, was zählt und wovon du nur wenig trinken solltest.",
+      "image": "stories/images/other-drinks.webp",
+      "animation": "stories/animations/other-drinks.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Wasser ist das beste Getränk für jeden Tag, aber nicht das einzige. Fettarme Milch und zuckerarme Getränke, auch Tee und Kaffee, zählen alle zu deiner täglichen Trinkmenge."
+        },
+        { "type": "heading", "text": "Tee und Kaffee" },
+        {
+          "type": "paragraph",
+          "text": "Sie zählen, aber halte das Koffein in Maßen. Manche Menschen reagieren empfindlicher darauf als andere, also achte darauf, wie es sich auf deinen Schlaf und dein Befinden auswirkt."
+        },
+        { "type": "ad" },
+        {
+          "type": "heading",
+          "text": "Getränke, von denen du wenig trinken solltest"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fruchtsaft und Smoothies: ein kleines Glas (150 ml) am Tag, zu einer Mahlzeit, weil sie viel Zucker enthalten.",
+            "Limonaden und andere zuckerhaltige Getränke: Ersetze sie durch Wasser oder zuckerfreie Varianten.",
+            "Sirup und Fruchtsaftkonzentrate: gut verdünnen."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Mach einfaches Wasser verlockender: mit einer Scheibe Zitrone oder Gurke oder ein paar Minzblättern."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und Flüssigkeitshaushalt",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "water-foods",
+      "category": "Mahlzeiten",
+      "title": "Lebensmittel, die dir Flüssigkeit liefern",
+      "summary": "Ein Teil deines Wassers kommt von deinem Teller. Diese Lebensmittel stecken voller Wasser.",
+      "image": "stories/images/water-foods.webp",
+      "animation": "stories/animations/water-foods.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Nicht dein ganzes Wasser kommt aus Getränken. Viele Obst- und Gemüsesorten bestehen größtenteils aus Wasser und liefern dazu Vitamine, Mineralstoffe und Ballaststoffe."
+        },
+        { "type": "heading", "text": "Wasserreiche Auswahl" },
+        {
+          "type": "list",
+          "items": [
+            "Gurke, Salat und Tomaten",
+            "Wassermelone und andere Melonen",
+            "Orangen und Erdbeeren",
+            "Suppen, Eintöpfe und Joghurt"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Nimm zu jeder Mahlzeit ein wasserreiches Obst oder Gemüse dazu. Das zählt auch zu deinen 5 Portionen Obst und Gemüse am Tag."
+        },
+        {
+          "type": "paragraph",
+          "text": "Essen hilft, ersetzt aber nicht das Trinken. Trink trotzdem weiter über den Tag verteilt."
+        }
+      ],
+      "source": {
+        "label": "NHS: Warum 5 Portionen Obst und Gemüse am Tag?",
+        "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/why-5-a-day/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "exercise",
+      "category": "Bewegung",
+      "title": "Trinken beim Sport",
+      "summary": "Schweiß besteht größtenteils aus Wasser. Ein wenig Planung vorher, dabei und danach hält dich in Schwung.",
+      "image": "stories/images/exercise.webp",
+      "animation": "stories/animations/exercise.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Wenn du dich bewegst, schwitzt du, und Schweiß besteht größtenteils aus Wasser. Verlierst du zu viel, fühlt sich der Sport schwerer an, und danach bist du vielleicht müde oder dir ist leicht schwindelig."
+        },
+        { "type": "heading", "text": "Vorher, dabei und danach" },
+        {
+          "type": "list",
+          "items": [
+            "Vorher: Trink etwas in den ein, zwei Stunden, bevor du anfängst.",
+            "Dabei: Nimm kleine Schlucke, besonders bei langen Einheiten oder bei Hitze.",
+            "Danach: Trink noch eine Weile oft kleine Mengen, um auszugleichen, was du verloren hast."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Nimm eine Flasche mit ins Fitnessstudio, auf den Spaziergang oder zum Laufen, damit du nicht warten musst, bis du zu Hause bist."
+        },
+        {
+          "type": "paragraph",
+          "text": "Für normalen Alltagssport brauchen die meisten Menschen einfach nur Wasser."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydrierung",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "hot-weather",
+      "category": "Gesundheit",
+      "title": "Genug trinken bei Hitze",
+      "summary": "Bei Hitze verlierst du mehr Wasser, als du denkst. Einfache Wege, mitzuhalten und kühl zu bleiben.",
+      "image": "stories/images/hot-weather.webp",
+      "animation": "stories/animations/hot-weather.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Bei heißem Wetter schwitzt du mehr, deshalb braucht dein Körper mehr Flüssigkeit als sonst, auch an Tagen, an denen du nicht besonders aktiv bist."
+        },
+        { "type": "heading", "text": "Einfache Wege, kühl zu bleiben" },
+        {
+          "type": "list",
+          "items": [
+            "Trink mehr als sonst und warte nicht, bis du Durst hast.",
+            "Greif zu kalten Getränken und kühlem Essen; sei zurückhaltend mit Alkohol, Koffein und heißen Getränken.",
+            "Nimm Wasser mit, wenn du unterwegs bist.",
+            "Meide die Sonne zur heißesten Zeit des Tages."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Schau bei einer Hitzewelle nach älteren Angehörigen, Babys und kleinen Kindern: Für sie ist das Risiko höher."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn dir bei Hitze schwindelig ist, du verwirrt bist oder dich sehr schwach fühlst, geh an einen kühlen Ort, trink Wasser und hol dir ärztliche Hilfe, wenn es nicht vorbeigeht."
+        }
+      ],
+      "source": {
+        "label": "NHS: Hitzewelle: So kommst du mit heißem Wetter zurecht",
+        "url": "https://www.nhs.uk/live-well/seasonal-health/heatwave-how-to-cope-in-hot-weather/"
+      }
+    },
+    {
+      "id": "headache",
+      "category": "Gesundheit",
+      "title": "Müde oder Kopfschmerzen? Probier es zuerst mit Wasser",
+      "summary": "Zu wenig zu trinken ist eine häufige Ursache für Kopfschmerzen und Müdigkeit, und eine der am leichtesten zu behebenden.",
+      "image": "stories/images/headache.webp",
+      "animation": "stories/animations/headache.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Zu wenig Flüssigkeit ist eine der häufigen Ursachen für Kopfschmerzen. Wassermangel kann auch dazu führen, dass du dich müde, benommen oder schwindelig fühlst."
+        },
+        { "type": "heading", "text": "Wann es am Wasser liegen könnte" },
+        {
+          "type": "list",
+          "items": [
+            "Kopfschmerzen, die sich an einem vollen Tag einschleichen",
+            "Müdigkeit oder Trägheit am Nachmittag",
+            "Ein trockener Mund und dunkelgelber Urin"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Stell dir ein Glas oder eine Flasche auf den Schreibtisch. Sie zu sehen ist die einfachste Erinnerung, einen Schluck zu trinken."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kopfschmerzen haben viele Ursachen. Wenn sie sehr stark sind, immer wiederkommen oder nicht besser werden, sprich mit einer Ärztin oder einem Arzt oder in der Apotheke."
+        }
+      ],
+      "source": {
+        "label": "NHS: Kopfschmerzen",
+        "url": "https://www.nhs.uk/conditions/headaches/"
       }
     },
     {
