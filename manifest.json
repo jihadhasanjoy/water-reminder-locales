@@ -1,44 +1,97 @@
 {
   "schemaVersion": 1,
-  "version": 20,
-  "updatedAt": "2026-11-19T16:50:46.231Z",
+  "version": 24,
+  "updatedAt": "2026-11-20T05:31:10.157Z",
   "languages": "languages.json",
   "languagesSha256": "246fd0d9d0475306a85f080547335b34cc815bd19a07f4dce3c66aa1a68de4f2",
   "locales": {
     "en": {
       "file": "locales/en.json",
-      "sha256": "d125f6bdffbd515562ce7fd501f915707c8abd6029d6765a0d59d0c5659c46b5",
-      "keys": 397
+      "sha256": "db6132d477da58566571c42c8930ac17aa58d431f19c42ff65435756d548fa08",
+      "keys": 408
     },
     "bn": {
       "file": "locales/bn.json",
-      "sha256": "df059fc7fcf166afcb29f8ef71c5daf7a031f0dc869b496ad8859c87d7b53140",
-      "keys": 397
+      "sha256": "d46d39ccd45a26add3e93752609f9e6756f3460bf8b1f8e6d8d6ba5ef0c8aaaf",
+      "keys": 408
     },
     "hi": {
       "file": "locales/hi.json",
-      "sha256": "a4e86326b4aa7192fa290888fd454f746318c82c8c9c6df884bcaf2a40e6ee65",
-      "keys": 397
+      "sha256": "625fd931125850d8fad3266e9ea935d8ca12c7c3e89c1e651dc2e2baf47dc675",
+      "keys": 408
     },
     "ur": {
       "file": "locales/ur.json",
-      "sha256": "8f06a1148d7c2fceeb69ddd5eb7fe4b6ce00fc9ee13b986fa85a5c152bc5ac6f",
-      "keys": 397
+      "sha256": "5e9f29935f6da4dc951b6b3d384f613013f30485d1d00297f07c2378bd248e71",
+      "keys": 408
     },
     "de": {
       "file": "locales/de.json",
-      "sha256": "8e5e4e2662e302d51178f422eca7680156d2a139642e518568ed684ace8225ad",
-      "keys": 397
+      "sha256": "e615130c64de002b155c06a8319c89dcb4a0611639639b36ff74212969b7149e",
+      "keys": 408
     },
     "it": {
       "file": "locales/it.json",
-      "sha256": "6773afb7ec5f925def586099b206c22da8d767edfbac3bd2ad3cca234da8a8d1",
-      "keys": 397
+      "sha256": "f752a16ecabff54a149cf9d83610c11ea62a55717fd815e913dc9f5f9bbd7c5d",
+      "keys": 408
     },
     "zh": {
       "file": "locales/zh.json",
-      "sha256": "7dc083d5fabf2878878cce96efc7810e8c6dc28775185f8120e302a50b651226",
-      "keys": 397
+      "sha256": "45b1a363a2fe0f807402f761da992922ad14d94cd50b055c1803fc5b0b180ecb",
+      "keys": 408
+    }
+  },
+  "stories": {
+    "bn": {
+      "file": "stories/bn.json",
+      "sha256": "8bd66d0c3b0de5f7358afbb8e12543267a96aeb7db4f0eb15c9825f56bbcde63"
+    },
+    "de": {
+      "file": "stories/de.json",
+      "sha256": "25e6e80111be7679ee43b2d377435802cdae25a3a07bedc8a547332d0e14884a"
+    },
+    "en": {
+      "file": "stories/en.json",
+      "sha256": "deb5b08e5355baa3a2525e6f7eec87be12f5615e8b3c259e5f78194d6b3d4abe"
+    },
+    "hi": {
+      "file": "stories/hi.json",
+      "sha256": "e9f67044bd2cb5142d637147253357af5c18536449f4391c0981d2bdb6cdc46c"
+    },
+    "it": {
+      "file": "stories/it.json",
+      "sha256": "b85849796a0044c32f5c2652ccbe0628ae19f5c969c6962afa249403d41c6ba7"
+    },
+    "ur": {
+      "file": "stories/ur.json",
+      "sha256": "d23804f5fb4f88148a19a460567f3efb57abdcf5bda9f09474d5643053a726da"
+    },
+    "zh": {
+      "file": "stories/zh.json",
+      "sha256": "34620609cca291054d14c7369162f597c953eb54b19a74c249c67e64f0d33d53"
+    }
+  },
+  "animations": {
+    "stories/animations/breakfast.json": {
+      "sha256": "c59f0d558af5b1c76ed994c3c5ed76c942431f77a988c5f317e365009a7c7c7a"
+    },
+    "stories/animations/evening.json": {
+      "sha256": "ffbfc598f9dd41f2b873946f0e6535d7d03d51fbea6ef6e612771c89d484e582"
+    },
+    "stories/animations/kidneys.json": {
+      "sha256": "fd64de615351e3b4ff0bf883c7c52cdca5a81fac182d58648dfe27a8c9fdbeb6"
+    },
+    "stories/animations/lunch.json": {
+      "sha256": "0e14fe9edba8434d33ebc289c0f6f0bcabc33357f8c9adc538802882fd034283"
+    },
+    "stories/animations/morning-glass.json": {
+      "sha256": "85c1febd3bcef5c494e937117be0e1e313ba0258a4ceb4bb72703d306739d960"
+    },
+    "stories/animations/signs.json": {
+      "sha256": "d6482f574cd01abc2306ff3f3b7f93a4ff7655189dc78fbc96feacecd182c984"
+    },
+    "stories/animations/why-water.json": {
+      "sha256": "c5b7eaa2451a01d3a8dea5ba3ccf37fbf7c3b99dbac703cf268870aaec8e12cc"
     }
   }
 }

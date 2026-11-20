@@ -21,3 +21,5 @@ jobs:
         run: node scripts/build-manifest.mjs --check
       - name: App config is valid
         run: node scripts/validate-config.mjs
+      - name: Stories are valid
+        run: node scripts/validate-stories.mjs

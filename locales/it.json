@@ -17,6 +17,7 @@
   "tabs": {
     "home": "Home",
     "history": "Cronologia",
+    "insights": "Approfondimenti",
     "settings": "Impostazioni",
     "gallery": "Galleria"
   },
@@ -392,7 +393,8 @@
     "watch": "Guarda il video",
     "hidden": "Niente pubblicità fino a domani. Grazie per aver guardato!",
     "notFinished": "Guarda il video fino alla fine per nascondere le pubblicità.",
-    "unavailable": "Nessun video disponibile ora. Riprova più tardi."
+    "unavailable": "Nessun video disponibile ora. Riprova più tardi.",
+    "label": "Pubblicità"
   },
   "feedback": {
     "section": "Feedback",
@@ -483,5 +485,16 @@
     "failed": "Impossibile aprire l'aggiornamento. Riprova o aggiorna dallo store.",
     "availableTitleVersion": "È arrivata la versione {{version}}",
     "notReady": "L'aggiornamento non è ancora pronto da scaricare. Riprova più tardi."
+  },
+  "insights": {
+    "title": "Storie sull'acqua",
+    "emptyTitle": "Nessun approfondimento trovato",
+    "emptyBody": "Le nuove storie sull'acqua appariranno qui. Trascina verso il basso per controllare di nuovo.",
+    "more": "Altro da leggere",
+    "readMinutes": "{{count}} min di lettura",
+    "offline": "Impossibile caricare le storie. Controlla la connessione.",
+    "source": "Fonte: {{label}}",
+    "disclaimer": "Informazioni generali sul benessere, non consigli medici.",
+    "notFound": "Questa storia non è più disponibile."
   }
 }

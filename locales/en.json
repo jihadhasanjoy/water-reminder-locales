@@ -17,6 +17,7 @@
   "tabs": {
     "home": "Home",
     "history": "History",
+    "insights": "Insights",
     "settings": "Settings",
     "gallery": "Gallery"
   },
@@ -392,7 +393,8 @@
     "watch": "Watch video",
     "hidden": "No ads until tomorrow. Thanks for watching!",
     "notFinished": "Watch the video to the end to hide ads.",
-    "unavailable": "No video right now. Please try again later."
+    "unavailable": "No video right now. Please try again later.",
+    "label": "Advertisement"
   },
   "feedback": {
     "section": "Feedback",
@@ -483,5 +485,16 @@
     "failed": "Couldn't open the update. Try again, or update from the store.",
     "availableTitleVersion": "Version {{version}} is here",
     "notReady": "The update isn't ready to download yet. Please try again later."
+  },
+  "insights": {
+    "title": "Water stories",
+    "emptyTitle": "No insights found",
+    "emptyBody": "New stories about water will show up here. Pull down to check again.",
+    "more": "More to read",
+    "readMinutes": "{{count}} min read",
+    "offline": "Couldn't load stories. Check your connection.",
+    "source": "Source: {{label}}",
+    "disclaimer": "General wellness information, not medical advice.",
+    "notFound": "This story is no longer available."
   }
 }

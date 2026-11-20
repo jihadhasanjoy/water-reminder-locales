@@ -17,6 +17,7 @@
   "tabs": {
     "home": "首页",
     "history": "记录",
+    "insights": "洞察",
     "settings": "设置",
     "gallery": "图库"
   },
@@ -392,7 +393,8 @@
     "watch": "观看视频",
     "hidden": "明天之前不再显示广告。感谢观看！",
     "notFinished": "看完视频才能隐藏广告。",
-    "unavailable": "暂时没有视频，请稍后再试。"
+    "unavailable": "暂时没有视频，请稍后再试。",
+    "label": "广告"
   },
   "feedback": {
     "section": "反馈",
@@ -483,5 +485,16 @@
     "failed": "无法打开更新。请重试，或前往应用商店更新。",
     "availableTitleVersion": "{{version}} 版本来了",
     "notReady": "更新暂时还不能下载，请稍后再试。"
+  },
+  "insights": {
+    "title": "喝水小知识",
+    "emptyTitle": "暂无内容",
+    "emptyBody": "关于喝水的新内容会显示在这里。下拉即可重新检查。",
+    "more": "更多阅读",
+    "readMinutes": "阅读约 {{count}} 分钟",
+    "offline": "无法加载内容。请检查你的网络连接。",
+    "source": "来源：{{label}}",
+    "disclaimer": "一般健康信息，不构成医疗建议。",
+    "notFound": "此内容已不可用。"
   }
 }

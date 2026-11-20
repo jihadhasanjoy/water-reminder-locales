@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "kidneys",
+      "category": "Gesundheit",
+      "title": "Regelmäßig Wasser, glückliche Nieren",
+      "summary": "Deine Nieren filtern den ganzen Tag dein Blut. So helfen ihnen regelmäßige Schlucke dabei.",
+      "image": "stories/images/kidneys.webp",
+      "animation": "stories/animations/kidneys.json",
+      "readMinutes": 3,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Deine Nieren filtern rund um die Uhr dein Blut und scheiden Abfallstoffe und überschüssiges Salz mit dem Urin aus. Damit das gut klappt, brauchen sie genug Wasser."
+        },
+        {
+          "type": "heading",
+          "text": "Warum regelmäßig besser ist als viel auf einmal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn du über den Tag verteilt regelmäßig trinkst, bleibt dein Urin verdünnt. In verdünntem Urin können Mineralien schwerer zusammenklumpen, und so entstehen unter anderem Nierensteine."
+        },
+        { "type": "ad" },
+        {
+          "type": "list",
+          "items": [
+            "Hellgelber Urin ist ein gutes Zeichen, dass du genug trinkst.",
+            "Dunkelgelber Urin bedeutet meist, dass du mehr brauchst.",
+            "Hitze, Sport und Krankheit erhöhen deinen Bedarf."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Verteile dein Trinken: Ein Glas zu jeder Mahlzeit und ein paar dazwischen sind für deinen Körper angenehmer als eine große Menge auf einmal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn du eine Nieren- oder Herzerkrankung hast, empfiehlt dir deine Ärztin oder dein Arzt vielleicht eine andere Trinkmenge. Halte dich an diesen Rat."
+        },
+        { "type": "ad" }
+      ],
+      "source": {
+        "label": "NHS: Nierensteinen vorbeugen",
+        "url": "https://www.nhs.uk/conditions/kidney-stones/prevention/"
+      }
+    },
+    {
+      "id": "why-water",
+      "category": "Grundlagen",
+      "title": "Warum Wasser trinken wichtig ist",
+      "summary": "Wasser leistet in deinem Körper viel stille Arbeit. Ein kurzer Blick darauf, warum sich die Gewohnheit lohnt.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Wasser macht mehr als die Hälfte deines Körpers aus. Es bringt Nährstoffe zu deinen Zellen, hilft, deine Temperatur zu regeln, polstert deine Gelenke und hilft deinen Nieren, Abfallstoffe auszuscheiden."
+        },
+        { "type": "heading", "text": "Wobei regelmäßiges Trinken hilft" },
+        {
+          "type": "list",
+          "items": [
+            "Klareres Denken und weniger Tiefs am Nachmittag",
+            "Weniger Kopfschmerzen, die von zu wenig Trinken kommen",
+            "Gesunde Nieren und eine regelmäßige Verdauung",
+            "Kühl bleiben bei Hitze und beim Sport"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Kleine Mengen regelmäßig über den Tag verteilt sind besser als viel auf einmal. Genau dafür sind deine Erinnerungen da."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mit der Zeit kommen hier weitere Geschichten dazu, mit Tipps zu Mahlzeiten, Schlaf und wie du auf Kurs bleibst."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "morning-glass",
+      "category": "Gewohnheiten",
+      "title": "Starte den Tag mit einem Glas",
+      "summary": "Nach dem Aufwachen hast du stundenlang nichts getrunken. Ein Glas ist ein leichter erster Erfolg.",
+      "image": "stories/images/morning.webp",
+      "animation": "stories/animations/morning-glass.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Auch im Schlaf verlierst du Wasser über Atem und Haut, und sieben oder acht Stunden lang trinkst du nichts. Viele Menschen wachen deshalb mit einem kleinen Rückstand auf."
+        },
+        { "type": "heading", "text": "Mach es zur Routine" },
+        {
+          "type": "list",
+          "items": [
+            "Stell dir ein volles Glas oder eine volle Flasche neben das Bett.",
+            "Trink es, bevor du zum Handy, Kaffee oder Tee greifst.",
+            "Trag es gleich ein, damit dein Tag mit einem Fortschritt beginnt."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Eine neue Gewohnheit lässt sich viel leichter halten, wenn du sie mit etwas verbindest, das du ohnehin jeden Morgen tust, zum Beispiel Zähneputzen."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "breakfast",
+      "category": "Mahlzeiten",
+      "title": "Wasser zum Frühstück",
+      "summary": "Ein Glas zur ersten Mahlzeit gleicht aus, was die Nacht genommen hat, und gibt dein Tempo vor.",
+      "image": "stories/images/breakfast.webp",
+      "animation": "stories/animations/breakfast.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Das Frühstück ist ein natürlicher Moment zum Trinken. Ein Glas Wasser dazu hilft dir, nach der Nacht aufzuholen, und lässt sich leicht jeden Tag wiederholen."
+        },
+        { "type": "heading", "text": "Wie viel?" },
+        {
+          "type": "paragraph",
+          "text": "Ein normales Glas (etwa 250 ml) reicht völlig. Auch Tee, Kaffee und Milch zählen zu deiner Tagesmenge, aber reines Wasser ist die einfachste Wahl."
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Wenn es morgens schnell gehen muss, trink dein Glas, während das Frühstück zubereitet wird oder der Wasserkocher läuft."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "lunch",
+      "category": "Mahlzeiten",
+      "title": "Rund ums Mittagessen: vorher, dabei, danach",
+      "summary": "Ein Tief am Nachmittag ist oft ein wenig Durst. Hier ist ein einfacher Rhythmus für die Tagesmitte.",
+      "image": "stories/images/lunch.webp",
+      "animation": "stories/animations/lunch.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Mittags geraten viele in Rückstand: volle Vormittage, Meetings, Besorgungen. Das Mittagessen ist ein guter Moment zum Aufholen."
+        },
+        { "type": "heading", "text": "Ein einfacher Rhythmus für mittags" },
+        {
+          "type": "list",
+          "items": [
+            "Ein Glas vor dem Essen kann dir helfen zu merken, wann du satt bist.",
+            "Trink beim Essen in kleinen Schlucken; für die meisten Menschen ist Trinken zum Essen in Ordnung.",
+            "Trink in der Stunde nach dem Mittagessen noch ein Glas, wenn oft die Müdigkeit kommt."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Am Nachmittag müde oder unkonzentriert? Probier ein Glas Wasser, bevor du zu einem Snack oder noch einem Kaffee greifst."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydrierung",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "evening",
+      "category": "Mahlzeiten",
+      "title": "Nach dem Abendessen und vor dem Schlafen",
+      "summary": "Beende den Tag gut, ohne nachts zur Toilette aufstehen zu müssen.",
+      "image": "stories/images/evening.webp",
+      "animation": "stories/animations/evening.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ein Glas zum Abendessen hilft dir, dein Ziel zu erreichen. In den letzten ein, zwei Stunden vor dem Schlafen sind kleine Schlucke besser als große Gläser."
+        },
+        { "type": "heading", "text": "Gut schlafen und auf Kurs bleiben" },
+        {
+          "type": "list",
+          "items": [
+            "Trink den Großteil deines Wassers vor dem Abend.",
+            "Trink ein Glas zum Abendessen.",
+            "Heb dir für die letzte Stunde vor dem Schlafen nur ein paar Schlucke auf."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Wenn du nachts oft zur Toilette musst, trink mehr davon früher am Tag."
+        }
+      ],
+      "source": {
+        "label": "NHS: Wasser, Getränke und deine Gesundheit",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "signs",
+      "category": "Gesundheit",
+      "title": "Anzeichen, dass du mehr Wasser brauchst",
+      "summary": "Durst ist nicht das einzige Signal. Lerne die frühen Anzeichen kennen, damit du früher reagieren kannst.",
+      "image": "stories/images/signs.webp",
+      "animation": "stories/animations/signs.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Wenn du sehr durstig bist, bittet dein Körper schon eine Weile um Wasser. Auf diese frühen Anzeichen lohnt es sich zu achten."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dunkelgelber, stark riechender Urin",
+            "Müdigkeit oder Schwindel",
+            "Trockener Mund, trockene Lippen oder Augen",
+            "Kopfschmerzen",
+            "Nur wenig Wasserlassen, weniger als 4-mal am Tag"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Meist reichen ein paar Gläser Wasser in den nächsten Stunden. Wenn die Anzeichen stark sind oder nicht besser werden, wende dich an eine Ärztin oder einen Arzt."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydrierung",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    }
+  ]
+}

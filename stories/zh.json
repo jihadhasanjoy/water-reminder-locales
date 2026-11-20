@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "kidneys",
+      "category": "健康",
+      "title": "规律喝水，肾脏更轻松",
+      "summary": "肾脏全天都在过滤血液。来看看规律小口喝水如何帮它们做好这件事。",
+      "image": "stories/images/kidneys.webp",
+      "animation": "stories/animations/kidneys.json",
+      "readMinutes": 3,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "肾脏全天候过滤你的血液，把废物和多余的盐分通过尿液排出。要做好这件事，它们需要足够的水。"
+        },
+        { "type": "heading", "text": "为什么少量多次胜过一次喝很多" },
+        {
+          "type": "paragraph",
+          "text": "全天规律喝水能让尿液保持稀释。在稀释的尿液中，矿物质更难聚集成块，而这正是肾结石形成的途径之一。"
+        },
+        { "type": "ad" },
+        {
+          "type": "list",
+          "items": [
+            "尿液呈淡黄色，说明你喝得差不多够了。",
+            "尿液呈深黄色，通常说明你需要多喝一些。",
+            "天气炎热、运动和生病时，你需要的水会更多。"
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "把喝水分散开：每餐一杯，餐间再喝几杯，比一次喝很多对身体更友好。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果你有肾脏或心脏方面的疾病，医生可能会建议不同的饮水量。请遵从医生的建议。"
+        },
+        { "type": "ad" }
+      ],
+      "source": {
+        "label": "NHS：预防肾结石",
+        "url": "https://www.nhs.uk/conditions/kidney-stones/prevention/"
+      }
+    },
+    {
+      "id": "why-water",
+      "category": "基础知识",
+      "title": "为什么喝水很重要",
+      "summary": "水在你身体里默默做了很多工作。快速了解一下，为什么这个习惯值得坚持。",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "水占你身体的一半以上。它把营养输送到细胞，帮助调节体温，缓冲关节，还让肾脏能够清除废物。"
+        },
+        { "type": "heading", "text": "规律喝水有哪些帮助" },
+        {
+          "type": "list",
+          "items": [
+            "思路更清晰，下午少犯困",
+            "减少因喝水不足引起的头痛",
+            "肾脏健康，消化规律",
+            "天热和运动时保持凉爽"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "一天中少量多次地喝，比一次喝很多效果更好。这正是提醒的用处。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这里会陆续更新更多文章，带来关于三餐、睡眠和坚持目标的小建议。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与你的健康",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "morning-glass",
+      "category": "习惯",
+      "title": "用一杯水开启新的一天",
+      "summary": "醒来时，你已经好几个小时没喝水了。一杯水就是轻松的第一步。",
+      "image": "stories/images/morning.webp",
+      "animation": "stories/animations/morning-glass.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "睡觉时，你仍会通过呼吸和皮肤流失水分，而且七八个小时都没有喝水。很多人醒来时，喝水进度已经落后了一点。"
+        },
+        { "type": "heading", "text": "让它变成自然而然的习惯" },
+        {
+          "type": "list",
+          "items": [
+            "在床边放一满杯水或一瓶水。",
+            "在看手机、喝咖啡或喝茶之前先把它喝掉。",
+            "马上记录下来，让一天从进步开始。"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "把新习惯和每天早上本来就会做的事绑在一起，比如刷牙，会更容易坚持。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与你的健康",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "breakfast",
+      "category": "三餐",
+      "title": "早餐配一杯水",
+      "summary": "第一餐时喝一杯水，补上夜里流失的水分，也定下一天的节奏。",
+      "image": "stories/images/breakfast.webp",
+      "animation": "stories/animations/breakfast.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "早餐是喝水的自然时机。早餐时喝一杯水，能帮你补上一夜的消耗，而且这个习惯每天都很容易重复。"
+        },
+        { "type": "heading", "text": "喝多少？" },
+        {
+          "type": "paragraph",
+          "text": "一杯普通大小的水（约 250 ml）就足够了。茶、咖啡和牛奶也算进每日总量，不过白开水是最简单的选择。"
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "如果早上很赶，可以趁做早餐或烧水的时候把这杯水喝掉。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与你的健康",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "lunch",
+      "category": "三餐",
+      "title": "午餐前后：餐前、餐中、餐后",
+      "summary": "下午犯困，常常只是有点口渴。这里有一个简单的午间节奏。",
+      "image": "stories/images/lunch.webp",
+      "animation": "stories/animations/lunch.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "很多人到了中午喝水进度就落后了：上午忙碌、开会、跑腿。午餐是补上的好时机。"
+        },
+        { "type": "heading", "text": "简单的午间节奏" },
+        {
+          "type": "list",
+          "items": [
+            "饭前喝一杯，可以帮你更容易察觉自己什么时候吃饱了。",
+            "吃饭时小口喝；对大多数人来说，边吃边喝没有问题。",
+            "午饭后一小时内再喝一杯，这时人往往容易犯困。"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "下午觉得困，或者注意力不集中？在拿零食或再来一杯咖啡之前，先试试喝杯水。"
+        }
+      ],
+      "source": {
+        "label": "NHS：脱水",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "evening",
+      "category": "三餐",
+      "title": "晚饭后和睡前",
+      "summary": "好好收尾这一天，不必半夜起来上厕所。",
+      "image": "stories/images/evening.webp",
+      "animation": "stories/animations/evening.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "晚饭时喝一杯水，帮你达成目标。睡前最后一两个小时，小口喝比大杯喝更好。"
+        },
+        { "type": "heading", "text": "睡得好，进度也不落下" },
+        {
+          "type": "list",
+          "items": [
+            "大部分的水在傍晚之前喝完。",
+            "晚饭时喝一杯。",
+            "睡前最后一小时只留几小口。"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "如果你夜里常起来上厕所，就把更多的饮水安排在白天早些时候。"
+        }
+      ],
+      "source": {
+        "label": "NHS：水、饮品与你的健康",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "signs",
+      "category": "健康",
+      "title": "你需要多喝水的信号",
+      "summary": "口渴不是唯一的信号。了解早期迹象，就能更早行动。",
+      "image": "stories/images/signs.webp",
+      "animation": "stories/animations/signs.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "等你感到非常口渴时，身体其实已经要水有一阵子了。这些早期迹象值得留意。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "尿液深黄、气味重",
+            "感到疲倦或头晕",
+            "口干、嘴唇干或眼睛干",
+            "头痛",
+            "尿量少，一天少于 4 次"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "大多数情况下，在接下来几个小时里喝几杯水就够了。如果症状严重或没有好转，请联系医生。"
+        }
+      ],
+      "source": {
+        "label": "NHS：脱水",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    }
+  ]
+}

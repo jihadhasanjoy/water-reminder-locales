@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "kidneys",
+      "category": "Salute",
+      "title": "Acqua costante, reni felici",
+      "summary": "I tuoi reni filtrano il sangue tutto il giorno. Ecco come i sorsi regolari li aiutano a farlo.",
+      "image": "stories/images/kidneys.webp",
+      "animation": "stories/animations/kidneys.json",
+      "readMinutes": 3,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "I tuoi reni filtrano il sangue giorno e notte, eliminando scorie e sale in eccesso con l'urina. Per farlo bene, hanno bisogno di abbastanza acqua."
+        },
+        {
+          "type": "heading",
+          "text": "Perché poco e spesso è meglio che tanto in una volta"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bere regolarmente durante la giornata mantiene l'urina diluita. Nell'urina diluita i minerali fanno più fatica ad aggregarsi, ed è proprio così che si formano, tra l'altro, i calcoli renali."
+        },
+        { "type": "ad" },
+        {
+          "type": "list",
+          "items": [
+            "Un'urina giallo chiaro è un buon segno che stai bevendo abbastanza.",
+            "Un'urina giallo scuro di solito significa che devi bere di più.",
+            "Caldo, attività fisica e malattia aumentano il tuo fabbisogno."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Distribuisci ciò che bevi: un bicchiere a ogni pasto e qualcuno nel mezzo è più facile per il tuo corpo di una grande quantità tutta insieme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se hai una malattia ai reni o al cuore, il tuo medico potrebbe indicarti una quantità diversa da bere. Segui i suoi consigli."
+        },
+        { "type": "ad" }
+      ],
+      "source": {
+        "label": "NHS: Prevenire i calcoli renali",
+        "url": "https://www.nhs.uk/conditions/kidney-stones/prevention/"
+      }
+    },
+    {
+      "id": "why-water",
+      "category": "Le basi",
+      "title": "Perché bere acqua è importante",
+      "summary": "L'acqua fa tanto lavoro silenzioso nel tuo corpo. Uno sguardo veloce sul perché vale la pena prendere l'abitudine.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "L'acqua costituisce più della metà del tuo corpo. Porta i nutrienti alle cellule, aiuta a regolare la temperatura, protegge le articolazioni e permette ai reni di eliminare le scorie."
+        },
+        { "type": "heading", "text": "In cosa aiuta bere con regolarità" },
+        {
+          "type": "list",
+          "items": [
+            "Mente più lucida e meno cali nel pomeriggio",
+            "Meno mal di testa dovuti al bere troppo poco",
+            "Reni sani e digestione regolare",
+            "Restare freschi quando fa caldo e durante l'attività fisica"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Piccoli sorsi regolari durante il giorno funzionano meglio di tanta acqua in una volta. A questo servono i tuoi promemoria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Col tempo qui arriveranno altre storie, con consigli su pasti, sonno e su come restare in linea."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e salute",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "morning-glass",
+      "category": "Abitudini",
+      "title": "Inizia la giornata con un bicchiere",
+      "summary": "Ti svegli dopo ore senza bere. Un bicchiere è una prima vittoria facile.",
+      "image": "stories/images/morning.webp",
+      "animation": "stories/animations/morning-glass.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Mentre dormi perdi comunque acqua con il respiro e la pelle, e non bevi per sette o otto ore. Molte persone si svegliano un po' indietro."
+        },
+        { "type": "heading", "text": "Rendilo automatico" },
+        {
+          "type": "list",
+          "items": [
+            "Lascia un bicchiere o una bottiglia pieni accanto al letto.",
+            "Bevilo prima del telefono, del caffè o del tè.",
+            "Registralo subito, così la tua giornata inizia con un progresso."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Legare una nuova abitudine a qualcosa che fai già ogni mattina, come lavarti i denti, la rende molto più facile da mantenere."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e salute",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "breakfast",
+      "category": "Pasti",
+      "title": "Acqua a colazione",
+      "summary": "Un bicchiere al primo pasto recupera ciò che la notte ha tolto e ti dà il ritmo.",
+      "image": "stories/images/breakfast.webp",
+      "animation": "stories/animations/breakfast.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "La colazione è un momento naturale per bere. Un bicchiere d'acqua insieme ti aiuta a recuperare dopo la notte, ed è un'abitudine facile da ripetere ogni giorno."
+        },
+        { "type": "heading", "text": "Quanta?" },
+        {
+          "type": "paragraph",
+          "text": "Un bicchiere normale (circa 250 ml) è più che sufficiente. Anche tè, caffè e latte contano nel totale della giornata, ma l'acqua semplice resta la scelta più facile."
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Se la mattina vai di corsa, bevi il tuo bicchiere mentre prepari la colazione o mentre bolle l'acqua."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e salute",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "lunch",
+      "category": "Pasti",
+      "title": "A pranzo: prima, durante, dopo",
+      "summary": "Il calo del pomeriggio spesso è solo un po' di sete. Ecco un ritmo facile per metà giornata.",
+      "image": "stories/images/lunch.webp",
+      "animation": "stories/animations/lunch.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A metà giornata molte persone restano indietro: mattinate piene, riunioni, commissioni. Il pranzo è un buon momento per recuperare."
+        },
+        { "type": "heading", "text": "Un ritmo facile per metà giornata" },
+        {
+          "type": "list",
+          "items": [
+            "Un bicchiere prima di mangiare può aiutarti ad accorgerti di quando sei sazio.",
+            "Bevi a piccoli sorsi durante il pasto; per la maggior parte delle persone bere mentre si mangia va bene.",
+            "Bevi un altro bicchiere nell'ora dopo pranzo, quando di solito arriva la stanchezza."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Ti senti assonnato o poco concentrato nel pomeriggio? Prova un bicchiere d'acqua prima di cercare uno snack o un altro caffè."
+        }
+      ],
+      "source": {
+        "label": "NHS: Disidratazione",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "evening",
+      "category": "Pasti",
+      "title": "Dopo cena e prima di dormire",
+      "summary": "Chiudi bene la giornata senza svegliarti di notte per andare in bagno.",
+      "image": "stories/images/evening.webp",
+      "animation": "stories/animations/evening.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Un bicchiere a cena ti aiuta a raggiungere il tuo obiettivo. Nell'ultima ora o due prima di dormire, meglio piccoli sorsi che bicchieri grandi."
+        },
+        { "type": "heading", "text": "Dormi bene e resta in linea" },
+        {
+          "type": "list",
+          "items": [
+            "Bevi la maggior parte dell'acqua prima di sera.",
+            "Bevi un bicchiere a cena.",
+            "Tieni solo qualche sorso per l'ultima ora prima di dormire."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Se ti svegli spesso di notte per andare in bagno, bevi di più nella prima parte della giornata."
+        }
+      ],
+      "source": {
+        "label": "NHS: Acqua, bevande e salute",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "signs",
+      "category": "Salute",
+      "title": "Segnali che ti serve più acqua",
+      "summary": "La sete non è l'unico segnale. Impara a riconoscere i primi segni per agire prima.",
+      "image": "stories/images/signs.webp",
+      "animation": "stories/animations/signs.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Quando senti molta sete, il tuo corpo ti chiede acqua già da un po'. Vale la pena notare questi primi segnali."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Urina giallo scuro e dall'odore forte",
+            "Sentirsi stanchi o avere le vertigini",
+            "Bocca, labbra o occhi secchi",
+            "Mal di testa",
+            "Fare poca pipì, meno di 4 volte al giorno"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Nella maggior parte dei casi bastano alcuni bicchieri d'acqua nelle ore successive. Se i segnali sono forti o non migliorano, contatta un medico."
+        }
+      ],
+      "source": {
+        "label": "NHS: Disidratazione",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    }
+  ]
+}

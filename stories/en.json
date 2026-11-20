@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "kidneys",
+      "category": "Health",
+      "title": "Steady water, happy kidneys",
+      "summary": "Your kidneys filter your blood all day. Here's how regular sips help them do it.",
+      "image": "stories/images/kidneys.webp",
+      "animation": "stories/animations/kidneys.json",
+      "readMinutes": 3,
+      "featured": true,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Your kidneys filter your blood around the clock, removing waste and extra salt in your urine. To do that well, they need enough water to work with."
+        },
+        { "type": "heading", "text": "Why steady beats a lot at once" },
+        {
+          "type": "paragraph",
+          "text": "Drinking regularly through the day keeps your urine diluted. Dilute urine makes it harder for minerals to clump together, which is one of the ways kidney stones form."
+        },
+        { "type": "ad" },
+        {
+          "type": "list",
+          "items": [
+            "Pale yellow urine is a good sign you're drinking enough.",
+            "Dark yellow urine usually means you need more.",
+            "Hot weather, exercise and illness raise how much you need."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Spread your drinks out: a glass with each meal and a few in between is easier on your body than a big amount in one go."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have a kidney or heart condition, your doctor may give you a different amount to drink. Follow their advice."
+        },
+        { "type": "ad" }
+      ],
+      "source": {
+        "label": "NHS: Kidney stones prevention",
+        "url": "https://www.nhs.uk/conditions/kidney-stones/prevention/"
+      }
+    },
+    {
+      "id": "why-water",
+      "category": "Basics",
+      "title": "Why drinking water matters",
+      "summary": "Water does a lot of quiet work in your body. A quick look at why it's worth the habit.",
+      "image": "stories/images/why-water.webp",
+      "animation": "stories/animations/why-water.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Water makes up more than half of your body. It carries nutrients to your cells, helps control your temperature, cushions your joints and lets your kidneys clear waste."
+        },
+        { "type": "heading", "text": "What steady drinking helps with" },
+        {
+          "type": "list",
+          "items": [
+            "Clearer thinking and fewer afternoon slumps",
+            "Fewer headaches caused by not drinking enough",
+            "Healthy kidneys and regular digestion",
+            "Staying cool in hot weather and during exercise"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Small, regular drinks through the day work better than a lot at once. That's what your reminders are for."
+        },
+        {
+          "type": "paragraph",
+          "text": "More stories arrive here over time, with tips for meals, sleep and staying on track."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and your health",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "morning-glass",
+      "category": "Habits",
+      "title": "Start the day with a glass",
+      "summary": "You wake up after hours without a drink. One glass is an easy first win.",
+      "image": "stories/images/morning.webp",
+      "animation": "stories/animations/morning-glass.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "While you sleep you still lose water through your breath and skin, and you don't drink for seven or eight hours. Many people wake up a little behind."
+        },
+        { "type": "heading", "text": "Make it automatic" },
+        {
+          "type": "list",
+          "items": [
+            "Leave a full glass or bottle next to your bed.",
+            "Drink it before your phone, coffee or tea.",
+            "Log it right away, so your day starts with progress."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Tying a new habit to something you already do every morning, like brushing your teeth, makes it much easier to keep."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and your health",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "breakfast",
+      "category": "Meals",
+      "title": "Water with breakfast",
+      "summary": "A glass with your first meal tops up what the night took and sets your pace.",
+      "image": "stories/images/breakfast.webp",
+      "animation": "stories/animations/breakfast.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Breakfast is a natural moment to drink. A glass of water alongside it helps you catch up after the night, and it's an easy habit to repeat every day."
+        },
+        { "type": "heading", "text": "How much?" },
+        {
+          "type": "paragraph",
+          "text": "A regular glass (around 250 ml) is plenty. Tea, coffee and milk count toward your daily total too, though plain water is the simplest choice."
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "If you're rushing in the morning, drink your glass while breakfast cooks or the kettle boils."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and your health",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    { "type": "ad" },
+    {
+      "id": "lunch",
+      "category": "Meals",
+      "title": "Around lunch: before, during, after",
+      "summary": "Afternoon slumps are often a little thirst. Here's an easy rhythm for midday.",
+      "image": "stories/images/lunch.webp",
+      "animation": "stories/animations/lunch.json",
+      "readMinutes": 3,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Midday is when many people fall behind: busy mornings, meetings, errands. Lunch is a good moment to catch up."
+        },
+        { "type": "heading", "text": "An easy midday rhythm" },
+        {
+          "type": "list",
+          "items": [
+            "A glass before you eat can help you notice when you're full.",
+            "Sip during the meal; drinking with food is fine for most people.",
+            "Have another glass in the hour after lunch, when tiredness tends to set in."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Feeling sleepy or unfocused in the afternoon? Try a glass of water before reaching for a snack or another coffee."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydration",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    },
+    {
+      "id": "evening",
+      "category": "Meals",
+      "title": "After dinner and before bed",
+      "summary": "Finish the day well without waking up at night to use the toilet.",
+      "image": "stories/images/evening.webp",
+      "animation": "stories/animations/evening.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A glass with dinner helps you reach your goal. In the last hour or two before bed, small sips are better than big glasses."
+        },
+        { "type": "heading", "text": "Sleep well and stay on track" },
+        {
+          "type": "list",
+          "items": [
+            "Drink most of your water before the evening.",
+            "Have a glass with dinner.",
+            "Keep only a few sips for the last hour before sleep."
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "If you often wake up at night to use the toilet, move more of your drinking earlier in the day."
+        }
+      ],
+      "source": {
+        "label": "NHS: Water, drinks and your health",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+      }
+    },
+    {
+      "id": "signs",
+      "category": "Health",
+      "title": "Signs you need more water",
+      "summary": "Thirst isn't the only signal. Learn the early signs so you can act sooner.",
+      "image": "stories/images/signs.webp",
+      "animation": "stories/animations/signs.json",
+      "readMinutes": 2,
+      "featured": false,
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "By the time you feel very thirsty, your body has been asking for water for a while. These early signs are worth noticing."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dark yellow, strong-smelling urine",
+            "Feeling tired or dizzy",
+            "A dry mouth, lips or eyes",
+            "Headaches",
+            "Peeing only a little, fewer than 4 times a day"
+          ]
+        },
+        { "type": "ad" },
+        {
+          "type": "tip",
+          "text": "Most of the time, a few glasses of water over the next hours is enough. If signs are severe or don't improve, contact a doctor."
+        }
+      ],
+      "source": {
+        "label": "NHS: Dehydration",
+        "url": "https://www.nhs.uk/conditions/dehydration/"
+      }
+    }
+  ]
+}
