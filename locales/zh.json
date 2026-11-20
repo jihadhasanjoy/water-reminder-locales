@@ -208,7 +208,14 @@
     "average": "日均",
     "goalReached": "达标",
     "goalDays": "{{days}} / {{total}} 天",
-    "bestDay": "最佳一天"
+    "bestDay": "最佳一天",
+    "dayDrinks": "{{day}}的饮水",
+    "noDrinks": "这一天没有饮水记录。",
+    "addDrink": "添加饮水",
+    "addTitle": "在{{day}}添加饮水",
+    "time": "时间",
+    "futureTime": "这个时间还没到，请选择更早的时间。",
+    "added": "已添加 {{amount}}（{{time}}）"
   },
   "settings": {
     "title": "设置",

@@ -208,7 +208,14 @@
     "average": "Daily average",
     "goalReached": "Goal reached",
     "goalDays": "{{days}} of {{total}} days",
-    "bestDay": "Best day"
+    "bestDay": "Best day",
+    "dayDrinks": "Drinks on {{day}}",
+    "noDrinks": "No drinks logged this day.",
+    "addDrink": "Add a drink",
+    "addTitle": "Add a drink on {{day}}",
+    "time": "Time",
+    "futureTime": "That time hasn't come yet. Pick an earlier time.",
+    "added": "Added {{amount}} at {{time}}"
   },
   "settings": {
     "title": "Settings",

@@ -208,7 +208,14 @@
     "average": "रोज़ का औसत",
     "goalReached": "लक्ष्य पूरा",
     "goalDays": "{{total}} में से {{days}} दिन",
-    "bestDay": "सबसे अच्छा दिन"
+    "bestDay": "सबसे अच्छा दिन",
+    "dayDrinks": "{{day}} का पानी",
+    "noDrinks": "इस दिन कोई पानी दर्ज नहीं हुआ।",
+    "addDrink": "पानी जोड़ें",
+    "addTitle": "{{day}} को पानी जोड़ें",
+    "time": "समय",
+    "futureTime": "यह समय अभी आया नहीं है। कोई पहले का समय चुनें।",
+    "added": "{{time}} पर {{amount}} जोड़ा गया"
   },
   "settings": {
     "title": "सेटिंग्स",

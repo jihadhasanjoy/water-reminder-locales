@@ -208,7 +208,14 @@
     "average": "Media giornaliera",
     "goalReached": "Obiettivo raggiunto",
     "goalDays": "{{days}} su {{total}} giorni",
-    "bestDay": "Giorno migliore"
+    "bestDay": "Giorno migliore",
+    "dayDrinks": "Bevute di {{day}}",
+    "noDrinks": "Nessuna bevuta registrata in questo giorno.",
+    "addDrink": "Aggiungi una bevuta",
+    "addTitle": "Aggiungi una bevuta il {{day}}",
+    "time": "Ora",
+    "futureTime": "Quest'ora non è ancora arrivata. Scegline una precedente.",
+    "added": "Aggiunti {{amount}} alle {{time}}"
   },
   "settings": {
     "title": "Impostazioni",

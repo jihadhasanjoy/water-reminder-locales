@@ -208,7 +208,14 @@
     "average": "দৈনিক গড়",
     "goalReached": "লক্ষ্য পূরণ",
     "goalDays": "{{total}} দিনের মধ্যে {{days}} দিন",
-    "bestDay": "সেরা দিন"
+    "bestDay": "সেরা দিন",
+    "dayDrinks": "{{day}}-এর পানি",
+    "noDrinks": "এই দিনে কোনো পানি লেখা হয়নি।",
+    "addDrink": "পানি যোগ করুন",
+    "addTitle": "{{day}}-এ পানি যোগ করুন",
+    "time": "সময়",
+    "futureTime": "এই সময় এখনো আসেনি। আগের কোনো সময় বেছে নিন।",
+    "added": "{{time}}-এ {{amount}} যোগ হয়েছে"
   },
   "settings": {
     "title": "সেটিংস",

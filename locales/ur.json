@@ -208,7 +208,14 @@
     "average": "روزانہ اوسط",
     "goalReached": "ہدف پورا",
     "goalDays": "{{total}} میں سے {{days}} دن",
-    "bestDay": "بہترین دن"
+    "bestDay": "بہترین دن",
+    "dayDrinks": "{{day}} کا پانی",
+    "noDrinks": "اس دن کوئی پانی درج نہیں ہوا۔",
+    "addDrink": "پانی شامل کریں",
+    "addTitle": "{{day}} کو پانی شامل کریں",
+    "time": "وقت",
+    "futureTime": "یہ وقت ابھی نہیں آیا۔ کوئی پہلے کا وقت چنیں۔",
+    "added": "{{time}} پر {{amount}} شامل ہو گیا"
   },
   "settings": {
     "title": "ترتیبات",

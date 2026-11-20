@@ -208,7 +208,14 @@
     "average": "Tagesdurchschnitt",
     "goalReached": "Ziel erreicht",
     "goalDays": "{{days}} von {{total}} Tagen",
-    "bestDay": "Bester Tag"
+    "bestDay": "Bester Tag",
+    "dayDrinks": "Getränke am {{day}}",
+    "noDrinks": "An diesem Tag wurde nichts eingetragen.",
+    "addDrink": "Getränk hinzufügen",
+    "addTitle": "Getränk am {{day}} hinzufügen",
+    "time": "Uhrzeit",
+    "futureTime": "Diese Uhrzeit ist noch nicht erreicht. Wähle eine frühere.",
+    "added": "{{amount}} um {{time}} hinzugefügt"
   },
   "settings": {
     "title": "Einstellungen",
