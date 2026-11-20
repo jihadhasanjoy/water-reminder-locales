@@ -227,7 +227,7 @@
     "themeSystem": "Sistema",
     "themeLight": "Chiaro",
     "themeDark": "Scuro",
-    "themePink": "Rosa",
+    "themePink": "Bacca",
     "units": "Unità",
     "metric": "Metrico (ml, kg)",
     "imperial": "Imperiale (oz, lb)",
@@ -339,7 +339,9 @@
       "touchId": "Touch ID",
       "fingerprint": "impronta",
       "none": "Sblocco biometrico"
-    }
+    },
+    "otherAmount": "Altra quantità",
+    "otherTitle": "Quanto hai bevuto?"
   },
   "notification": {
     "title": "È ora di bere un po’ d’acqua 💧",
@@ -364,7 +366,7 @@
         "body": "Sei in linea 👍 Circa {{amount}} per restarci."
       },
       "littleBehind": {
-        "title": "È ora di bere un po' d'acqua 💧",
+        "title": "Solo un po' indietro 💧",
         "body": "Un po' indietro: circa {{amount}} ti rimette in pari."
       },
       "behind": {
@@ -375,7 +377,8 @@
         "title": "Hai saltato un promemoria ⏰",
         "body": "Nessun problema, recupera ora con circa {{amount}}."
       }
-    }
+    },
+    "otherAmount": "Altra quantità"
   },
   "error": {
     "title": "Qualcosa è andato storto",
@@ -498,7 +501,7 @@
     "theme": "Tema"
   },
   "insights": {
-    "title": "Storie sull'acqua",
+    "title": "Guida all'idratazione",
     "emptyTitle": "Nessun approfondimento trovato",
     "emptyBody": "Le nuove storie sull'acqua appariranno qui. Trascina verso il basso per controllare di nuovo.",
     "more": "Altro da leggere",
@@ -520,5 +523,10 @@
     "video": "Nessun problema dopo: guarda un breve video quando vuoi per altre {{hours}} ore senza pubblicità.",
     "start": "Inizia",
     "until": "Senza pubblicità fino a"
+  },
+  "languageMissing": {
+    "title": "Non trovi la tua lingua?",
+    "body": "Nessun problema: scrivici tramite il feedback e la aggiungeremo il prima possibile.",
+    "action": "Invia feedback"
   }
 }

@@ -227,7 +227,7 @@
     "themeSystem": "System",
     "themeLight": "Light",
     "themeDark": "Dark",
-    "themePink": "Pink",
+    "themePink": "Berry",
     "units": "Units",
     "metric": "Metric (ml, kg)",
     "imperial": "Imperial (oz, lb)",
@@ -339,7 +339,9 @@
       "touchId": "Touch ID",
       "fingerprint": "fingerprint",
       "none": "Biometric unlock"
-    }
+    },
+    "otherAmount": "Different amount",
+    "otherTitle": "How much did you drink?"
   },
   "notification": {
     "title": "Time for some water 💧",
@@ -364,7 +366,7 @@
         "body": "You're on track 👍 About {{amount}} keeps it that way."
       },
       "littleBehind": {
-        "title": "Time for some water 💧",
+        "title": "Just a little behind 💧",
         "body": "A little behind: about {{amount}} catches you up."
       },
       "behind": {
@@ -375,7 +377,8 @@
         "title": "You missed a reminder ⏰",
         "body": "No worries, catch up with about {{amount}} now."
       }
-    }
+    },
+    "otherAmount": "Other amount"
   },
   "error": {
     "title": "Something went wrong",
@@ -498,7 +501,7 @@
     "theme": "Theme"
   },
   "insights": {
-    "title": "Water stories",
+    "title": "Hydration Guide",
     "emptyTitle": "No insights found",
     "emptyBody": "New stories about water will show up here. Pull down to check again.",
     "more": "More to read",
@@ -520,5 +523,10 @@
     "video": "No worries after that: watch a short video any time for {{hours}} more hours without ads.",
     "start": "Start",
     "until": "Ad-free until"
+  },
+  "languageMissing": {
+    "title": "Can't find your language?",
+    "body": "No worries: tell us through feedback and we'll add it as soon as possible.",
+    "action": "Send feedback"
   }
 }

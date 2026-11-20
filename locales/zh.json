@@ -227,7 +227,7 @@
     "themeSystem": "跟随系统",
     "themeLight": "浅色",
     "themeDark": "深色",
-    "themePink": "粉色",
+    "themePink": "莓果",
     "units": "单位",
     "metric": "公制（ml、kg）",
     "imperial": "英制（oz、lb）",
@@ -339,7 +339,9 @@
       "touchId": "Touch ID",
       "fingerprint": "指纹",
       "none": "生物识别解锁"
-    }
+    },
+    "otherAmount": "其他量",
+    "otherTitle": "你喝了多少？"
   },
   "notification": {
     "title": "该喝水啦 💧",
@@ -364,7 +366,7 @@
         "body": "进度正常 👍 喝约 {{amount}}，继续保持。"
       },
       "littleBehind": {
-        "title": "该喝水啦 💧",
+        "title": "只差一点点 💧",
         "body": "稍微落后了：喝约 {{amount}} 就能赶上。"
       },
       "behind": {
@@ -375,7 +377,8 @@
         "title": "你错过了一次提醒 ⏰",
         "body": "没关系，现在喝约 {{amount}} 补上吧。"
       }
-    }
+    },
+    "otherAmount": "其他量"
   },
   "error": {
     "title": "出了点问题",
@@ -498,7 +501,7 @@
     "theme": "主题"
   },
   "insights": {
-    "title": "喝水小知识",
+    "title": "补水指南",
     "emptyTitle": "暂无内容",
     "emptyBody": "关于喝水的新内容会显示在这里。下拉即可重新检查。",
     "more": "更多阅读",
@@ -520,5 +523,10 @@
     "video": "之后也别担心：随时观看一段短视频，即可再获得 {{hours}} 小时无广告。",
     "start": "开始",
     "until": "无广告至"
+  },
+  "languageMissing": {
+    "title": "找不到你的语言？",
+    "body": "别担心：通过反馈告诉我们，我们会尽快添加。",
+    "action": "发送反馈"
   }
 }

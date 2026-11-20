@@ -227,7 +227,7 @@
     "themeSystem": "System",
     "themeLight": "Hell",
     "themeDark": "Dunkel",
-    "themePink": "Rosa",
+    "themePink": "Beere",
     "units": "Einheiten",
     "metric": "Metrisch (ml, kg)",
     "imperial": "Imperial (oz, lb)",
@@ -339,7 +339,9 @@
       "touchId": "Touch ID",
       "fingerprint": "Fingerabdruck",
       "none": "Biometrische Entsperrung"
-    }
+    },
+    "otherAmount": "Andere Menge",
+    "otherTitle": "Wie viel hast du getrunken?"
   },
   "notification": {
     "title": "Zeit für etwas Wasser 💧",
@@ -364,7 +366,7 @@
         "body": "Du liegst im Plan 👍 Etwa {{amount}}, damit es so bleibt."
       },
       "littleBehind": {
-        "title": "Zeit für Wasser 💧",
+        "title": "Nur ein bisschen hinterher 💧",
         "body": "Etwas hinterher: etwa {{amount}} holt das auf."
       },
       "behind": {
@@ -375,7 +377,8 @@
         "title": "Erinnerung verpasst ⏰",
         "body": "Kein Problem, hol es jetzt mit etwa {{amount}} nach."
       }
-    }
+    },
+    "otherAmount": "Andere Menge"
   },
   "error": {
     "title": "Etwas ist schiefgelaufen",
@@ -498,7 +501,7 @@
     "theme": "Design"
   },
   "insights": {
-    "title": "Wasser-Geschichten",
+    "title": "Trink-Ratgeber",
     "emptyTitle": "Keine Beiträge gefunden",
     "emptyBody": "Neue Geschichten rund ums Wasser erscheinen hier. Zum erneuten Prüfen nach unten ziehen.",
     "more": "Mehr zum Lesen",
@@ -520,5 +523,10 @@
     "video": "Keine Sorge, danach bekommst du mit einem kurzen Video jederzeit {{hours}} weitere Stunden ohne Werbung.",
     "start": "Los geht’s",
     "until": "Werbefrei bis"
+  },
+  "languageMissing": {
+    "title": "Deine Sprache fehlt?",
+    "body": "Kein Problem: Schreib uns über das Feedback und wir fügen sie so bald wie möglich hinzu.",
+    "action": "Feedback senden"
   }
 }
