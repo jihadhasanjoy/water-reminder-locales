@@ -1,10 +1,13 @@
-// Checks app-config.json, which tells the app which versions must or may
-// update, and how long new users and rewarded videos go without ads. A mistake here could lock people out of the app, so anything
+// Checks app-config.json (the store app) or app-config.test.json (the test
+// app, com.dropwise.waterreminder.test), which tell the app which versions
+// must or may update, and how long new users and rewarded videos go without
+// ads. A mistake here could lock people out of the app, so anything
 // unexpected fails. Exits non-zero on any problem.
-//   node scripts/validate-config.mjs
+//   node scripts/validate-config.mjs                       # app-config.json
+//   node scripts/validate-config.mjs app-config.test.json
 import { readJSON } from './lib.mjs';
 
-const FILE = 'app-config.json';
+const FILE = process.argv[2] ?? 'app-config.json';
 const errors = [];
 
 let config;

@@ -20,6 +20,6 @@ jobs:
       - name: Manifest is up to date
         run: node scripts/build-manifest.mjs --check
       - name: App config is valid
-        run: node scripts/validate-config.mjs
+        run: node scripts/validate-config.mjs && node scripts/validate-config.mjs app-config.test.json
       - name: Stories are valid
         run: node scripts/validate-stories.mjs
