@@ -3,8 +3,8 @@
   "adFreeTrialDays": 1,
   "rewardedAdFreeHours": 12,
   "android": {
-    "minVersion": "1.0.0-1",
-    "latestVersion": "1.0.0-14",
+    "minVersion": "1.0.0-14",
+    "latestVersion": "1.0.0-21",
     "storeUrl": "",
     "bannerUnit": "",
     "rewardedUnit": ""
