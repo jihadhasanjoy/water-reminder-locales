@@ -5,11 +5,15 @@
   "android": {
     "minVersion": "1.0.0-10",
     "latestVersion": "1.0.0-14",
-    "storeUrl": ""
+    "storeUrl": "",
+    "bannerUnit": "ca-app-pub-2066803851976714/3382038237",
+    "rewardedUnit": "ca-app-pub-2066803851976714/5309363423"
   },
   "ios": {
     "minVersion": "1.0.0-7",
     "latestVersion": "1.1.0-9",
-    "storeUrl": ""
+    "storeUrl": "",
+    "bannerUnit": "",
+    "rewardedUnit": ""
   }
 }

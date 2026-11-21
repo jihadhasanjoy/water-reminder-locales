@@ -38,6 +38,11 @@ function compareRules(a, b) {
   return Math.sign((a.build ?? 0) - (b.build ?? 0));
 }
 
+// The AdMob account that owns the app's ad units (src/core/utils/constants.ts
+// in the app: ADMOB_PUBLISHER).
+const ADMOB_PUBLISHER = 'ca-app-pub-2066803851976714';
+const AD_UNIT = new RegExp(`^${ADMOB_PUBLISHER}/\\d{6,}$`);
+
 for (const key of Object.keys(config)) {
   if (!['schemaVersion', 'adFreeTrialDays', 'rewardedAdFreeHours', 'android', 'ios'].includes(key)) {
     errors.push(`unknown field "${key}"`);
@@ -62,7 +67,7 @@ for (const platform of ['android', 'ios']) {
     continue;
   }
   for (const key of Object.keys(rules)) {
-    if (!['minVersion', 'latestVersion', 'storeUrl'].includes(key)) {
+    if (!['minVersion', 'latestVersion', 'storeUrl', 'bannerUnit', 'rewardedUnit'].includes(key)) {
       errors.push(`${platform}: unknown field "${key}"`);
     }
   }
@@ -85,6 +90,13 @@ for (const platform of ['android', 'ios']) {
   ) {
     errors.push(`${platform}.storeUrl must be empty or start with https://`);
   }
+  // AdMob ad units of this app's own account (the app ignores any other).
+  for (const key of ['bannerUnit', 'rewardedUnit']) {
+    const unit = rules[key];
+    if (unit !== undefined && unit !== '' && !(typeof unit === 'string' && AD_UNIT.test(unit))) {
+      errors.push(`${platform}.${key} must be empty or an ad unit of this app's AdMob account: ${ADMOB_PUBLISHER}/1234567890`);
+    }
+  }
 }
 
 if (errors.length) {
@@ -96,5 +108,9 @@ const summary = ['android', 'ios']
   .filter(p => config[p])
   .map(p => `${p} min ${config[p].minVersion ?? 'off'}, latest ${config[p].latestVersion ?? 'off'}`)
   .join('; ');
-const ads = `ad-free welcome ${config.adFreeTrialDays ?? 1} day(s), video +${config.rewardedAdFreeHours ?? 12} h`;
+const units = ['android', 'ios']
+  .filter(p => config[p])
+  .map(p => `${p} ads ${config[p].bannerUnit && config[p].rewardedUnit ? 'real' : config[p].bannerUnit || config[p].rewardedUnit ? 'partly real' : 'test'}`)
+  .join(', ');
+const ads = `ad-free welcome ${config.adFreeTrialDays ?? 1} day(s), video +${config.rewardedAdFreeHours ?? 12} h; ${units}`;
 console.log(`OK: ${FILE} (${summary}; ${ads}).`);
