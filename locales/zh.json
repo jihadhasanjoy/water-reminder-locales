@@ -145,7 +145,7 @@
     "today": "今天",
     "add": "添加 {{amount}}",
     "empty": "今天还没有喝水记录",
-    "emptyHint": "每次喝水后，点击上方按钮记录。",
+    "emptyHint": "每次喝水后，点击玻璃杯按钮记录。",
     "logLabel": "{{time}} 喝了 {{amount}}",
     "deleteLabel": "删除 {{time}} 的 {{amount}}",
     "deleteTitle": "删除这条记录？",
@@ -195,7 +195,10 @@
     "orCustom": "或自定义量",
     "statDrinks_one": "次今天",
     "statDrinks_other": "次今天",
-    "statLast": "上次喝水"
+    "statLast": "上次喝水",
+    "todayTitle": "今天的饮水",
+    "drinkCount_other": "{{count}} 次",
+    "tomorrowAt": "明天 {{time}}"
   },
   "history": {
     "emptyTitle": "还没有记录",
@@ -332,7 +335,13 @@
     "heroDone": "每次约 {{amount}} · 今天已全部完成",
     "offTitle": "提醒已关闭",
     "offHint": "打开后，全天都会温和地提醒你。",
-    "perDay_one": "每天 {{count}} 次提醒"
+    "perDay_one": "每天 {{count}} 次提醒",
+    "skipped": "已跳过",
+    "skippedGap": "今天跳过：距上次喝水不到 {{gap}}。",
+    "skippedGoal": "已达标：其余的明天再提醒。",
+    "asleepTitle": "在你的睡眠时间内",
+    "asleepMessage": "{{time}} 在你的就寝时间（{{sleep}}）和起床时间（{{wake}}）之间，提醒可能会吵醒你。仍然提醒吗？",
+    "asleepKeep": "仍然提醒"
   },
   "permissions": {
     "blockedTitle": "提醒已被阻止",

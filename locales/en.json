@@ -145,7 +145,7 @@
     "today": "TODAY",
     "add": "Add {{amount}}",
     "empty": "No water logged yet today",
-    "emptyHint": "Tap a button above after each drink.",
+    "emptyHint": "Tap the glass button after each drink.",
     "logLabel": "{{amount}} at {{time}}",
     "deleteLabel": "Delete {{amount}} at {{time}}",
     "deleteTitle": "Delete this drink?",
@@ -195,7 +195,11 @@
     "orCustom": "or a custom amount",
     "statDrinks_one": "drink today",
     "statDrinks_other": "drinks today",
-    "statLast": "last drink"
+    "statLast": "last drink",
+    "todayTitle": "Today's drinks",
+    "drinkCount_one": "{{count}} drink",
+    "drinkCount_other": "{{count}} drinks",
+    "tomorrowAt": "Tomorrow, {{time}}"
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -283,7 +287,8 @@
     "shareHint": "Help a friend drink more water",
     "shareMessage": "I'm using Water Reminder to drink enough water every day. Try it:",
     "tagline": "Made to help you drink enough, every day.",
-    "languageIntro": "Choose the language for the whole app. New languages download on their own."
+    "languageIntro": "Choose the language for the whole app. New languages download on their own.",
+    "testBuild": "Test"
   },
   "reminders": {
     "title": "Reminders",
@@ -332,7 +337,13 @@
     "heroNext": "About {{amount}} each · next at {{time}}",
     "heroDone": "About {{amount}} each · all done for today",
     "offTitle": "Reminders are off",
-    "offHint": "Turn them on for a gentle nudge through the day."
+    "offHint": "Turn them on for a gentle nudge through the day.",
+    "skipped": "skipped",
+    "skippedGap": "Skipped today: less than {{gap}} after your last drink.",
+    "skippedGoal": "Goal reached: the rest come back tomorrow.",
+    "asleepTitle": "During your sleep time",
+    "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
+    "asleepKeep": "Remind me anyway"
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",
