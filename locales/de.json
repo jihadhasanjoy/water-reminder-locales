@@ -244,7 +244,34 @@
     "goalCaption": "Tagesziel {{amount}}",
     "about": "Über die App",
     "version": "Version",
-    "updateAvailable": "Update verfügbar"
+    "updateAvailable": "Update verfügbar",
+    "groupHydration": "Trinken",
+    "groupPersonalise": "Anpassen",
+    "groupSupport": "Hilfe",
+    "nextAt": "nächste um {{time}}",
+    "statStreak_one": "Tag in Folge",
+    "statStreak_other": "Tage in Folge",
+    "statToday": "des heutigen Ziels",
+    "statReminders": "Erinnerungen pro Tag",
+    "dailyGoal": "Tagesziel",
+    "goalAuto": "Aus deinem Profil berechnet",
+    "goalCustom": "Von dir festgelegt",
+    "themeHints": {
+      "system": "Wie dein Handy",
+      "light": "Hell und klar",
+      "dark": "Angenehm für die Augen am Abend",
+      "pink": "Warme Beerentöne"
+    },
+    "metricHint": "Milliliter und Liter, kg, cm",
+    "imperialHint": "Flüssigunzen, lb, Fuß und Zoll",
+    "feedbackHint": "Ideen, Probleme oder eine fehlende Sprache",
+    "rate": "App bewerten",
+    "rateHint": "Gefällt sie dir? Eine Bewertung hilft sehr",
+    "share": "App teilen",
+    "shareHint": "Hilf einem Freund, mehr zu trinken",
+    "shareMessage": "Ich nutze Water Reminder, um jeden Tag genug Wasser zu trinken. Probier es aus:",
+    "tagline": "Damit du jeden Tag genug trinkst.",
+    "languageIntro": "Wähle die Sprache für die ganze App. Neue Sprachen werden von selbst geladen."
   },
   "reminders": {
     "title": "Erinnerungen",
@@ -287,7 +314,13 @@
     "doneToday": "Heute erledigt",
     "nextChip": "Nächste Erinnerung",
     "missedToday": "Heute verpasst",
-    "timePassed": "Diese Uhrzeit ist heute schon vorbei. Wähle eine spätere."
+    "timePassed": "Diese Uhrzeit ist heute schon vorbei. Wähle eine spätere.",
+    "perDay_one": "{{count}} Erinnerung pro Tag",
+    "perDay_other": "{{count}} Erinnerungen pro Tag",
+    "heroNext": "Je etwa {{amount}} · nächste um {{time}}",
+    "heroDone": "Je etwa {{amount}} · für heute erledigt",
+    "offTitle": "Erinnerungen sind aus",
+    "offHint": "Schalte sie ein, um über den Tag sanft erinnert zu werden."
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",
@@ -317,7 +350,13 @@
     "calculatedHint": "Berechnet aus Gewicht, Alter, Aktivität und Klima",
     "recalculate": "Neu berechnen ({{amount}})",
     "lower": "Ziel verringern",
-    "raise": "Ziel erhöhen"
+    "raise": "Ziel erhöhen",
+    "years_one": "{{count}} Jahr",
+    "years_other": "{{count}} Jahre",
+    "aboutYou": "Über dich",
+    "bodyActivity": "Körper und Aktivität",
+    "rhythm": "Tagesrhythmus",
+    "rhythmHint": "Die Erinnerungen verteilen sich auf diese Zeit."
   },
   "confirm": {
     "question": "Hast du {{amount}} getrunken?",
@@ -522,7 +561,13 @@
     "body": "Nutze Water Reminder bis {{date}} ohne Werbung. Schön, dass du dabei bist!",
     "video": "Keine Sorge, danach bekommst du mit einem kurzen Video jederzeit {{hours}} weitere Stunden ohne Werbung.",
     "start": "Los geht’s",
-    "until": "Werbefrei bis"
+    "until": "Werbefrei bis",
+    "offerTitle": "Werbung {{hours}} Stunden ausblenden",
+    "offerHint": "Sieh dir ein kurzes Video an",
+    "leftDays": "Werbefrei · noch {{days}} T. {{hours}} Std.",
+    "leftHours": "Werbefrei · noch {{hours}} Std. {{minutes}} Min.",
+    "untilDate": "Bis {{date}}",
+    "add": "+{{hours}} Std."
   },
   "languageMissing": {
     "title": "Deine Sprache fehlt?",

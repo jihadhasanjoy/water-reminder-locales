@@ -244,7 +244,34 @@
     "goalCaption": "Obiettivo giornaliero {{amount}}",
     "about": "Informazioni",
     "version": "Versione",
-    "updateAvailable": "Aggiornamento disponibile"
+    "updateAvailable": "Aggiornamento disponibile",
+    "groupHydration": "Idratazione",
+    "groupPersonalise": "Personalizza",
+    "groupSupport": "Supporto",
+    "nextAt": "prossimo alle {{time}}",
+    "statStreak_one": "giorno di fila",
+    "statStreak_other": "giorni di fila",
+    "statToday": "dell'obiettivo di oggi",
+    "statReminders": "promemoria al giorno",
+    "dailyGoal": "Obiettivo giornaliero",
+    "goalAuto": "Calcolato dal tuo profilo",
+    "goalCustom": "Scelto da te",
+    "themeHints": {
+      "system": "Segue il telefono",
+      "light": "Luminoso e chiaro",
+      "dark": "Riposante per gli occhi di sera",
+      "pink": "Calde tonalità di frutti di bosco"
+    },
+    "metricHint": "Millilitri e litri, kg, cm",
+    "imperialHint": "Once liquide, lb, piedi e pollici",
+    "feedbackHint": "Idee, problemi o una lingua mancante",
+    "rate": "Valuta l'app",
+    "rateHint": "Ti piace? Una valutazione aiuta molto",
+    "share": "Condividi l'app",
+    "shareHint": "Aiuta un amico a bere di più",
+    "shareMessage": "Uso Water Reminder per bere abbastanza acqua ogni giorno. Provala:",
+    "tagline": "Per aiutarti a bere abbastanza, ogni giorno.",
+    "languageIntro": "Scegli la lingua di tutta l'app. Le nuove lingue si scaricano da sole."
   },
   "reminders": {
     "title": "Promemoria",
@@ -287,7 +314,13 @@
     "doneToday": "Fatto oggi",
     "nextChip": "Prossimo promemoria",
     "missedToday": "Saltato oggi",
-    "timePassed": "Quest'ora oggi è già passata. Scegline una più tardi."
+    "timePassed": "Quest'ora oggi è già passata. Scegline una più tardi.",
+    "perDay_one": "{{count}} promemoria al giorno",
+    "perDay_other": "{{count}} promemoria al giorno",
+    "heroNext": "Circa {{amount}} ciascuno · prossimo alle {{time}}",
+    "heroDone": "Circa {{amount}} ciascuno · finito per oggi",
+    "offTitle": "Promemoria disattivati",
+    "offHint": "Attivali per un piccolo richiamo durante la giornata."
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",
@@ -317,7 +350,13 @@
     "calculatedHint": "Calcolato da peso, età, attività e clima",
     "recalculate": "Ricalcola ({{amount}})",
     "lower": "Riduci obiettivo",
-    "raise": "Aumenta obiettivo"
+    "raise": "Aumenta obiettivo",
+    "years_one": "{{count}} anno",
+    "years_other": "{{count}} anni",
+    "aboutYou": "Su di te",
+    "bodyActivity": "Corpo e attività",
+    "rhythm": "Ritmo quotidiano",
+    "rhythmHint": "I promemoria sono distribuiti in questo intervallo."
   },
   "confirm": {
     "question": "Hai bevuto {{amount}}?",
@@ -522,7 +561,13 @@
     "body": "Usa Water Reminder senza pubblicità fino a {{date}}. Grazie per esserti unito!",
     "video": "Nessun problema dopo: guarda un breve video quando vuoi per altre {{hours}} ore senza pubblicità.",
     "start": "Inizia",
-    "until": "Senza pubblicità fino a"
+    "until": "Senza pubblicità fino a",
+    "offerTitle": "Nascondi gli annunci per {{hours}} ore",
+    "offerHint": "Guarda un breve video",
+    "leftDays": "Senza annunci · ancora {{days}} g {{hours}} h",
+    "leftHours": "Senza annunci · ancora {{hours}} h {{minutes}} min",
+    "untilDate": "Fino a {{date}}",
+    "add": "+{{hours}} h"
   },
   "languageMissing": {
     "title": "Non trovi la tua lingua?",

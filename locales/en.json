@@ -244,7 +244,34 @@
     "goalCaption": "Daily goal {{amount}}",
     "about": "About",
     "version": "Version",
-    "updateAvailable": "Update available"
+    "updateAvailable": "Update available",
+    "groupHydration": "Hydration",
+    "groupPersonalise": "Personalise",
+    "groupSupport": "Support",
+    "nextAt": "next at {{time}}",
+    "statStreak_one": "day in a row",
+    "statStreak_other": "days in a row",
+    "statToday": "of today's goal",
+    "statReminders": "reminders a day",
+    "dailyGoal": "Daily goal",
+    "goalAuto": "Worked out from your profile",
+    "goalCustom": "Set by you",
+    "themeHints": {
+      "system": "Follows your phone",
+      "light": "Bright and clear",
+      "dark": "Easy on the eyes at night",
+      "pink": "Warm berry tones"
+    },
+    "metricHint": "Millilitres and litres, kg, cm",
+    "imperialHint": "Fluid ounces, lb, feet and inches",
+    "feedbackHint": "Ideas, problems or a missing language",
+    "rate": "Rate the app",
+    "rateHint": "Enjoying it? A rating helps a lot",
+    "share": "Share the app",
+    "shareHint": "Help a friend drink more water",
+    "shareMessage": "I'm using Water Reminder to drink enough water every day. Try it:",
+    "tagline": "Made to help you drink enough, every day.",
+    "languageIntro": "Choose the language for the whole app. New languages download on their own."
   },
   "reminders": {
     "title": "Reminders",
@@ -287,7 +314,13 @@
     "doneToday": "Done today",
     "nextChip": "Next reminder",
     "missedToday": "Missed today",
-    "timePassed": "That time has already passed today. Pick a later one."
+    "timePassed": "That time has already passed today. Pick a later one.",
+    "perDay_one": "{{count}} reminder a day",
+    "perDay_other": "{{count}} reminders a day",
+    "heroNext": "About {{amount}} each · next at {{time}}",
+    "heroDone": "About {{amount}} each · all done for today",
+    "offTitle": "Reminders are off",
+    "offHint": "Turn them on for a gentle nudge through the day."
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",
@@ -317,7 +350,13 @@
     "calculatedHint": "Calculated from your weight, age, activity and climate",
     "recalculate": "Recalculate ({{amount}})",
     "lower": "Lower goal",
-    "raise": "Raise goal"
+    "raise": "Raise goal",
+    "years_one": "{{count}} year",
+    "years_other": "{{count}} years",
+    "aboutYou": "About you",
+    "bodyActivity": "Body and activity",
+    "rhythm": "Daily rhythm",
+    "rhythmHint": "Reminders are spread between these times."
   },
   "confirm": {
     "question": "Did you drink {{amount}}?",
@@ -522,7 +561,13 @@
     "body": "Enjoy Water Reminder without ads until {{date}}. Thanks for joining!",
     "video": "No worries after that: watch a short video any time for {{hours}} more hours without ads.",
     "start": "Start",
-    "until": "Ad-free until"
+    "until": "Ad-free until",
+    "offerTitle": "Hide ads for {{hours}} hours",
+    "offerHint": "Watch a short video",
+    "leftDays": "Ad-free · {{days}} d {{hours}} h left",
+    "leftHours": "Ad-free · {{hours}} h {{minutes}} min left",
+    "untilDate": "Until {{date}}",
+    "add": "+{{hours}} h"
   },
   "languageMissing": {
     "title": "Can't find your language?",

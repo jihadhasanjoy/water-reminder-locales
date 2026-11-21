@@ -244,7 +244,34 @@
     "goalCaption": "每日目标 {{amount}}",
     "about": "关于",
     "version": "版本",
-    "updateAvailable": "有可用更新"
+    "updateAvailable": "有可用更新",
+    "groupHydration": "饮水",
+    "groupPersonalise": "个性化",
+    "groupSupport": "支持",
+    "nextAt": "下一次 {{time}}",
+    "statStreak_other": "天连续达标",
+    "statToday": "今日目标",
+    "statReminders": "每天提醒次数",
+    "dailyGoal": "每日目标",
+    "goalAuto": "根据你的资料计算",
+    "goalCustom": "由你设定",
+    "themeHints": {
+      "system": "跟随手机设置",
+      "light": "明亮清爽",
+      "dark": "夜间护眼",
+      "pink": "温暖的莓果色"
+    },
+    "metricHint": "毫升和升、千克、厘米",
+    "imperialHint": "液量盎司、磅、英尺和英寸",
+    "feedbackHint": "想法、问题或缺少的语言",
+    "rate": "给应用评分",
+    "rateHint": "喜欢吗？一个评分很有帮助",
+    "share": "分享应用",
+    "shareHint": "帮朋友多喝水",
+    "shareMessage": "我在用 Water Reminder 每天喝足够的水。试试看：",
+    "tagline": "帮你每天喝够水。",
+    "languageIntro": "选择整个应用的语言。新语言会自动下载。",
+    "statStreak_one": "天连续达标"
   },
   "reminders": {
     "title": "提醒",
@@ -287,7 +314,13 @@
     "doneToday": "今天已完成",
     "nextChip": "下次提醒",
     "missedToday": "今天已错过",
-    "timePassed": "今天这个时间已经过了，请选择更晚的时间。"
+    "timePassed": "今天这个时间已经过了，请选择更晚的时间。",
+    "perDay_other": "每天 {{count}} 次提醒",
+    "heroNext": "每次约 {{amount}} · 下一次 {{time}}",
+    "heroDone": "每次约 {{amount}} · 今天已全部完成",
+    "offTitle": "提醒已关闭",
+    "offHint": "打开后，全天都会温和地提醒你。",
+    "perDay_one": "每天 {{count}} 次提醒"
   },
   "permissions": {
     "blockedTitle": "提醒已被阻止",
@@ -317,7 +350,13 @@
     "calculatedHint": "根据你的体重、年龄、活动量和气候计算",
     "recalculate": "重新计算（{{amount}}）",
     "lower": "降低目标",
-    "raise": "提高目标"
+    "raise": "提高目标",
+    "years_other": "{{count}} 岁",
+    "aboutYou": "关于你",
+    "bodyActivity": "身体和活动",
+    "rhythm": "每日作息",
+    "rhythmHint": "提醒会分布在这段时间内。",
+    "years_one": "{{count}} 岁"
   },
   "confirm": {
     "question": "你喝了 {{amount}} 吗？",
@@ -522,7 +561,13 @@
     "body": "在 {{date}} 之前畅享无广告的 Water Reminder。感谢你的加入！",
     "video": "之后也别担心：随时观看一段短视频，即可再获得 {{hours}} 小时无广告。",
     "start": "开始",
-    "until": "无广告至"
+    "until": "无广告至",
+    "offerTitle": "隐藏广告 {{hours}} 小时",
+    "offerHint": "观看一个短视频",
+    "leftDays": "无广告 · 还剩 {{days}} 天 {{hours}} 小时",
+    "leftHours": "无广告 · 还剩 {{hours}} 小时 {{minutes}} 分钟",
+    "untilDate": "至 {{date}}",
+    "add": "+{{hours}} 小时"
   },
   "languageMissing": {
     "title": "找不到你的语言？",
