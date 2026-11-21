@@ -1,44 +1,44 @@
 {
   "schemaVersion": 1,
-  "version": 36,
-  "updatedAt": "2026-11-21T08:10:10.300Z",
+  "version": 38,
+  "updatedAt": "2026-11-21T09:13:03.253Z",
   "languages": "languages.json",
   "languagesSha256": "246fd0d9d0475306a85f080547335b34cc815bd19a07f4dce3c66aa1a68de4f2",
   "locales": {
     "en": {
       "file": "locales/en.json",
-      "sha256": "b0fa44fa7be9c84a8b7da2c6b983ede481c9f2ec2459c2c070d1a4db95ba4737",
-      "keys": 482
+      "sha256": "588a9ce6f04297e4b6a8b22efda41a03879377690bde9ae0cb3882852fb01a8b",
+      "keys": 486
     },
     "bn": {
       "file": "locales/bn.json",
-      "sha256": "13c335acb92131741a82cde453af045d08b8ac60ca9c74b5745be0df01f7ca90",
-      "keys": 482
+      "sha256": "d4528c4ffeba6f130251957a6cb14283deb19c4ef9467f78943dfd147d30a903",
+      "keys": 486
     },
     "hi": {
       "file": "locales/hi.json",
-      "sha256": "0f1080d8f8bb8029dc18ef4d2dd73d2d5110a9c8c11668961d7c6995a3e6dfd3",
-      "keys": 482
+      "sha256": "7d3d33d42c9ad6c10605b891ce7338e70ad9f2ce9081a61110918080a4de21f2",
+      "keys": 486
     },
     "ur": {
       "file": "locales/ur.json",
-      "sha256": "540261094400932f8d70b830fb62b762314d2c9045c21fdb97f6d6f29e6930a9",
-      "keys": 482
+      "sha256": "2abbbbfddb61a5c1eb015fe1b48c978d6d2b6b676233fc388d663cd5c49678ad",
+      "keys": 486
     },
     "de": {
       "file": "locales/de.json",
-      "sha256": "261db60eb6fdf2b33ab6b175a86366480b5ff899dfcdc9521522f843cd5ac24c",
-      "keys": 482
+      "sha256": "7d614f505f3606ff5c09314e0fe58f8b0bed0c8a12bb76fba9247baa7cd4ea40",
+      "keys": 486
     },
     "it": {
       "file": "locales/it.json",
-      "sha256": "4da5269ff17b85b37f5598ba2d3571a18171d44b2e52534ac4a6db2c3a3457c4",
-      "keys": 482
+      "sha256": "22972615f4325dd1fd944ff6f05ff6f1d32409c0432cbcad1aa56969e0126414",
+      "keys": 486
     },
     "zh": {
       "file": "locales/zh.json",
-      "sha256": "5a621ee32559c1fff2c06295f2724c9a8199ae332d4ec23fa2a08995c82506c9",
-      "keys": 482
+      "sha256": "4bb20cea190efae141c43e2a65bb759e43cd40083571564fb52fdd534cb66adb",
+      "keys": 486
     }
   },
   "stories": {

@@ -12,7 +12,8 @@
     "notSet": "Non impostato",
     "loading": "Caricamento",
     "remove": "Rimuovi {{label}}",
-    "notNow": "Non ora"
+    "notNow": "Non ora",
+    "showAll": "Mostra tutto il testo"
   },
   "tabs": {
     "home": "Home",
@@ -174,8 +175,6 @@
     "updated": "Cambiato in {{amount}}",
     "editLabel": "Modifica {{amount}} delle {{time}}",
     "swipeHint": "Scorri una bevanda a sinistra per modificarla o eliminarla",
-    "custom": "Personalizza",
-    "customTitle": "Aggiungi una quantità",
     "addButton": "Aggiungi",
     "dueIn": "Prossima bevuta tra {{minutes}} min",
     "openReminders": "Apre le impostazioni dei promemoria",
@@ -191,7 +190,12 @@
       "next": "⏰ Prossimo promemoria alle {{time}} · tra {{gap}}",
       "nextNone": "Nessun altro promemoria oggi"
     },
-    "showHint": "Mostra come modificare o eliminare una bevanda"
+    "showHint": "Mostra come modificare o eliminare una bevanda",
+    "addWater": "Aggiungi acqua",
+    "orCustom": "o una quantità a scelta",
+    "statDrinks_one": "bevuta oggi",
+    "statDrinks_other": "bevute oggi",
+    "statLast": "ultima bevuta"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",

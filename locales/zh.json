@@ -12,7 +12,8 @@
     "notSet": "未设置",
     "loading": "加载中",
     "remove": "移除{{label}}",
-    "notNow": "暂不"
+    "notNow": "暂不",
+    "showAll": "显示全部文字"
   },
   "tabs": {
     "home": "首页",
@@ -174,8 +175,6 @@
     "updated": "已改为 {{amount}}",
     "editLabel": "编辑 {{time}} 的 {{amount}}",
     "swipeHint": "向左滑动记录可编辑或删除",
-    "custom": "自定义",
-    "customTitle": "添加自定义水量",
     "addButton": "添加",
     "dueIn": "{{minutes}} 分钟后喝水",
     "openReminders": "打开提醒设置",
@@ -191,7 +190,12 @@
       "next": "⏰ 下次提醒 {{time}} · {{gap}}后",
       "nextNone": "今天没有更多提醒了"
     },
-    "showHint": "查看如何编辑或删除记录"
+    "showHint": "查看如何编辑或删除记录",
+    "addWater": "加水",
+    "orCustom": "或自定义量",
+    "statDrinks_one": "次今天",
+    "statDrinks_other": "次今天",
+    "statLast": "上次喝水"
   },
   "history": {
     "emptyTitle": "还没有记录",

@@ -12,7 +12,8 @@
     "notSet": "Not set",
     "loading": "Loading",
     "remove": "Remove {{label}}",
-    "notNow": "Not now"
+    "notNow": "Not now",
+    "showAll": "Shows the whole text"
   },
   "tabs": {
     "home": "Home",
@@ -174,8 +175,6 @@
     "updated": "Changed to {{amount}}",
     "editLabel": "Edit {{amount}} at {{time}}",
     "swipeHint": "Swipe a drink left to edit or delete",
-    "custom": "Custom",
-    "customTitle": "Add a custom amount",
     "addButton": "Add",
     "dueIn": "Next drink in {{minutes}} min",
     "openReminders": "Opens reminder settings",
@@ -191,7 +190,12 @@
       "next": "⏰ Next reminder at {{time}} · in {{gap}}",
       "nextNone": "No more reminders today"
     },
-    "showHint": "Show how to edit or delete a drink"
+    "showHint": "Show how to edit or delete a drink",
+    "addWater": "Add water",
+    "orCustom": "or a custom amount",
+    "statDrinks_one": "drink today",
+    "statDrinks_other": "drinks today",
+    "statLast": "last drink"
   },
   "history": {
     "emptyTitle": "No history yet",

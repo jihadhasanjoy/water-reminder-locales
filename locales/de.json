@@ -12,7 +12,8 @@
     "notSet": "Nicht festgelegt",
     "loading": "Wird geladen",
     "remove": "{{label}} entfernen",
-    "notNow": "Nicht jetzt"
+    "notNow": "Nicht jetzt",
+    "showAll": "Zeigt den ganzen Text"
   },
   "tabs": {
     "home": "Start",
@@ -174,8 +175,6 @@
     "updated": "Auf {{amount}} geändert",
     "editLabel": "{{amount}} um {{time}} bearbeiten",
     "swipeHint": "Getränk nach links wischen zum Bearbeiten oder Löschen",
-    "custom": "Eigene",
-    "customTitle": "Eigene Menge hinzufügen",
     "addButton": "Hinzufügen",
     "dueIn": "Nächstes Getränk in {{minutes}} Min.",
     "openReminders": "Öffnet die Erinnerungseinstellungen",
@@ -191,7 +190,12 @@
       "next": "⏰ Nächste Erinnerung um {{time}} · in {{gap}}",
       "nextNone": "Heute keine Erinnerungen mehr"
     },
-    "showHint": "Zeigen, wie man ein Getränk bearbeitet oder löscht"
+    "showHint": "Zeigen, wie man ein Getränk bearbeitet oder löscht",
+    "addWater": "Wasser hinzufügen",
+    "orCustom": "oder eigene Menge",
+    "statDrinks_one": "Getränk heute",
+    "statDrinks_other": "Getränke heute",
+    "statLast": "zuletzt getrunken"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
