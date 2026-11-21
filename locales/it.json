@@ -225,7 +225,9 @@
     "addTitle": "Aggiungi una bevuta il {{day}}",
     "time": "Ora",
     "futureTime": "Quest'ora non è ancora arrivata. Scegline una precedente.",
-    "added": "Aggiunti {{amount}} alle {{time}}"
+    "added": "Aggiunti {{amount}} alle {{time}}",
+    "title": "I tuoi progressi",
+    "subtitle": "Com’è andata la settimana e il mese"
   },
   "settings": {
     "title": "Impostazioni",

@@ -225,7 +225,9 @@
     "addTitle": "在{{day}}添加饮水",
     "time": "时间",
     "futureTime": "这个时间还没到，请选择更早的时间。",
-    "added": "已添加 {{amount}}（{{time}}）"
+    "added": "已添加 {{amount}}（{{time}}）",
+    "title": "你的进展",
+    "subtitle": "这周和这个月过得怎么样"
   },
   "settings": {
     "title": "设置",

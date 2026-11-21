@@ -225,7 +225,9 @@
     "addTitle": "Getränk am {{day}} hinzufügen",
     "time": "Uhrzeit",
     "futureTime": "Diese Uhrzeit ist noch nicht erreicht. Wähle eine frühere.",
-    "added": "{{amount}} um {{time}} hinzugefügt"
+    "added": "{{amount}} um {{time}} hinzugefügt",
+    "title": "Dein Fortschritt",
+    "subtitle": "So liefen deine Woche und dein Monat"
   },
   "settings": {
     "title": "Einstellungen",
