@@ -36,8 +36,8 @@
       "name": "Come ti chiami?",
       "gender": "Qual è il tuo genere?",
       "genderSubtitle": "Il fabbisogno d’acqua cambia un po’ tra uomini e donne.",
-      "birthday": "Quando sei nato/a?",
-      "birthdaySubtitle": "Il fabbisogno d’acqua cambia un po’ con l’età.",
+      "birthday": "Quanti anni hai?",
+      "birthdaySubtitle": "Scegli il compleanno, o solo la tua età. Il bisogno di acqua cambia un po’ con l’età.",
       "body": "Altezza e peso",
       "bodySubtitle": "Il peso determina gran parte del tuo obiettivo.",
       "schedule": "Quando sei sveglio/a di solito?",
@@ -64,7 +64,13 @@
       "sleep": "A letto",
       "awakeHours": "Circa {{hours}} ore da sveglio/a",
       "awakeHoursMinutes": "Circa {{hours}} h {{minutes}} min da sveglio/a",
-      "climate": "Clima dove vivi"
+      "climate": "Clima dove vivi",
+      "age": "Età"
+    },
+    "private": "Resta su questo telefono. Serve solo a calcolare il tuo obiettivo.",
+    "birthdayMode": {
+      "date": "Compleanno",
+      "age": "Solo la mia età"
     }
   },
   "gender": {
@@ -356,7 +362,8 @@
     "aboutYou": "Su di te",
     "bodyActivity": "Corpo e attività",
     "rhythm": "Ritmo quotidiano",
-    "rhythmHint": "I promemoria sono distribuiti in questo intervallo."
+    "rhythmHint": "I promemoria sono distribuiti in questo intervallo.",
+    "age": "Età"
   },
   "confirm": {
     "question": "Hai bevuto {{amount}}?",

@@ -36,8 +36,8 @@
       "name": "What should we call you?",
       "gender": "What's your gender?",
       "genderSubtitle": "Water needs differ a little between men and women.",
-      "birthday": "When is your birthday?",
-      "birthdaySubtitle": "Water needs change a little with age.",
+      "birthday": "How old are you?",
+      "birthdaySubtitle": "Pick your birthday, or just your age. Water needs change a little with age.",
       "body": "Your height and weight",
       "bodySubtitle": "Weight drives most of your daily goal.",
       "schedule": "When are you usually awake?",
@@ -64,7 +64,13 @@
       "sleep": "Go to sleep",
       "awakeHours": "About {{hours}} hours awake",
       "awakeHoursMinutes": "About {{hours}} h {{minutes}} min awake",
-      "climate": "Climate where you live"
+      "climate": "Climate where you live",
+      "age": "Age"
+    },
+    "private": "Stays on this phone. Only used to work out your goal.",
+    "birthdayMode": {
+      "date": "Birthday",
+      "age": "Just my age"
     }
   },
   "gender": {
@@ -356,7 +362,8 @@
     "aboutYou": "About you",
     "bodyActivity": "Body and activity",
     "rhythm": "Daily rhythm",
-    "rhythmHint": "Reminders are spread between these times."
+    "rhythmHint": "Reminders are spread between these times.",
+    "age": "Age"
   },
   "confirm": {
     "question": "Did you drink {{amount}}?",

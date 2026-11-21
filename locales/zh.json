@@ -36,8 +36,8 @@
       "name": "我们该怎么称呼你？",
       "gender": "你的性别是？",
       "genderSubtitle": "男性和女性的饮水需求略有不同。",
-      "birthday": "你的生日是哪天？",
-      "birthdaySubtitle": "饮水需求会随年龄略有变化。",
+      "birthday": "你多大了？",
+      "birthdaySubtitle": "选择生日，或只填年龄。饮水需求会随年龄略有变化。",
       "body": "你的身高和体重",
       "bodySubtitle": "每日目标主要取决于你的体重。",
       "schedule": "你通常几点起床、几点睡觉？",
@@ -64,7 +64,13 @@
       "sleep": "睡觉",
       "awakeHours": "清醒约 {{hours}} 小时",
       "awakeHoursMinutes": "清醒约 {{hours}} 小时 {{minutes}} 分钟",
-      "climate": "你所在地区的气候"
+      "climate": "你所在地区的气候",
+      "age": "年龄"
+    },
+    "private": "只保存在这部手机上，仅用于计算你的目标。",
+    "birthdayMode": {
+      "date": "生日",
+      "age": "只填年龄"
     }
   },
   "gender": {
@@ -356,7 +362,8 @@
     "bodyActivity": "身体和活动",
     "rhythm": "每日作息",
     "rhythmHint": "提醒会分布在这段时间内。",
-    "years_one": "{{count}} 岁"
+    "years_one": "{{count}} 岁",
+    "age": "年龄"
   },
   "confirm": {
     "question": "你喝了 {{amount}} 吗？",
