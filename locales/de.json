@@ -145,7 +145,7 @@
     "today": "HEUTE",
     "add": "{{amount}} hinzufügen",
     "empty": "Heute noch nichts getrunken",
-    "emptyHint": "Tippe nach jedem Getränk auf einen Button oben.",
+    "emptyHint": "Tippe nach jedem Getränk auf den Glas-Button.",
     "logLabel": "{{amount}} um {{time}}",
     "deleteLabel": "{{amount}} um {{time}} löschen",
     "deleteTitle": "Dieses Getränk löschen?",
@@ -195,7 +195,11 @@
     "orCustom": "oder eigene Menge",
     "statDrinks_one": "Getränk heute",
     "statDrinks_other": "Getränke heute",
-    "statLast": "zuletzt getrunken"
+    "statLast": "zuletzt getrunken",
+    "todayTitle": "Heute getrunken",
+    "drinkCount_one": "{{count}} Getränk",
+    "drinkCount_other": "{{count}} Getränke",
+    "tomorrowAt": "Morgen, {{time}}"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
@@ -283,7 +287,8 @@
     "shareHint": "Hilf einem Freund, mehr zu trinken",
     "shareMessage": "Ich nutze Water Reminder, um jeden Tag genug Wasser zu trinken. Probier es aus:",
     "tagline": "Damit du jeden Tag genug trinkst.",
-    "languageIntro": "Wähle die Sprache für die ganze App. Neue Sprachen werden von selbst geladen."
+    "languageIntro": "Wähle die Sprache für die ganze App. Neue Sprachen werden von selbst geladen.",
+    "testBuild": "Test"
   },
   "reminders": {
     "title": "Erinnerungen",
@@ -332,7 +337,13 @@
     "heroNext": "Je etwa {{amount}} · nächste um {{time}}",
     "heroDone": "Je etwa {{amount}} · für heute erledigt",
     "offTitle": "Erinnerungen sind aus",
-    "offHint": "Schalte sie ein, um über den Tag sanft erinnert zu werden."
+    "offHint": "Schalte sie ein, um über den Tag sanft erinnert zu werden.",
+    "skipped": "entfällt",
+    "skippedGap": "Entfällt heute: weniger als {{gap}} nach dem letzten Schluck.",
+    "skippedGoal": "Ziel erreicht: der Rest kommt morgen wieder.",
+    "asleepTitle": "In deiner Schlafenszeit",
+    "asleepMessage": "{{time}} liegt zwischen Schlafenszeit ({{sleep}}) und Aufstehen ({{wake}}). Eine Erinnerung könnte dich wecken. Trotzdem erinnern?",
+    "asleepKeep": "Trotzdem erinnern"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",

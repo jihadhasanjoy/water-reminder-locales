@@ -145,7 +145,7 @@
     "today": "OGGI",
     "add": "Aggiungi {{amount}}",
     "empty": "Nessuna bevuta registrata oggi",
-    "emptyHint": "Tocca un pulsante qui sopra dopo ogni bevuta.",
+    "emptyHint": "Tocca il pulsante del bicchiere dopo ogni bevuta.",
     "logLabel": "{{amount}} alle {{time}}",
     "deleteLabel": "Elimina {{amount}} delle {{time}}",
     "deleteTitle": "Eliminare questa bevuta?",
@@ -195,7 +195,11 @@
     "orCustom": "o una quantità a scelta",
     "statDrinks_one": "bevuta oggi",
     "statDrinks_other": "bevute oggi",
-    "statLast": "ultima bevuta"
+    "statLast": "ultima bevuta",
+    "todayTitle": "Bevute di oggi",
+    "drinkCount_one": "{{count}} bevuta",
+    "drinkCount_other": "{{count}} bevute",
+    "tomorrowAt": "Domani, {{time}}"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",
@@ -283,7 +287,8 @@
     "shareHint": "Aiuta un amico a bere di più",
     "shareMessage": "Uso Water Reminder per bere abbastanza acqua ogni giorno. Provala:",
     "tagline": "Per aiutarti a bere abbastanza, ogni giorno.",
-    "languageIntro": "Scegli la lingua di tutta l'app. Le nuove lingue si scaricano da sole."
+    "languageIntro": "Scegli la lingua di tutta l'app. Le nuove lingue si scaricano da sole.",
+    "testBuild": "Test"
   },
   "reminders": {
     "title": "Promemoria",
@@ -332,7 +337,13 @@
     "heroNext": "Circa {{amount}} ciascuno · prossimo alle {{time}}",
     "heroDone": "Circa {{amount}} ciascuno · finito per oggi",
     "offTitle": "Promemoria disattivati",
-    "offHint": "Attivali per un piccolo richiamo durante la giornata."
+    "offHint": "Attivali per un piccolo richiamo durante la giornata.",
+    "skipped": "saltato",
+    "skippedGap": "Saltato oggi: meno di {{gap}} dall'ultima bevuta.",
+    "skippedGoal": "Obiettivo raggiunto: gli altri tornano domani.",
+    "asleepTitle": "Durante le tue ore di sonno",
+    "asleepMessage": "{{time}} è tra quando vai a dormire ({{sleep}}) e la sveglia ({{wake}}). Un promemoria potrebbe svegliarti. Ricordarlo comunque?",
+    "asleepKeep": "Ricordamelo comunque"
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",
