@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "adFreeTrialDays": 0,
+  "adFreeTrialDays": 1,
   "rewardedAdFreeHours": 12,
   "android": {
     "minVersion": "1.0.0-14",
-    "latestVersion": "1.0.0-26",
+    "latestVersion": "1.0.0-27",
     "storeUrl": "https://appdistribution.firebase.dev/i/925688945bc88c1e",
     "storeUrlProd": "https://appdistribution.firebase.dev/i/925688945bc88c1e",
     "storeUrlDev": "https://appdistribution.firebase.dev/i/b41c9fb64ee09b0f",
