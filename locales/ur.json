@@ -199,7 +199,8 @@
     "todayTitle": "آج کا پانی",
     "drinkCount_one": "{{count}} بار",
     "drinkCount_other": "{{count}} بار",
-    "tomorrowAt": "کل، {{time}}"
+    "tomorrowAt": "کل، {{time}}",
+    "drinkWindow": "پینے کا وقت {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "ابھی کوئی تاریخچہ نہیں",
@@ -344,7 +345,9 @@
     "asleepTitle": "آپ کے سونے کے وقت میں",
     "asleepMessage": "{{time}} آپ کے سونے ({{sleep}}) اور جاگنے ({{wake}}) کے وقت کے درمیان ہے۔ تب یاد دہانی آپ کو جگا سکتی ہے۔ پھر بھی یاد دلائیں؟",
     "asleepKeep": "پھر بھی یاد دلائیں",
-    "fromTomorrow": "کل سے"
+    "fromTomorrow": "کل سے",
+    "customRange": "کسی وقت سے اگلے وقت تک (زیادہ سے زیادہ {{gap}}) پینا اسی وقت کے لیے گنا جاتا ہے۔",
+    "rangeTitle": "پینے کی حد (ہر وقت سے، زیادہ سے زیادہ)"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",

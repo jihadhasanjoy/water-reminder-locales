@@ -199,7 +199,8 @@
     "todayTitle": "Heute getrunken",
     "drinkCount_one": "{{count}} Getränk",
     "drinkCount_other": "{{count}} Getränke",
-    "tomorrowAt": "Morgen, {{time}}"
+    "tomorrowAt": "Morgen, {{time}}",
+    "drinkWindow": "Trinkfenster {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
@@ -344,7 +345,9 @@
     "asleepTitle": "In deiner Schlafenszeit",
     "asleepMessage": "{{time}} liegt zwischen Schlafenszeit ({{sleep}}) und Aufstehen ({{wake}}). Eine Erinnerung könnte dich wecken. Trotzdem erinnern?",
     "asleepKeep": "Trotzdem erinnern",
-    "fromTomorrow": "ab morgen"
+    "fromTomorrow": "ab morgen",
+    "customRange": "Ein Getränk ab einer Uhrzeit bis zur nächsten (höchstens {{gap}}) zählt für sie.",
+    "rangeTitle": "Trinkbereich (ab jeder Uhrzeit, höchstens)"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",

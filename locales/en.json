@@ -199,7 +199,8 @@
     "todayTitle": "Today's drinks",
     "drinkCount_one": "{{count}} drink",
     "drinkCount_other": "{{count}} drinks",
-    "tomorrowAt": "Tomorrow, {{time}}"
+    "tomorrowAt": "Tomorrow, {{time}}",
+    "drinkWindow": "Drink window {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -344,7 +345,9 @@
     "asleepTitle": "During your sleep time",
     "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
     "asleepKeep": "Remind me anyway",
-    "fromTomorrow": "from tomorrow"
+    "fromTomorrow": "from tomorrow",
+    "customRange": "A drink from a time until the next one (at most {{gap}}) counts for it.",
+    "rangeTitle": "Drink range (from each time, at most)"
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",

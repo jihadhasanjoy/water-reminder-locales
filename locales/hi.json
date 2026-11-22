@@ -199,7 +199,8 @@
     "todayTitle": "आज का पानी",
     "drinkCount_one": "{{count}} बार",
     "drinkCount_other": "{{count}} बार",
-    "tomorrowAt": "कल, {{time}}"
+    "tomorrowAt": "कल, {{time}}",
+    "drinkWindow": "पीने का समय {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",
@@ -344,7 +345,9 @@
     "asleepTitle": "आपके सोने के समय में",
     "asleepMessage": "{{time}} आपके सोने ({{sleep}}) और जागने ({{wake}}) के समय के बीच है। तब रिमाइंडर आपकी नींद तोड़ सकता है। फिर भी याद दिलाएँ?",
     "asleepKeep": "फिर भी याद दिलाएँ",
-    "fromTomorrow": "कल से"
+    "fromTomorrow": "कल से",
+    "customRange": "किसी समय से अगले समय तक (अधिकतम {{gap}}) पीना उसी समय के लिए गिना जाता है।",
+    "rangeTitle": "पीने की सीमा (हर समय से, अधिकतम)"
   },
   "permissions": {
     "blockedTitle": "रिमाइंडर बंद हैं",

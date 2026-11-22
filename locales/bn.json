@@ -199,7 +199,8 @@
     "todayTitle": "আজকের পান",
     "drinkCount_one": "{{count}} বার",
     "drinkCount_other": "{{count}} বার",
-    "tomorrowAt": "আগামীকাল, {{time}}"
+    "tomorrowAt": "আগামীকাল, {{time}}",
+    "drinkWindow": "পানের সময় {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "এখনো কোনো ইতিহাস নেই",
@@ -344,7 +345,9 @@
     "asleepTitle": "আপনার ঘুমের সময়ে",
     "asleepMessage": "{{time}} আপনার ঘুমানোর সময় ({{sleep}}) আর ঘুম থেকে ওঠার সময়ের ({{wake}}) মাঝে। তখন রিমাইন্ডার আপনার ঘুম ভাঙাতে পারে। তবুও মনে করিয়ে দেব?",
     "asleepKeep": "তবুও মনে করিয়ে দিন",
-    "fromTomorrow": "আগামীকাল থেকে"
+    "fromTomorrow": "আগামীকাল থেকে",
+    "customRange": "কোনো সময় থেকে পরের সময় পর্যন্ত (সর্বোচ্চ {{gap}}) পান করলে সেটি ওই সময়ের জন্য ধরা হয়।",
+    "rangeTitle": "পানের সময়সীমা (প্রতিটি সময় থেকে, সর্বোচ্চ)"
   },
   "permissions": {
     "blockedTitle": "রিমাইন্ডার বন্ধ আছে",

@@ -199,7 +199,8 @@
     "todayTitle": "今天的饮水",
     "drinkCount_one": "{{count}} 次",
     "drinkCount_other": "{{count}} 次",
-    "tomorrowAt": "明天 {{time}}"
+    "tomorrowAt": "明天 {{time}}",
+    "drinkWindow": "喝水时段 {{from}} – {{to}}"
   },
   "history": {
     "emptyTitle": "还没有记录",
@@ -343,7 +344,9 @@
     "asleepTitle": "在你的睡眠时间内",
     "asleepMessage": "{{time}} 在你的就寝时间（{{sleep}}）和起床时间（{{wake}}）之间，提醒可能会吵醒你。仍然提醒吗？",
     "asleepKeep": "仍然提醒",
-    "fromTomorrow": "明天开始"
+    "fromTomorrow": "明天开始",
+    "customRange": "从某个时间到下一个时间之间（最多 {{gap}}）喝水，算作该时间的提醒已完成。",
+    "rangeTitle": "喝水范围（从每个时间起，最多）"
   },
   "permissions": {
     "blockedTitle": "提醒已被阻止",
