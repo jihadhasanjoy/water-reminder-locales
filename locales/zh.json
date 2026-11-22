@@ -197,6 +197,7 @@
     "statDrinks_other": "次今天",
     "statLast": "上次喝水",
     "todayTitle": "今天的饮水",
+    "drinkCount_one": "{{count}} 次",
     "drinkCount_other": "{{count}} 次",
     "tomorrowAt": "明天 {{time}}"
   },
@@ -341,7 +342,8 @@
     "skippedGoal": "已达标：其余的明天再提醒。",
     "asleepTitle": "在你的睡眠时间内",
     "asleepMessage": "{{time}} 在你的就寝时间（{{sleep}}）和起床时间（{{wake}}）之间，提醒可能会吵醒你。仍然提醒吗？",
-    "asleepKeep": "仍然提醒"
+    "asleepKeep": "仍然提醒",
+    "fromTomorrow": "明天开始"
   },
   "permissions": {
     "blockedTitle": "提醒已被阻止",

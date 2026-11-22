@@ -343,7 +343,8 @@
     "skippedGoal": "लक्ष्य पूरा: बाकी कल फिर से।",
     "asleepTitle": "आपके सोने के समय में",
     "asleepMessage": "{{time}} आपके सोने ({{sleep}}) और जागने ({{wake}}) के समय के बीच है। तब रिमाइंडर आपकी नींद तोड़ सकता है। फिर भी याद दिलाएँ?",
-    "asleepKeep": "फिर भी याद दिलाएँ"
+    "asleepKeep": "फिर भी याद दिलाएँ",
+    "fromTomorrow": "कल से"
   },
   "permissions": {
     "blockedTitle": "रिमाइंडर बंद हैं",

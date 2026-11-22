@@ -343,7 +343,8 @@
     "skippedGoal": "Goal reached: the rest come back tomorrow.",
     "asleepTitle": "During your sleep time",
     "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
-    "asleepKeep": "Remind me anyway"
+    "asleepKeep": "Remind me anyway",
+    "fromTomorrow": "from tomorrow"
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",

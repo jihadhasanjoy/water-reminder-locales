@@ -122,7 +122,7 @@ To add or change a story:
 
 ## Requiring an app update (`app-config.json`)
 
-**Two files:** `app-config.json` is read by the store app (`com.dropwise.waterreminder`), `app-config.test.json` by the test app (`com.dropwise.waterreminder.test`, "Water Reminder Test", built with `.env.test`). Same fields; try update rules or ad settings in the test file first. The test app never shows real ads, so its ad units can stay empty. Check one with `node scripts/validate-config.mjs app-config.test.json`.
+**One file, two branches:** every build reads `app-config.json`; the branch decides who sees a change. The store app's release builds read `main`; the test app (`com.dropwise.waterreminder.test`, "Water Reminder Test") and all debug builds read `dev`. Try update rules or ad settings on `dev` first, then merge to `main` to reach users. The test app never shows real ads.
 
 The app also reads `app-config.json` each time it opens (and on coming back to it after 30 minutes). It has nothing to do with the translations; it only lives here so no server is needed.
 

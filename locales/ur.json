@@ -343,7 +343,8 @@
     "skippedGoal": "ہدف پورا: باقی کل پھر سے۔",
     "asleepTitle": "آپ کے سونے کے وقت میں",
     "asleepMessage": "{{time}} آپ کے سونے ({{sleep}}) اور جاگنے ({{wake}}) کے وقت کے درمیان ہے۔ تب یاد دہانی آپ کو جگا سکتی ہے۔ پھر بھی یاد دلائیں؟",
-    "asleepKeep": "پھر بھی یاد دلائیں"
+    "asleepKeep": "پھر بھی یاد دلائیں",
+    "fromTomorrow": "کل سے"
   },
   "permissions": {
     "blockedTitle": "یاد دہانیاں بند ہیں",

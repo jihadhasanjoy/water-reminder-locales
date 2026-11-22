@@ -343,7 +343,8 @@
     "skippedGoal": "Ziel erreicht: der Rest kommt morgen wieder.",
     "asleepTitle": "In deiner Schlafenszeit",
     "asleepMessage": "{{time}} liegt zwischen Schlafenszeit ({{sleep}}) und Aufstehen ({{wake}}). Eine Erinnerung könnte dich wecken. Trotzdem erinnern?",
-    "asleepKeep": "Trotzdem erinnern"
+    "asleepKeep": "Trotzdem erinnern",
+    "fromTomorrow": "ab morgen"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",
