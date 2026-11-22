@@ -4,7 +4,7 @@
   "rewardedAdFreeHours": 12,
   "android": {
     "minVersion": "1.0.0-14",
-    "latestVersion": "1.0.0-27",
+    "latestVersion": "1.0.0-26",
     "storeUrl": "",
     "bannerUnit": "ca-app-pub-2066803851976714/3382038237",
     "rewardedUnit": "ca-app-pub-2066803851976714/5309363423"
