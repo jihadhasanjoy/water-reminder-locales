@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} drink",
     "drinkCount_other": "{{count}} drinks",
     "tomorrowAt": "Tomorrow, {{time}}",
-    "drinkWindow": "Drink window {{from}} – {{to}}"
+    "drinkWindow": "Drink window {{from}} – {{to}}",
+    "inTime": "in {{duration}}",
+    "windowLabel": "drink window"
   },
   "history": {
     "emptyTitle": "No history yet",

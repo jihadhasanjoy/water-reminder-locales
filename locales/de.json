@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} Getränk",
     "drinkCount_other": "{{count}} Getränke",
     "tomorrowAt": "Morgen, {{time}}",
-    "drinkWindow": "Trinkfenster {{from}} – {{to}}"
+    "drinkWindow": "Trinkfenster {{from}} – {{to}}",
+    "inTime": "noch {{duration}}",
+    "windowLabel": "Trinkfenster"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",

@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} bevuta",
     "drinkCount_other": "{{count}} bevute",
     "tomorrowAt": "Domani, {{time}}",
-    "drinkWindow": "Finestra per bere {{from}} – {{to}}"
+    "drinkWindow": "Finestra per bere {{from}} – {{to}}",
+    "inTime": "tra {{duration}}",
+    "windowLabel": "finestra per bere"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",

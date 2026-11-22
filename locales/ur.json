@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} بار",
     "drinkCount_other": "{{count}} بار",
     "tomorrowAt": "کل، {{time}}",
-    "drinkWindow": "پینے کا وقت {{from}} – {{to}}"
+    "drinkWindow": "پینے کا وقت {{from}} – {{to}}",
+    "inTime": "{{duration}} میں",
+    "windowLabel": "پینے کا وقت"
   },
   "history": {
     "emptyTitle": "ابھی کوئی تاریخچہ نہیں",

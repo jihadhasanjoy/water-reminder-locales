@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} बार",
     "drinkCount_other": "{{count}} बार",
     "tomorrowAt": "कल, {{time}}",
-    "drinkWindow": "पीने का समय {{from}} – {{to}}"
+    "drinkWindow": "पीने का समय {{from}} – {{to}}",
+    "inTime": "{{duration}} में",
+    "windowLabel": "पीने का समय"
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",

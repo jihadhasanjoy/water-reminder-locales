@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} 次",
     "drinkCount_other": "{{count}} 次",
     "tomorrowAt": "明天 {{time}}",
-    "drinkWindow": "喝水时段 {{from}} – {{to}}"
+    "drinkWindow": "喝水时段 {{from}} – {{to}}",
+    "inTime": "{{duration}} 后",
+    "windowLabel": "喝水时段"
   },
   "history": {
     "emptyTitle": "还没有记录",

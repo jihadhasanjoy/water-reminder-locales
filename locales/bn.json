@@ -200,7 +200,9 @@
     "drinkCount_one": "{{count}} বার",
     "drinkCount_other": "{{count}} বার",
     "tomorrowAt": "আগামীকাল, {{time}}",
-    "drinkWindow": "পানের সময় {{from}} – {{to}}"
+    "drinkWindow": "পানের সময় {{from}} – {{to}}",
+    "inTime": "{{duration}} পরে",
+    "windowLabel": "পানের সময়"
   },
   "history": {
     "emptyTitle": "এখনো কোনো ইতিহাস নেই",
