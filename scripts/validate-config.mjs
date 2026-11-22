@@ -61,8 +61,9 @@ const wholeIn = (value, min, max) =>
 if (config.adFreeTrialDays !== undefined && !wholeIn(config.adFreeTrialDays, 0, 30)) {
   errors.push('adFreeTrialDays must be a whole number from 0 to 30');
 }
-if (config.rewardedAdFreeHours !== undefined && !wholeIn(config.rewardedAdFreeHours, 1, 72)) {
-  errors.push('rewardedAdFreeHours must be a whole number from 1 to 72');
+// 0 switches the watch-a-video offer off.
+if (config.rewardedAdFreeHours !== undefined && !wholeIn(config.rewardedAdFreeHours, 0, 72)) {
+  errors.push('rewardedAdFreeHours must be a whole number from 0 to 72');
 }
 for (const platform of ['android', 'ios']) {
   const rules = config[platform];
@@ -115,5 +116,5 @@ const units = ['android', 'ios']
   .filter(p => config[p])
   .map(p => `${p} ads ${config[p].bannerUnit && config[p].rewardedUnit ? 'real' : config[p].bannerUnit || config[p].rewardedUnit ? 'partly real' : 'test'}`)
   .join(', ');
-const ads = `ad-free welcome ${config.adFreeTrialDays ?? 1} day(s), video +${config.rewardedAdFreeHours ?? 12} h; ${units}`;
+const ads = `ad-free welcome ${config.adFreeTrialDays ?? 1} day(s), video ${config.rewardedAdFreeHours === 0 ? 'off' : `+${config.rewardedAdFreeHours ?? 12} h`}; ${units}`;
 console.log(`OK: ${FILE} (${summary}; ${ads}).`);

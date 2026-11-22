@@ -253,6 +253,8 @@
     "timeFormat": "समय का प्रारूप",
     "time24": "24 घंटे (19:30)",
     "time12": "12 घंटे (7:30 PM)",
+    "time24Now": "24 घंटे ({{time}})",
+    "time12Now": "12 घंटे ({{time}})",
     "language": "भाषा",
     "languageSystem": "सिस्टम",
     "you": "आप",

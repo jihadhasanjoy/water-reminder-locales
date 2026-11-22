@@ -253,6 +253,8 @@
     "timeFormat": "时间格式",
     "time24": "24 小时制（19:30）",
     "time12": "12 小时制（下午 7:30）",
+    "time24Now": "24 小时制（{{time}}）",
+    "time12Now": "12 小时制（{{time}}）",
     "language": "语言",
     "languageSystem": "跟随系统",
     "you": "我",

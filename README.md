@@ -149,7 +149,7 @@ Two settings for ads, shared by both platforms:
 | Field | Meaning |
 |---|---|
 | `adFreeTrialDays` | Days without ads a **new user** gets, counted from the welcome sheet right after onboarding (2 = 48 hours). `0` turns the gift off. Missing, or the file can't be read: 1 day. Whole number, 0–30 |
-| `rewardedAdFreeHours` | Hours without ads each **watched video** adds (from the "Hide ads?" link under banners). Videos stack: each adds its hours on top of any ad-free time left. Missing: 12. Whole number, 1–72 |
+| `rewardedAdFreeHours` | Hours without ads each **watched video** adds (from the "Hide ads?" link under banners). Videos stack: each adds its hours on top of any ad-free time left. Missing: 12. `0` switches the video offer off (no link under banners, nothing in Settings or the welcome sheet). Whole number, 0–72 |
 
 Changes apply to phones the next time they read the file; ad-free time already given isn't changed.
 
