@@ -427,6 +427,7 @@
     "testBody": "Test-Erinnerung",
     "channel": "Erinnerungen",
     "reportChannel": "Tageszusammenfassungen",
+    "newsChannel": "Neuigkeiten & Updates",
     "mood": {
       "done": {
         "title": "Ziel erreicht 🎉",

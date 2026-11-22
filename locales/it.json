@@ -427,6 +427,7 @@
     "testBody": "Promemoria di prova",
     "channel": "Promemoria",
     "reportChannel": "Riepiloghi giornalieri",
+    "newsChannel": "Novità e aggiornamenti",
     "mood": {
       "done": {
         "title": "Obiettivo raggiunto 🎉",

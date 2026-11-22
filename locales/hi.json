@@ -427,6 +427,7 @@
     "testBody": "जाँच रिमाइंडर",
     "channel": "रिमाइंडर",
     "reportChannel": "दैनिक सारांश",
+    "newsChannel": "समाचार और अपडेट",
     "mood": {
       "done": {
         "title": "लक्ष्य पूरा हुआ 🎉",
