@@ -481,7 +481,9 @@
     "label": "Advertisement",
     "extendTitle": "Add {{hours}} more hours?",
     "extendBody": "Watch a short video and {{hours}} hours are added to your ad-free time. Videos add up: watch as many as you like.",
-    "extended": "+{{hours}} hours added! No ads until {{until}}."
+    "extended": "+{{hours}} hours added! No ads until {{until}}.",
+    "welcomeTitle": "Get {{hours}} hours without ads",
+    "welcomeBody": "Thanks for joining! Watch one short video to the end and enjoy Water Reminder for {{hours}} hours without ads."
   },
   "feedback": {
     "section": "Feedback",
