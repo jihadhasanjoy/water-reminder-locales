@@ -199,7 +199,10 @@
     "todayTitle": "Bevute di oggi",
     "drinkCount_one": "{{count}} bevuta",
     "drinkCount_other": "{{count}} bevute",
-    "tomorrowAt": "Domani, {{time}}"
+    "tomorrowAt": "Domani, {{time}}",
+    "drinkWindow": "Finestra per bere {{from}} – {{to}}",
+    "inTime": "tra {{duration}}",
+    "windowLabel": "finestra per bere"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",
@@ -343,7 +346,10 @@
     "skippedGoal": "Obiettivo raggiunto: gli altri tornano domani.",
     "asleepTitle": "Durante le tue ore di sonno",
     "asleepMessage": "{{time}} è tra quando vai a dormire ({{sleep}}) e la sveglia ({{wake}}). Un promemoria potrebbe svegliarti. Ricordarlo comunque?",
-    "asleepKeep": "Ricordamelo comunque"
+    "asleepKeep": "Ricordamelo comunque",
+    "fromTomorrow": "da domani",
+    "customRange": "Una bevuta da un orario fino al successivo (al massimo {{gap}}) conta per quell'orario.",
+    "rangeTitle": "Intervallo per bere (da ogni orario, al massimo)"
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",

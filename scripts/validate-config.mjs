@@ -1,10 +1,10 @@
-// Checks app-config.json (the store app) or app-config.test.json (the test
-// app, com.dropwise.waterreminder.test), which tell the app which versions
-// must or may update, and how long new users and rewarded videos go without
-// ads. A mistake here could lock people out of the app, so anything
-// unexpected fails. Exits non-zero on any problem.
-//   node scripts/validate-config.mjs                       # app-config.json
-//   node scripts/validate-config.mjs app-config.test.json
+// Checks app-config.json (every build reads it: the store app from main,
+// the test app and debug builds from dev), which tells the app which
+// versions must or may update, and how long new users and rewarded videos
+// go without ads. A mistake here could lock people out of the app, so
+// anything unexpected fails. Exits non-zero on any problem.
+//   node scripts/validate-config.mjs              # app-config.json
+//   node scripts/validate-config.mjs other.json   # another file
 import { readJSON } from './lib.mjs';
 
 const FILE = process.argv[2] ?? 'app-config.json';
