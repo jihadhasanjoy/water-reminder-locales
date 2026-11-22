@@ -234,7 +234,8 @@
     "futureTime": "That time hasn't come yet. Pick an earlier time.",
     "added": "Added {{amount}} at {{time}}",
     "title": "Your progress",
-    "subtitle": "How your week and month went"
+    "subtitle": "How your week and month went",
+    "beforeStart": "Before you started (on {{date}})."
   },
   "settings": {
     "title": "Settings",

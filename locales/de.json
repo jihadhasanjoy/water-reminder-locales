@@ -234,7 +234,8 @@
     "futureTime": "Diese Uhrzeit ist noch nicht erreicht. Wähle eine frühere.",
     "added": "{{amount}} um {{time}} hinzugefügt",
     "title": "Dein Fortschritt",
-    "subtitle": "So liefen deine Woche und dein Monat"
+    "subtitle": "So liefen deine Woche und dein Monat",
+    "beforeStart": "Vor deinem Start (am {{date}})."
   },
   "settings": {
     "title": "Einstellungen",

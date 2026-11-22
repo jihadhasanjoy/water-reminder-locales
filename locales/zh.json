@@ -234,7 +234,8 @@
     "futureTime": "这个时间还没到，请选择更早的时间。",
     "added": "已添加 {{amount}}（{{time}}）",
     "title": "你的进展",
-    "subtitle": "这周和这个月过得怎么样"
+    "subtitle": "这周和这个月过得怎么样",
+    "beforeStart": "在你开始使用之前（{{date}} 开始）。"
   },
   "settings": {
     "title": "设置",

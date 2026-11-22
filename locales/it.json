@@ -234,7 +234,8 @@
     "futureTime": "Quest'ora non è ancora arrivata. Scegline una precedente.",
     "added": "Aggiunti {{amount}} alle {{time}}",
     "title": "I tuoi progressi",
-    "subtitle": "Com’è andata la settimana e il mese"
+    "subtitle": "Com’è andata la settimana e il mese",
+    "beforeStart": "Prima che iniziassi (il {{date}})."
   },
   "settings": {
     "title": "Impostazioni",
