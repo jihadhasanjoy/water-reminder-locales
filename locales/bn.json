@@ -202,7 +202,10 @@
     "tomorrowAt": "আগামীকাল, {{time}}",
     "drinkWindow": "পানের সময় {{from}} – {{to}}",
     "inTime": "{{duration}} পরে",
-    "windowLabel": "পানের সময়"
+    "windowLabel": "পানের সময়",
+    "slotNow": "এখন",
+    "slotNext": "পরের",
+    "betweenSlots": "দুই সময়ের মাঝে"
   },
   "history": {
     "emptyTitle": "এখনো কোনো ইতিহাস নেই",
@@ -234,7 +237,8 @@
     "futureTime": "এই সময় এখনো আসেনি। আগের কোনো সময় বেছে নিন।",
     "added": "{{time}}-এ {{amount}} যোগ হয়েছে",
     "title": "আপনার অগ্রগতি",
-    "subtitle": "এই সপ্তাহ আর মাস কেমন গেল"
+    "subtitle": "এই সপ্তাহ আর মাস কেমন গেল",
+    "beforeStart": "আপনি শুরু করার আগে ({{date}} থেকে শুরু)।"
   },
   "settings": {
     "title": "সেটিংস",
@@ -253,6 +257,8 @@
     "timeFormat": "সময়ের ফরম্যাট",
     "time24": "২৪ ঘণ্টা (19:30)",
     "time12": "১২ ঘণ্টা (7:30 PM)",
+    "time24Now": "২৪ ঘণ্টা ({{time}})",
+    "time12Now": "১২ ঘণ্টা ({{time}})",
     "language": "ভাষা",
     "languageSystem": "সিস্টেম",
     "you": "আপনি",

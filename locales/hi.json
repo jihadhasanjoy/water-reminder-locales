@@ -202,7 +202,10 @@
     "tomorrowAt": "कल, {{time}}",
     "drinkWindow": "पीने का समय {{from}} – {{to}}",
     "inTime": "{{duration}} में",
-    "windowLabel": "पीने का समय"
+    "windowLabel": "पीने का समय",
+    "slotNow": "अभी",
+    "slotNext": "अगला",
+    "betweenSlots": "दो समय के बीच"
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",
@@ -234,7 +237,8 @@
     "futureTime": "यह समय अभी आया नहीं है। कोई पहले का समय चुनें।",
     "added": "{{time}} पर {{amount}} जोड़ा गया",
     "title": "आपकी प्रगति",
-    "subtitle": "आपका हफ़्ता और महीना कैसा रहा"
+    "subtitle": "आपका हफ़्ता और महीना कैसा रहा",
+    "beforeStart": "आपके शुरू करने से पहले ({{date}} को शुरू किया)।"
   },
   "settings": {
     "title": "सेटिंग्स",
@@ -253,6 +257,8 @@
     "timeFormat": "समय का प्रारूप",
     "time24": "24 घंटे (19:30)",
     "time12": "12 घंटे (7:30 PM)",
+    "time24Now": "24 घंटे ({{time}})",
+    "time12Now": "12 घंटे ({{time}})",
     "language": "भाषा",
     "languageSystem": "सिस्टम",
     "you": "आप",

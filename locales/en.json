@@ -202,7 +202,10 @@
     "tomorrowAt": "Tomorrow, {{time}}",
     "drinkWindow": "Drink window {{from}} – {{to}}",
     "inTime": "in {{duration}}",
-    "windowLabel": "drink window"
+    "windowLabel": "drink window",
+    "slotNow": "Now",
+    "slotNext": "Next",
+    "betweenSlots": "between slots"
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -234,7 +237,8 @@
     "futureTime": "That time hasn't come yet. Pick an earlier time.",
     "added": "Added {{amount}} at {{time}}",
     "title": "Your progress",
-    "subtitle": "How your week and month went"
+    "subtitle": "How your week and month went",
+    "beforeStart": "Before you started (on {{date}})."
   },
   "settings": {
     "title": "Settings",
@@ -253,6 +257,8 @@
     "timeFormat": "Time format",
     "time24": "24-hour (19:30)",
     "time12": "12-hour (7:30 PM)",
+    "time24Now": "24-hour ({{time}})",
+    "time12Now": "12-hour ({{time}})",
     "language": "Language",
     "languageSystem": "System",
     "you": "You",

@@ -202,7 +202,10 @@
     "tomorrowAt": "明天 {{time}}",
     "drinkWindow": "喝水时段 {{from}} – {{to}}",
     "inTime": "{{duration}} 后",
-    "windowLabel": "喝水时段"
+    "windowLabel": "喝水时段",
+    "slotNow": "当前",
+    "slotNext": "下一个",
+    "betweenSlots": "两个时段之间"
   },
   "history": {
     "emptyTitle": "还没有记录",
@@ -234,7 +237,8 @@
     "futureTime": "这个时间还没到，请选择更早的时间。",
     "added": "已添加 {{amount}}（{{time}}）",
     "title": "你的进展",
-    "subtitle": "这周和这个月过得怎么样"
+    "subtitle": "这周和这个月过得怎么样",
+    "beforeStart": "在你开始使用之前（{{date}} 开始）。"
   },
   "settings": {
     "title": "设置",
@@ -253,6 +257,8 @@
     "timeFormat": "时间格式",
     "time24": "24 小时制（19:30）",
     "time12": "12 小时制（下午 7:30）",
+    "time24Now": "24 小时制（{{time}}）",
+    "time12Now": "12 小时制（{{time}}）",
     "language": "语言",
     "languageSystem": "跟随系统",
     "you": "我",

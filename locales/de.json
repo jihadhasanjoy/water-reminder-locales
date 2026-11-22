@@ -202,7 +202,10 @@
     "tomorrowAt": "Morgen, {{time}}",
     "drinkWindow": "Trinkfenster {{from}} – {{to}}",
     "inTime": "noch {{duration}}",
-    "windowLabel": "Trinkfenster"
+    "windowLabel": "Trinkfenster",
+    "slotNow": "Jetzt",
+    "slotNext": "Nächstes",
+    "betweenSlots": "zwischen zwei Zeiten"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
@@ -234,7 +237,8 @@
     "futureTime": "Diese Uhrzeit ist noch nicht erreicht. Wähle eine frühere.",
     "added": "{{amount}} um {{time}} hinzugefügt",
     "title": "Dein Fortschritt",
-    "subtitle": "So liefen deine Woche und dein Monat"
+    "subtitle": "So liefen deine Woche und dein Monat",
+    "beforeStart": "Vor deinem Start (am {{date}})."
   },
   "settings": {
     "title": "Einstellungen",
@@ -253,6 +257,8 @@
     "timeFormat": "Zeitformat",
     "time24": "24 Stunden (19:30)",
     "time12": "12 Stunden (7:30 PM)",
+    "time24Now": "24 Stunden ({{time}})",
+    "time12Now": "12 Stunden ({{time}})",
     "language": "Sprache",
     "languageSystem": "System",
     "you": "Du",

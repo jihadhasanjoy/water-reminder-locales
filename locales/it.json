@@ -202,7 +202,10 @@
     "tomorrowAt": "Domani, {{time}}",
     "drinkWindow": "Finestra per bere {{from}} – {{to}}",
     "inTime": "tra {{duration}}",
-    "windowLabel": "finestra per bere"
+    "windowLabel": "finestra per bere",
+    "slotNow": "Ora",
+    "slotNext": "Prossimo",
+    "betweenSlots": "tra due orari"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",
@@ -234,7 +237,8 @@
     "futureTime": "Quest'ora non è ancora arrivata. Scegline una precedente.",
     "added": "Aggiunti {{amount}} alle {{time}}",
     "title": "I tuoi progressi",
-    "subtitle": "Com’è andata la settimana e il mese"
+    "subtitle": "Com’è andata la settimana e il mese",
+    "beforeStart": "Prima che iniziassi (il {{date}})."
   },
   "settings": {
     "title": "Impostazioni",
@@ -253,6 +257,8 @@
     "timeFormat": "Formato ora",
     "time24": "24 ore (19:30)",
     "time12": "12 ore (7:30 PM)",
+    "time24Now": "24 ore ({{time}})",
+    "time12Now": "12 ore ({{time}})",
     "language": "Lingua",
     "languageSystem": "Sistema",
     "you": "Tu",

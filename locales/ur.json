@@ -202,7 +202,10 @@
     "tomorrowAt": "کل، {{time}}",
     "drinkWindow": "پینے کا وقت {{from}} – {{to}}",
     "inTime": "{{duration}} میں",
-    "windowLabel": "پینے کا وقت"
+    "windowLabel": "پینے کا وقت",
+    "slotNow": "ابھی",
+    "slotNext": "اگلا",
+    "betweenSlots": "دو اوقات کے درمیان"
   },
   "history": {
     "emptyTitle": "ابھی کوئی تاریخچہ نہیں",
@@ -234,7 +237,8 @@
     "futureTime": "یہ وقت ابھی نہیں آیا۔ کوئی پہلے کا وقت چنیں۔",
     "added": "{{time}} پر {{amount}} شامل ہو گیا",
     "title": "آپ کی پیش رفت",
-    "subtitle": "آپ کا ہفتہ اور مہینہ کیسا رہا"
+    "subtitle": "آپ کا ہفتہ اور مہینہ کیسا رہا",
+    "beforeStart": "آپ کے شروع کرنے سے پہلے ({{date}} کو شروع کیا)۔"
   },
   "settings": {
     "title": "ترتیبات",
@@ -253,6 +257,8 @@
     "timeFormat": "وقت کا انداز",
     "time24": "24 گھنٹے (19:30)",
     "time12": "12 گھنٹے (7:30 PM)",
+    "time24Now": "24 گھنٹے ({{time}})",
+    "time12Now": "12 گھنٹے ({{time}})",
     "language": "زبان",
     "languageSystem": "سسٹم",
     "you": "آپ",
