@@ -202,7 +202,10 @@
     "tomorrowAt": "Tomorrow, {{time}}",
     "drinkWindow": "Drink window {{from}} – {{to}}",
     "inTime": "in {{duration}}",
-    "windowLabel": "drink window"
+    "windowLabel": "drink window",
+    "slotNow": "Now",
+    "slotNext": "Next",
+    "betweenSlots": "between slots"
   },
   "history": {
     "emptyTitle": "No history yet",

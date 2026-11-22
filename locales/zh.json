@@ -202,7 +202,10 @@
     "tomorrowAt": "明天 {{time}}",
     "drinkWindow": "喝水时段 {{from}} – {{to}}",
     "inTime": "{{duration}} 后",
-    "windowLabel": "喝水时段"
+    "windowLabel": "喝水时段",
+    "slotNow": "当前",
+    "slotNext": "下一个",
+    "betweenSlots": "两个时段之间"
   },
   "history": {
     "emptyTitle": "还没有记录",

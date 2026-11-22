@@ -202,7 +202,10 @@
     "tomorrowAt": "Domani, {{time}}",
     "drinkWindow": "Finestra per bere {{from}} – {{to}}",
     "inTime": "tra {{duration}}",
-    "windowLabel": "finestra per bere"
+    "windowLabel": "finestra per bere",
+    "slotNow": "Ora",
+    "slotNext": "Prossimo",
+    "betweenSlots": "tra due orari"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",

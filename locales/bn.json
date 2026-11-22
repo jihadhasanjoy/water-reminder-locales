@@ -202,7 +202,10 @@
     "tomorrowAt": "আগামীকাল, {{time}}",
     "drinkWindow": "পানের সময় {{from}} – {{to}}",
     "inTime": "{{duration}} পরে",
-    "windowLabel": "পানের সময়"
+    "windowLabel": "পানের সময়",
+    "slotNow": "এখন",
+    "slotNext": "পরের",
+    "betweenSlots": "দুই সময়ের মাঝে"
   },
   "history": {
     "emptyTitle": "এখনো কোনো ইতিহাস নেই",

@@ -202,7 +202,10 @@
     "tomorrowAt": "कल, {{time}}",
     "drinkWindow": "पीने का समय {{from}} – {{to}}",
     "inTime": "{{duration}} में",
-    "windowLabel": "पीने का समय"
+    "windowLabel": "पीने का समय",
+    "slotNow": "अभी",
+    "slotNext": "अगला",
+    "betweenSlots": "दो समय के बीच"
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",
