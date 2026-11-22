@@ -71,7 +71,7 @@ for (const platform of ['android', 'ios']) {
     continue;
   }
   for (const key of Object.keys(rules)) {
-    if (!['minVersion', 'latestVersion', 'storeUrl', 'bannerUnit', 'rewardedUnit'].includes(key)) {
+    if (!['minVersion', 'latestVersion', 'storeUrl', 'storeUrlProd', 'storeUrlDev', 'bannerUnit', 'rewardedUnit'].includes(key)) {
       errors.push(`${platform}: unknown field "${key}"`);
     }
   }
@@ -86,13 +86,13 @@ for (const platform of ['android', 'ios']) {
   if (min && latest && compareRules(latest, min) < 0) {
     errors.push(`${platform}.latestVersion can't be below minVersion`);
   }
-  // Empty until the app is in the store.
-  if (
-    rules.storeUrl !== undefined &&
-    rules.storeUrl !== '' &&
-    !(typeof rules.storeUrl === 'string' && rules.storeUrl.startsWith('https://'))
-  ) {
-    errors.push(`${platform}.storeUrl must be empty or start with https://`);
+  // Store app: storeUrlProd (storeUrl for older app versions), empty until
+  // the app is in the store. Test app: storeUrlDev, its download page.
+  for (const key of ['storeUrl', 'storeUrlProd', 'storeUrlDev']) {
+    const url = rules[key];
+    if (url !== undefined && url !== '' && !(typeof url === 'string' && url.startsWith('https://'))) {
+      errors.push(`${platform}.${key} must be empty or start with https://`);
+    }
   }
   // AdMob ad units of this app's own account (the app ignores any other).
   for (const key of ['bannerUnit', 'rewardedUnit']) {
