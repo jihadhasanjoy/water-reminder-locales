@@ -427,6 +427,7 @@
     "testBody": "Promemoria di prova",
     "channel": "Promemoria",
     "reportChannel": "Riepiloghi giornalieri",
+    "newsChannel": "Novità e aggiornamenti",
     "mood": {
       "done": {
         "title": "Obiettivo raggiunto 🎉",
@@ -481,7 +482,9 @@
     "label": "Pubblicità",
     "extendTitle": "Aggiungere altre {{hours}} ore?",
     "extendBody": "Guarda un breve video e al tuo tempo senza pubblicità si aggiungono {{hours}} ore. I video si sommano: guardane quanti vuoi.",
-    "extended": "+{{hours}} ore aggiunte! Niente pubblicità fino a {{until}}."
+    "extended": "+{{hours}} ore aggiunte! Niente pubblicità fino a {{until}}.",
+    "welcomeTitle": "{{hours}} ore senza pubblicità",
+    "welcomeBody": "Grazie per esserti unito! Guarda un breve video fino alla fine e usa Water Reminder per {{hours}} ore senza pubblicità."
   },
   "feedback": {
     "section": "Feedback",

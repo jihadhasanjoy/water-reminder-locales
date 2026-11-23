@@ -5,7 +5,9 @@
   "android": {
     "minVersion": "1.0.0-14",
     "latestVersion": "1.0.0-28",
-    "storeUrl": "",
+    "storeUrl": "https://appdistribution.firebase.dev/i/925688945bc88c1e",
+    "storeUrlProd": "https://appdistribution.firebase.dev/i/925688945bc88c1e",
+    "storeUrlDev": "https://appdistribution.firebase.dev/i/b41c9fb64ee09b0f",
     "bannerUnit": "ca-app-pub-2066803851976714/3382038237",
     "rewardedUnit": "ca-app-pub-2066803851976714/5309363423"
   },
@@ -13,6 +15,8 @@
     "minVersion": "1.0.0-7",
     "latestVersion": "1.1.0-9",
     "storeUrl": "",
+    "storeUrlProd": "",
+    "storeUrlDev": "",
     "bannerUnit": "",
     "rewardedUnit": ""
   }
