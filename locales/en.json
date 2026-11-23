@@ -297,7 +297,8 @@
     "shareMessage": "I'm using Water Reminder to drink enough water every day. Try it:",
     "tagline": "Made to help you drink enough, every day.",
     "languageIntro": "Choose the language for the whole app. New languages download on their own.",
-    "testBuild": "Test"
+    "testBuild": "Test",
+    "privacyPolicy": "Privacy policy"
   },
   "reminders": {
     "title": "Reminders",

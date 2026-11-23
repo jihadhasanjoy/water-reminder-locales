@@ -296,7 +296,8 @@
     "shareMessage": "我在用 Water Reminder 每天喝足够的水。试试看：",
     "tagline": "帮你每天喝够水。",
     "languageIntro": "选择整个应用的语言。新语言会自动下载。",
-    "statStreak_one": "天连续达标"
+    "statStreak_one": "天连续达标",
+    "privacyPolicy": "隐私政策"
   },
   "reminders": {
     "title": "提醒",
