@@ -297,7 +297,8 @@
     "shareMessage": "Ich nutze Water Reminder, um jeden Tag genug Wasser zu trinken. Probier es aus:",
     "tagline": "Damit du jeden Tag genug trinkst.",
     "languageIntro": "Wähle die Sprache für die ganze App. Neue Sprachen werden von selbst geladen.",
-    "testBuild": "Test"
+    "testBuild": "Test",
+    "privacyPolicy": "Datenschutzerklärung"
   },
   "reminders": {
     "title": "Erinnerungen",
