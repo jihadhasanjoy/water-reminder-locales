@@ -584,7 +584,10 @@
     "offline": "无法加载内容。请检查你的网络连接。",
     "source": "来源：{{label}}",
     "disclaimer": "一般健康信息，不构成医疗建议。",
-    "notFound": "此内容已不可用。"
+    "notFound": "此内容已不可用。",
+    "all": "全部",
+    "count_one": "{{count}} 篇",
+    "count_other": "{{count}} 篇"
   },
   "offline": {
     "title": "你已离线",

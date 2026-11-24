@@ -588,7 +588,10 @@
     "offline": "Impossibile caricare le storie. Controlla la connessione.",
     "source": "Fonte: {{label}}",
     "disclaimer": "Informazioni generali sul benessere, non consigli medici.",
-    "notFound": "Questa storia non è più disponibile."
+    "notFound": "Questa storia non è più disponibile.",
+    "all": "Tutti",
+    "count_one": "{{count}} articolo",
+    "count_other": "{{count}} articoli"
   },
   "offline": {
     "title": "Sei offline",

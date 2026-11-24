@@ -588,7 +588,10 @@
     "offline": "Geschichten konnten nicht geladen werden. Prüfe deine Verbindung.",
     "source": "Quelle: {{label}}",
     "disclaimer": "Allgemeine Gesundheitsinformationen, keine ärztliche Beratung.",
-    "notFound": "Diese Geschichte ist nicht mehr verfügbar."
+    "notFound": "Diese Geschichte ist nicht mehr verfügbar.",
+    "all": "Alle",
+    "count_one": "{{count}} Beitrag",
+    "count_other": "{{count}} Beiträge"
   },
   "offline": {
     "title": "Du bist offline",
