@@ -205,7 +205,15 @@
     "windowLabel": "पीने का समय",
     "slotNow": "अभी",
     "slotNext": "अगला",
-    "betweenSlots": "दो समय के बीच"
+    "betweenSlots": "दो समय के बीच",
+    "slotAt": "{{time}} पर",
+    "slotThen": "इसके बाद",
+    "slotStatus": {
+      "done": "पी लिया",
+      "missed": "छूट गया",
+      "snoozed": "टाला गया",
+      "later": "बाद में"
+    }
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",
@@ -354,7 +362,7 @@
     "asleepTitle": "आपके सोने के समय में",
     "asleepMessage": "{{time}} आपके सोने ({{sleep}}) और जागने ({{wake}}) के समय के बीच है। तब रिमाइंडर आपकी नींद तोड़ सकता है। फिर भी याद दिलाएँ?",
     "asleepKeep": "फिर भी याद दिलाएँ",
-    "fromTomorrow": "कल से",
+    "passed": "समय निकल गया",
     "customRange": "किसी समय से अगले समय तक (अधिकतम {{gap}}) पीना उसी समय के लिए गिना जाता है।",
     "rangeTitle": "पीने की सीमा (हर समय से, अधिकतम)"
   },

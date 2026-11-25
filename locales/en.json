@@ -205,7 +205,15 @@
     "windowLabel": "drink window",
     "slotNow": "Now",
     "slotNext": "Next",
-    "betweenSlots": "between slots"
+    "betweenSlots": "between slots",
+    "slotAt": "At {{time}}",
+    "slotThen": "After",
+    "slotStatus": {
+      "done": "Done",
+      "missed": "Missed",
+      "snoozed": "Snoozed",
+      "later": "Later"
+    }
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -354,7 +362,7 @@
     "asleepTitle": "During your sleep time",
     "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
     "asleepKeep": "Remind me anyway",
-    "fromTomorrow": "from tomorrow",
+    "passed": "passed",
     "customRange": "A drink from a time until the next one (at most {{gap}}) counts for it.",
     "rangeTitle": "Drink range (from each time, at most)"
   },
