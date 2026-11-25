@@ -213,7 +213,8 @@
       "missed": "Missed",
       "snoozed": "Snoozed",
       "later": "Later"
-    }
+    },
+    "backToNow": "Back to now · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "No history yet",

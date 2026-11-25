@@ -213,7 +213,8 @@
       "missed": "错过",
       "snoozed": "已推迟",
       "later": "稍后"
-    }
+    },
+    "backToNow": "返回现在 · {{seconds}} 秒"
   },
   "history": {
     "emptyTitle": "还没有记录",

@@ -213,7 +213,8 @@
       "missed": "छूट गया",
       "snoozed": "टाला गया",
       "later": "बाद में"
-    }
+    },
+    "backToNow": "अभी पर लौटेगा · {{seconds}} से."
   },
   "history": {
     "emptyTitle": "अभी कोई इतिहास नहीं",

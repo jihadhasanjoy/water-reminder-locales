@@ -213,7 +213,8 @@
       "missed": "Verpasst",
       "snoozed": "Verschoben",
       "later": "Später"
-    }
+    },
+    "backToNow": "Zurück zu jetzt · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",

@@ -213,7 +213,8 @@
       "missed": "Saltato",
       "snoozed": "Posticipato",
       "later": "Più tardi"
-    }
+    },
+    "backToNow": "Torna ad adesso · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",

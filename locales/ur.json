@@ -213,7 +213,8 @@
       "missed": "رہ گیا",
       "snoozed": "مؤخر",
       "later": "بعد میں"
-    }
+    },
+    "backToNow": "ابھی پر واپسی · {{seconds}} سیکنڈ"
   },
   "history": {
     "emptyTitle": "ابھی کوئی تاریخچہ نہیں",
