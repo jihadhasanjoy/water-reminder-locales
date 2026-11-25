@@ -364,8 +364,8 @@
     "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
     "asleepKeep": "Remind me anyway",
     "passed": "passed",
-    "customRange": "A drink from a time until the next one (at most {{gap}}) counts for it.",
-    "rangeTitle": "Drink range (from each time, at most)"
+    "customRange": "A drink from up to 30 min before a time until the next one (at most {{gap}} after it) counts for it.",
+    "rangeTitle": "Drink range (after each time, at most)"
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",

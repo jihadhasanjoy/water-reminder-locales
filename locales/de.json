@@ -364,8 +364,8 @@
     "asleepMessage": "{{time}} liegt zwischen Schlafenszeit ({{sleep}}) und Aufstehen ({{wake}}). Eine Erinnerung könnte dich wecken. Trotzdem erinnern?",
     "asleepKeep": "Trotzdem erinnern",
     "passed": "vorbei",
-    "customRange": "Ein Getränk ab einer Uhrzeit bis zur nächsten (höchstens {{gap}}) zählt für sie.",
-    "rangeTitle": "Trinkbereich (ab jeder Uhrzeit, höchstens)"
+    "customRange": "Ein Getränk ab bis zu 30 Min. vor einer Uhrzeit bis zur nächsten (höchstens {{gap}} danach) zählt für sie.",
+    "rangeTitle": "Trinkbereich (nach jeder Uhrzeit, höchstens)"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",

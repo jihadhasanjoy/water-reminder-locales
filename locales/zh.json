@@ -363,8 +363,8 @@
     "asleepMessage": "{{time}} 在你的就寝时间（{{sleep}}）和起床时间（{{wake}}）之间，提醒可能会吵醒你。仍然提醒吗？",
     "asleepKeep": "仍然提醒",
     "passed": "已过",
-    "customRange": "从某个时间到下一个时间之间（最多 {{gap}}）喝水，算作该时间的提醒已完成。",
-    "rangeTitle": "喝水范围（从每个时间起，最多）"
+    "customRange": "从某个时间前最多 30 分钟到下一个时间（之后最多 {{gap}}）喝水都算这个时间。",
+    "rangeTitle": "饮水范围（每个时间之后，最长）"
   },
   "permissions": {
     "blockedTitle": "提醒已被阻止",

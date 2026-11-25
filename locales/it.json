@@ -364,8 +364,8 @@
     "asleepMessage": "{{time}} è tra quando vai a dormire ({{sleep}}) e la sveglia ({{wake}}). Un promemoria potrebbe svegliarti. Ricordarlo comunque?",
     "asleepKeep": "Ricordamelo comunque",
     "passed": "passato",
-    "customRange": "Una bevuta da un orario fino al successivo (al massimo {{gap}}) conta per quell'orario.",
-    "rangeTitle": "Intervallo per bere (da ogni orario, al massimo)"
+    "customRange": "Una bevuta da 30 min prima di un orario fino al successivo (al massimo {{gap}} dopo) conta per quell'orario.",
+    "rangeTitle": "Intervallo per bere (dopo ogni orario, al massimo)"
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",
