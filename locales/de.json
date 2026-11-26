@@ -205,7 +205,16 @@
     "windowLabel": "Trinkfenster",
     "slotNow": "Jetzt",
     "slotNext": "Nächstes",
-    "betweenSlots": "zwischen zwei Zeiten"
+    "betweenSlots": "zwischen zwei Zeiten",
+    "slotAt": "Um {{time}}",
+    "slotThen": "Danach",
+    "slotStatus": {
+      "done": "Getrunken",
+      "missed": "Verpasst",
+      "snoozed": "Verschoben",
+      "later": "Später"
+    },
+    "backToNow": "Zurück zu jetzt · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "Noch kein Verlauf",
@@ -354,9 +363,9 @@
     "asleepTitle": "In deiner Schlafenszeit",
     "asleepMessage": "{{time}} liegt zwischen Schlafenszeit ({{sleep}}) und Aufstehen ({{wake}}). Eine Erinnerung könnte dich wecken. Trotzdem erinnern?",
     "asleepKeep": "Trotzdem erinnern",
-    "fromTomorrow": "ab morgen",
-    "customRange": "Ein Getränk ab einer Uhrzeit bis zur nächsten (höchstens {{gap}}) zählt für sie.",
-    "rangeTitle": "Trinkbereich (ab jeder Uhrzeit, höchstens)"
+    "passed": "vorbei",
+    "customRange": "Ein Getränk ab bis zu 30 Min. vor einer Uhrzeit bis zur nächsten (höchstens {{gap}} danach) zählt für sie.",
+    "rangeTitle": "Trinkbereich (nach jeder Uhrzeit, höchstens)"
   },
   "permissions": {
     "blockedTitle": "Erinnerungen sind blockiert",
@@ -588,7 +597,10 @@
     "offline": "Geschichten konnten nicht geladen werden. Prüfe deine Verbindung.",
     "source": "Quelle: {{label}}",
     "disclaimer": "Allgemeine Gesundheitsinformationen, keine ärztliche Beratung.",
-    "notFound": "Diese Geschichte ist nicht mehr verfügbar."
+    "notFound": "Diese Geschichte ist nicht mehr verfügbar.",
+    "all": "Alle",
+    "count_one": "{{count}} Beitrag",
+    "count_other": "{{count}} Beiträge"
   },
   "offline": {
     "title": "Du bist offline",

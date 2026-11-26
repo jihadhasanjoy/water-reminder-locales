@@ -205,7 +205,16 @@
     "windowLabel": "finestra per bere",
     "slotNow": "Ora",
     "slotNext": "Prossimo",
-    "betweenSlots": "tra due orari"
+    "betweenSlots": "tra due orari",
+    "slotAt": "Alle {{time}}",
+    "slotThen": "Dopo",
+    "slotStatus": {
+      "done": "Bevuto",
+      "missed": "Saltato",
+      "snoozed": "Posticipato",
+      "later": "Più tardi"
+    },
+    "backToNow": "Torna ad adesso · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "Ancora nessuna cronologia",
@@ -354,9 +363,9 @@
     "asleepTitle": "Durante le tue ore di sonno",
     "asleepMessage": "{{time}} è tra quando vai a dormire ({{sleep}}) e la sveglia ({{wake}}). Un promemoria potrebbe svegliarti. Ricordarlo comunque?",
     "asleepKeep": "Ricordamelo comunque",
-    "fromTomorrow": "da domani",
-    "customRange": "Una bevuta da un orario fino al successivo (al massimo {{gap}}) conta per quell'orario.",
-    "rangeTitle": "Intervallo per bere (da ogni orario, al massimo)"
+    "passed": "passato",
+    "customRange": "Una bevuta da 30 min prima di un orario fino al successivo (al massimo {{gap}} dopo) conta per quell'orario.",
+    "rangeTitle": "Intervallo per bere (dopo ogni orario, al massimo)"
   },
   "permissions": {
     "blockedTitle": "Promemoria bloccati",
@@ -588,7 +597,10 @@
     "offline": "Impossibile caricare le storie. Controlla la connessione.",
     "source": "Fonte: {{label}}",
     "disclaimer": "Informazioni generali sul benessere, non consigli medici.",
-    "notFound": "Questa storia non è più disponibile."
+    "notFound": "Questa storia non è più disponibile.",
+    "all": "Tutti",
+    "count_one": "{{count}} articolo",
+    "count_other": "{{count}} articoli"
   },
   "offline": {
     "title": "Sei offline",

@@ -205,7 +205,16 @@
     "windowLabel": "drink window",
     "slotNow": "Now",
     "slotNext": "Next",
-    "betweenSlots": "between slots"
+    "betweenSlots": "between slots",
+    "slotAt": "At {{time}}",
+    "slotThen": "After",
+    "slotStatus": {
+      "done": "Done",
+      "missed": "Missed",
+      "snoozed": "Snoozed",
+      "later": "Later"
+    },
+    "backToNow": "Back to now · {{seconds}} s"
   },
   "history": {
     "emptyTitle": "No history yet",
@@ -354,9 +363,9 @@
     "asleepTitle": "During your sleep time",
     "asleepMessage": "{{time}} is between your bedtime ({{sleep}}) and wake-up ({{wake}}). A reminder then may wake you. Remind you anyway?",
     "asleepKeep": "Remind me anyway",
-    "fromTomorrow": "from tomorrow",
-    "customRange": "A drink from a time until the next one (at most {{gap}}) counts for it.",
-    "rangeTitle": "Drink range (from each time, at most)"
+    "passed": "passed",
+    "customRange": "A drink from up to 30 min before a time until the next one (at most {{gap}} after it) counts for it.",
+    "rangeTitle": "Drink range (after each time, at most)"
   },
   "permissions": {
     "blockedTitle": "Reminders are blocked",
@@ -588,7 +597,10 @@
     "offline": "Couldn't load stories. Check your connection.",
     "source": "Source: {{label}}",
     "disclaimer": "General wellness information, not medical advice.",
-    "notFound": "This story is no longer available."
+    "notFound": "This story is no longer available.",
+    "all": "All",
+    "count_one": "{{count}} story",
+    "count_other": "{{count}} stories"
   },
   "offline": {
     "title": "You're offline",
